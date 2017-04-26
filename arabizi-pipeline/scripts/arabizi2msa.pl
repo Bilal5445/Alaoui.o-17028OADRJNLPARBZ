@@ -10,13 +10,13 @@ my $match_length=2;
 
 my $print_derivation=0;
 my $pre_process=1;
-my $stack_limit=10;
+my $stack_limit =10;
 my $lm_order=3;
 my $use_lm=0;
 
 my $OISTERHOME=$ENV{'OISTERHOME'};
 
-my $arabizi_pt_file='models/ptable'; # e.g. constructed from LDC2013E125
+my $arabizi_pt_file = 'models/ptable'; # e.g. constructed from LDC2013E125
 my $srilm_lm='path/to/3gram/arabic/lm';
 
 my %parameters;
@@ -24,6 +24,9 @@ my %features;
 $parameters{'lm_cap'}=0;
 $parameters{'lm_order'}=$lm_order;
 my @lm_srilm_ids;
+
+print STDOUT "use_lm $use_lm \n";
+
 if($use_lm) {
     $lm_srilm_ids[0]=&load_lm_file($srilm_lm,\%parameters);
 }
@@ -37,42 +40,51 @@ my $src_language_index=0;
 my %dummy_hash;
 
 my %arabizi_map; # contains possible character replacements for each Arabizi character
-open(F,"<$arabizi_pt_file")||die("can't open file $arabizi_pt_file: $!\n");
+open(F, "<$arabizi_pt_file") || die("can't open file $arabizi_pt_file: $!\n");
 while(defined(my $line=<F>)) {
     chomp($line);
-    my($f,$e,@rest)=split(/ \|\|\| /o,$line);
-    $arabizi_map{$f}{$e}=1;    
+    my($f, $e, @rest) = split(/ \|\|\| /o, $line);
+    $arabizi_map{$f}{$e} = 1;    
 }
 close(F);
+
+# DBG
+my $arabizi_map_size = keys %arabizi_map;
+print STDOUT "arabizi_map_size $arabizi_map_size \n";
 
 my %vocab;
-open(F,"<$vocab_file")||die("can't open file $vocab_file: $!\n");
+open(F, "<$vocab_file") || die("can't open file $vocab_file: $!\n");
 while(defined(my $line=<F>)) {
     chomp($line);
-    $vocab{$line}=1;
+    $vocab{$line} = 1;
 }
 close(F);
 
+# DBG
+my $vocab_size = keys %vocab;
+print STDOUT "vocab_size $vocab_size \n\n";
 
 my $nbl=0;
+# print STDOUT "0 \n";
 while(defined(my $line=<STDIN>)) {
+
     $nbl++;
-    if($nbl%50==0) { print STDERR "line $nbl..."; };
+    if($nbl%50 == 0) { print STDERR "line $nbl..."; };
     #print STDERR "line $line \n";
     
     chomp($line);
-    $line=~s/^\s+//;
-    $line=~s/\s+$//;
+    $line =~ s/^\s+//;
+    $line =~ s/\s+$//;
 
-    my @tokens_orig=split(/ /o,$line);
+    my @tokens_orig = split(/ /o, $line);
 
     if($pre_process) {
-        $line=&preprocess($line);
+        $line = &preprocess($line);
     }
 
     my %msa_substrings = ();
-    my @tokens=split(/ SEP /o,$line);
-    my $length=@tokens;
+    my @tokens = split(/ SEP /o, $line);
+    my $length = @tokens;
     if($length != scalar(@tokens_orig)) {
         print STDERR "nb token mismatch:\nORIG: ", join(" ",@tokens_orig), "\n";
         print STDERR "PROC: ", join(" ",@tokens), "\n ******** EXITING!!! ******** \n\n\n";
@@ -82,15 +94,16 @@ while(defined(my $line=<STDIN>)) {
     my @cn = ();
 
     # generate all possible Arabic transliterated of an Arabizi word (context doesn't matter here)
-    for(my $i=0; $i<@tokens; $i++) {
-        &arabizi_msa_candidates($tokens[$i],\%arabizi_map,\@{ $cn[$i] },\%msa_substrings);
+    for(my $i = 0; $i < @tokens; $i ++) {
+        &arabizi_msa_candidates($tokens[$i], \%arabizi_map, \@{ $cn[$i] }, \%msa_substrings);
+        print STDOUT "msa_substrings %msa_substrings[$i] \n";
     }
 
     # create confusion network (CN) containing transliterated words that are in the Arabic vocabulary, otherwise the Arabizi word itself
     my @cn_lm = ();
-    for(my $i=0; $i<@tokens; $i++) {
-        for(my $j=0; $j<@{ $cn[$i] }; $j++) {
-            my($msa_token,$derivations)=split(/\t/,$cn[$i][$j]);
+    for(my $i = 0; $i<@tokens; $i++) {
+        for(my $j = 0; $j<@{ $cn[$i] }; $j++) {
+            my($msa_token, $derivations) = split(/\t/, $cn[$i][$j]);
             if(exists($vocab{$msa_token})) {
                 push(@{ $cn_lm[$i] },$msa_token);                
             }
@@ -105,39 +118,43 @@ while(defined(my $line=<STDIN>)) {
 
     my $print_CN=0;
     if($print_CN) {
-    for(my $i=0; $i<@cn_lm; $i++) {
-        for(my $j=0; $j<@{ $cn_lm[$i] }; $j++) {
-            print "cn_lm[$i][$j]=$cn_lm[$i][$j]\n";
+        for(my $i=0; $i<@cn_lm; $i++) {
+            for(my $j=0; $j<@{ $cn_lm[$i] }; $j++) {
+                print "cn_lm[$i][$j]=$cn_lm[$i][$j]\n";
+            }
         }
-    }
     }
 
     my @stack;
-    if($use_lm) {
-        my $viterbi_string=&score_lm_paths(\@cn_lm,\@stack);
+    if ($use_lm) {
+        my $viterbi_string = &score_lm_paths(\@cn_lm, \@stack);
         print "$viterbi_string\n";
     }
     else {
-        for(my $i=0; $i<@tokens; $i++) {
-            my $arabizi_string=$tokens_orig[$i];
-            $arabizi_string=~s/ +//g;
-            print "$arabizi_string $arabizi_string 1";
+        for(my $i=0; $i < @tokens; $i ++) {
+            my $arabizi_string = $tokens_orig[$i];
+            $arabizi_string =~s/ +//g;
+            # print "$arabizi_string $arabizi_string 1";
+            print "arabizi_string $arabizi_string 1 \n";
             for(my $j=0; $j<@{ $cn[$i] }; $j++) {
                 my($msa_token,$derivations)=split(/\t/,$cn[$i][$j]);
                 if(exists($vocab{$msa_token})) {
-                    print " $msa_token 1";
+                    # print " $msa_token 1";
+                    print "msa_token $msa_token 1 \n";
                 }
             }
             print "\n";
         }
     }
 }
-
-
+print STDOUT "10 \n";
 
 sub arabizi_msa_candidates {
-    my($arabizi_tokens_string,$arabizi_map,$cn,$msa_substrings)=@_;
+    my($arabizi_tokens_string, $arabizi_map, $cn, $msa_substrings)=@_;
 
+    # DBG
+    print STDOUT "arabizi_msa_candidates - start for : $arabizi_tokens_string\n";
+    
     my @arabizi_tokens=split(/ +/,$arabizi_tokens_string);
     
     if(scalar(@arabizi_tokens)>$MAX_WORD_LENGTH) {
@@ -221,8 +238,8 @@ sub arabizi_msa_candidates {
     my %completed_strings;
     for(my $i=0; $i<@completed_states; $i++) {
         my $string=join(' ',@{ $state_output{$completed_states[$i]} });
-        $string=~s/ +//g;
-        $string=~s/\_DROP\_//g;
+        $string =~ s/ +//g;
+        $string =~ s/\_DROP\_//g;
         my $derivation=join('|',@{ $state_derivation{$completed_states[$i]} });
         push( @{ $completed_strings{$string} },$derivation);
     }
@@ -243,29 +260,33 @@ sub arabizi_msa_candidates {
 
 
 sub preprocess {
+    print STDOUT "preprocess - start \n";
+
     my($string)=@_;
 
     $string=lc($string);
 
     # remove repeated sequences of the same character
     my $str_bck = $string;
-    $string=~s/(.)\1{2,}/$1$1/g;
+    $string =~ s/(.)\1{2,}/$1$1/g;
     #if($str_bck ne $string) {  print STDERR "STR: $str_bck \t => $string \n"; }
     
-    $string=~s/ +/SEP/g;
-    my @chars=split(//,$string);
-    $string=join(' ',@chars);
-    $string=~s/S E P/SEP/g;
+    $string =~ s/ +/SEP/g;
+    my @chars = split(//,$string);
+    $string = join(' ',@chars);
+    $string =~ s/S E P/SEP/g;
 
-    $string=~s/ SEP e l SEP / SEP e l /g;
-    $string=~s/^e l SEP /e l /g;
-    $string=~s/ e n n / e l n /g;
+    $string =~ s/ SEP e l SEP / SEP e l /g;
+    $string =~ s/^e l SEP /e l /g;
+    $string =~ s/ e n n / e l n /g;
 
     return $string;
 }
 
 
 sub score_lm_paths {
+    print STDOUT "score_lm_paths - start \n";
+
     my($cn_lm,$stack)=@_;
     
     my $last_state_id=0;
@@ -310,6 +331,8 @@ sub score_lm_paths {
 }
 
 sub prune_stack {
+    print STDOUT "prune_stack - start \n";
+
     my($stack,$state_score,$stack_limit)=@_;
 
     my @sorted_states=(sort {-1*($$state_score{$a}<=>$$state_score{$b})} @$stack);
@@ -320,6 +343,8 @@ sub prune_stack {
 }
 
 sub get_viterbi {
+    print STDOUT "get_viterbi - start \n";
+
     my($stack,$state_score,$state_back,$state_output)=@_;
 
     my $last_index=@$stack-1;

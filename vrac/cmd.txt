@@ -1,0 +1,1 @@
+cat $TESTMAD.arabizi | perl $TOKENIZE_EN - - | perl $LOWERCASE | perl $TRAINDICT | perl $TRANSCM --use-lm=no $ARABIC_DICT | more

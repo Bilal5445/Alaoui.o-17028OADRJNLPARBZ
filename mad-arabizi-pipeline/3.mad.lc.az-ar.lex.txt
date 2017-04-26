@@ -1,0 +1,16 @@
+arabizi_string tkharbik 1 
+
+arabizi_string la 1 
+
+arabizi_string , 1 
+
+arabizi_string hadchi 1 
+
+arabizi_string ghir 1 
+
+arabizi_string hada 1 
+
+arabizi_string sme3ti 1 
+
+arabizi_string sma7li 1 
+
