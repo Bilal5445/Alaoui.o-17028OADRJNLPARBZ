@@ -1,0 +1,34 @@
+################################################################################
+###                                                                          ###
+### Arabizi-to-MSA transliteration software                                  ###
+###                                                                          ###
+### Published as: A Simple but Effective Approach to                         ###
+###               Improve Arabizi-to-English Statistical Machine Translation ###
+###                                                                          ###
+### Authors:      Marlies van der Wees, Arianna Bisazza and Christof Monz    ###
+###                                                                          ###
+################################################################################
+
+Some dependencies have to be set before running the Arabizi transliteration:
+
+1. In script RUN_transl_pipeline.sh, paths have to be set for the following variables:
+
+   TEST=example/small-example 
+   BASEDIR=/path/to/directory/where/software/lives
+   ARABIC_LM=/path/to/3gram/arabic/lm
+   DISAMBIG=/path/to/srilm/disambig
+   WPAIRS_DATA_FILE_ARABIZI=/path/to/arabizi/side/of/bitext # (e.g. LDC2013E125)
+   WPAIRS_DATA_FILE_ARABIC=/path/to/arabic/side/of/bitext # (e.g. LDC2013E125)
+
+   To this end, one needs:
+   - A 3-gram Arabic LM
+   - SRILM disambig software 
+     (http://www.speech.sri.com/projects/srilm/manpages/disambig.1.html)
+   - An Arabizi-Arabic bitext (e.g. LDC2013E125 which can be obtained from the LDC)
+
+2. In script scripts/arabizi2msa.pl, the path to the Arabic 3-gram LM is 
+   hardcoded (line 20) and has to be set correctly to the same LM as in step 1:
+   my $srilm_lm='path/to/3gram/arabic/lm';
+   
+Next, run the transliteration pipeline by calling ./RUN_transl_pipeline.sh
+Happy transliterating!
