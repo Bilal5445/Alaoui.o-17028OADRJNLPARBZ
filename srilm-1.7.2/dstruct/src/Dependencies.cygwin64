@@ -1,0 +1,74 @@
+../obj/cygwin64$(OBJ_OPTION)/qsort.o: qsort.c
+../obj/cygwin64$(OBJ_OPTION)/maxalloc.o: maxalloc.c ../../include/option.h ../../include/cfuncproto.h
+../obj/cygwin64$(OBJ_OPTION)/MemStats.o: MemStats.cc MemStats.h
+../obj/cygwin64$(OBJ_OPTION)/LHashTrie.o: LHashTrie.cc
+../obj/cygwin64$(OBJ_OPTION)/SArrayTrie.o: SArrayTrie.cc Trie.cc Trie.h MemStats.h SArray.h Map.h \
+ ../../include/Boolean.h SArray.cc BlockMalloc.h
+../obj/cygwin64$(OBJ_OPTION)/BlockMalloc.o: BlockMalloc.cc BlockMalloc.h ../../include/TLSWrapper.h \
+ ../../include/tls.h ../../include/Boolean.h
+../obj/cygwin64$(OBJ_OPTION)/DStructThreads.o: DStructThreads.cc DStructThreads.h BlockMalloc.h \
+ ../../include/tserror.h
+../obj/cygwin64$(OBJ_OPTION)/Array.o: Array.cc Array.h ../../include/Boolean.h MemStats.h
+../obj/cygwin64$(OBJ_OPTION)/IntervalHeap.o: IntervalHeap.cc IntervalHeap.h ../../include/Boolean.h \
+ Array.cc Array.h MemStats.h
+../obj/cygwin64$(OBJ_OPTION)/Map.o: Map.cc Map.h ../../include/Boolean.h MemStats.h
+../obj/cygwin64$(OBJ_OPTION)/SArray.o: SArray.cc BlockMalloc.h SArray.h Map.h ../../include/Boolean.h \
+ MemStats.h
+../obj/cygwin64$(OBJ_OPTION)/LHash.o: LHash.cc LHash.h Map.h ../../include/Boolean.h MemStats.h \
+ BlockMalloc.h
+../obj/cygwin64$(OBJ_OPTION)/Map2.o: Map2.cc Map2.h LHash.h Map.h ../../include/Boolean.h MemStats.h \
+ LHash.cc BlockMalloc.h
+../obj/cygwin64$(OBJ_OPTION)/Trie.o: Trie.cc Trie.h MemStats.h LHash.h Map.h ../../include/Boolean.h \
+ LHash.cc BlockMalloc.h
+../obj/cygwin64$(OBJ_OPTION)/CachedMem.o: CachedMem.cc CachedMem.h ../../include/TLSWrapper.h \
+ ../../include/tls.h ../../include/Boolean.h
+../obj/cygwin64$(OBJ_OPTION)/testArray.o: testArray.cc Array.cc Array.h ../../include/Boolean.h \
+ MemStats.h
+../obj/cygwin64$(OBJ_OPTION)/testMap.o: testMap.cc SArray.h Map.h ../../include/Boolean.h MemStats.h \
+ LHash.h SArray.cc BlockMalloc.h LHash.cc
+../obj/cygwin64$(OBJ_OPTION)/testFloatMap.o: testFloatMap.cc SArray.h Map.h ../../include/Boolean.h \
+ MemStats.h LHash.h SArray.cc BlockMalloc.h LHash.cc
+../obj/cygwin64$(OBJ_OPTION)/benchHash.o: benchHash.cc ../../include/option.h \
+ ../../include/cfuncproto.h LHash.cc LHash.h Map.h \
+ ../../include/Boolean.h MemStats.h BlockMalloc.h Trie.cc Trie.h
+../obj/cygwin64$(OBJ_OPTION)/testHash.o: testHash.cc LHash.cc LHash.h Map.h ../../include/Boolean.h \
+ MemStats.h BlockMalloc.h
+../obj/cygwin64$(OBJ_OPTION)/testSizes.o: testSizes.cc Trie.cc Trie.h MemStats.h LHash.h Map.h \
+ ../../include/Boolean.h LHash.cc BlockMalloc.h ../../include/Counts.h \
+ ../../include/Boolean.h ../../include/XCount.h ../../include/File.h \
+ ../../include/zio.h ../../include/zlib.h ../../include/zconf.h \
+ ../../include/XCount.h ../../include/Vocab.h ../../include/LHash.h \
+ ../../include/SArray.h ../../include/Map.h ../../include/Array.h \
+ ../../include/MemStats.h ../../include/TLSWrapper.h ../../include/tls.h \
+ ../../include/NgramStats.h ../../include/LMStats.h ../../include/Vocab.h \
+ ../../include/TextStats.h ../../include/Prob.h ../../include/Counts.h \
+ ../../include/Debug.h ../../include/Trie.h
+../obj/cygwin64$(OBJ_OPTION)/testCachedMem.o: testCachedMem.cc CachedMem.cc CachedMem.h \
+ ../../include/TLSWrapper.h ../../include/tls.h ../../include/Boolean.h
+../obj/cygwin64$(OBJ_OPTION)/testBlockMalloc.o: testBlockMalloc.cc BlockMalloc.h
+../obj/cygwin64$(OBJ_OPTION)/testMap2.o: testMap2.cc Map2.cc Map2.h LHash.h Map.h \
+ ../../include/Boolean.h MemStats.h LHash.cc BlockMalloc.h
+../obj/cygwin64$(OBJ_OPTION)/testTrie.o: testTrie.cc Trie.cc Trie.h MemStats.h LHash.h Map.h \
+ ../../include/Boolean.h LHash.cc BlockMalloc.h
+../bin/cygwin64$(OPTION)/maxalloc.exe:	../obj/cygwin64$(OPTION)/maxalloc.o
+maxalloc:	../bin/cygwin64$(OPTION)/maxalloc.exe
+../bin/cygwin64$(OPTION)/testArray.exe:	../obj/cygwin64$(OPTION)/testArray.o
+testArray:	../bin/cygwin64$(OPTION)/testArray.exe
+../bin/cygwin64$(OPTION)/testMap.exe:	../obj/cygwin64$(OPTION)/testMap.o
+testMap:	../bin/cygwin64$(OPTION)/testMap.exe
+../bin/cygwin64$(OPTION)/testFloatMap.exe:	../obj/cygwin64$(OPTION)/testFloatMap.o
+testFloatMap:	../bin/cygwin64$(OPTION)/testFloatMap.exe
+../bin/cygwin64$(OPTION)/benchHash.exe:	../obj/cygwin64$(OPTION)/benchHash.o
+benchHash:	../bin/cygwin64$(OPTION)/benchHash.exe
+../bin/cygwin64$(OPTION)/testHash.exe:	../obj/cygwin64$(OPTION)/testHash.o
+testHash:	../bin/cygwin64$(OPTION)/testHash.exe
+../bin/cygwin64$(OPTION)/testSizes.exe:	../obj/cygwin64$(OPTION)/testSizes.o
+testSizes:	../bin/cygwin64$(OPTION)/testSizes.exe
+../bin/cygwin64$(OPTION)/testCachedMem.exe:	../obj/cygwin64$(OPTION)/testCachedMem.o
+testCachedMem:	../bin/cygwin64$(OPTION)/testCachedMem.exe
+../bin/cygwin64$(OPTION)/testBlockMalloc.exe:	../obj/cygwin64$(OPTION)/testBlockMalloc.o
+testBlockMalloc:	../bin/cygwin64$(OPTION)/testBlockMalloc.exe
+../bin/cygwin64$(OPTION)/testMap2.exe:	../obj/cygwin64$(OPTION)/testMap2.o
+testMap2:	../bin/cygwin64$(OPTION)/testMap2.exe
+../bin/cygwin64$(OPTION)/testTrie.exe:	../obj/cygwin64$(OPTION)/testTrie.o
+testTrie:	../bin/cygwin64$(OPTION)/testTrie.exe

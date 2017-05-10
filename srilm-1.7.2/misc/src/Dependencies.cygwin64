@@ -1,0 +1,24 @@
+../obj/cygwin64$(OBJ_OPTION)/option.o: option.c option.h cfuncproto.h
+../obj/cygwin64$(OBJ_OPTION)/zio.o: zio.c zio.h
+../obj/cygwin64$(OBJ_OPTION)/fcheck.o: fcheck.c zio.h fcheck.h
+../obj/cygwin64$(OBJ_OPTION)/rand48.o: rand48.c
+../obj/cygwin64$(OBJ_OPTION)/version.o: version.c zio.h version.h SRILMversion.h
+../obj/cygwin64$(OBJ_OPTION)/ztest.o: ztest.c zio.h ../../include/zlib.h ../../include/zconf.h \
+ option.h cfuncproto.h version.h
+../obj/cygwin64$(OBJ_OPTION)/Debug.o: Debug.cc Debug.h Boolean.h
+../obj/cygwin64$(OBJ_OPTION)/File.o: File.cc zio.h Boolean.h File.h ../../include/zlib.h \
+ ../../include/zconf.h ../../include/Array.cc ../../include/Array.h \
+ ../../include/Boolean.h ../../include/MemStats.h srilm_iconv.h
+../obj/cygwin64$(OBJ_OPTION)/MStringTokUtil.o: MStringTokUtil.cc MStringTokUtil.h
+../obj/cygwin64$(OBJ_OPTION)/tls.o: tls.cc tls.h
+../obj/cygwin64$(OBJ_OPTION)/tserror.o: tserror.cc tserror.h TLSWrapper.h tls.h Boolean.h
+../obj/cygwin64$(OBJ_OPTION)/tclmain.o: tclmain.cc
+../obj/cygwin64$(OBJ_OPTION)/testFile.o: testFile.cc File.h zio.h ../../include/zlib.h \
+ ../../include/zconf.h Boolean.h
+../obj/cygwin64$(OBJ_OPTION)/testRand.o: testRand.cc
+../bin/cygwin64$(OPTION)/ztest.exe:	../obj/cygwin64$(OPTION)/ztest.o
+ztest:	../bin/cygwin64$(OPTION)/ztest.exe
+../bin/cygwin64$(OPTION)/testFile.exe:	../obj/cygwin64$(OPTION)/testFile.o
+testFile:	../bin/cygwin64$(OPTION)/testFile.exe
+../bin/cygwin64$(OPTION)/testRand.exe:	../obj/cygwin64$(OPTION)/testRand.o
+testRand:	../bin/cygwin64$(OPTION)/testRand.exe
