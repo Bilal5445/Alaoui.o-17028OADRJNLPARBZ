@@ -7,3 +7,5 @@
 
 // generate a new arabic-dict (of words) from corpus (of sentences) each time we add new sentences to the corpus
 - cat corpus/170426_extended_dict.txt | perl scripts/create-dictionary.pl > models/moroccan-arabic-dict
+
+// info : dict & lm are not committed to versioning (because file too big: +7Meg & +49Meg). Do not forget to regenerate them with above commands if new pull to a new dev machine
