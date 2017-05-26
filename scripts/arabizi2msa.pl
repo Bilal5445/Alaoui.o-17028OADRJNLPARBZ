@@ -13,11 +13,13 @@ my $pre_process=1;
 my $stack_limit=10;
 my $lm_order=3;
 my $use_lm=0;
+# my $use_lm=1;
 
 my $OISTERHOME=$ENV{'OISTERHOME'};
 
 my $arabizi_pt_file='models/ptable'; # e.g. constructed from LDC2013E125
-my $srilm_lm='path/to/3gram/arabic/lm';
+# my $srilm_lm='path/to/3gram/arabic/lm';
+my $srilm_lm='lm/moroccan_arabic_corpus_01.lm';
 
 my %parameters;
 my %features;

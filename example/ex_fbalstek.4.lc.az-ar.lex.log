@@ -1,0 +1,996 @@
+f
+MATCH!
+MATCH LOOP: ف
+f b
+b
+MATCH!
+MATCH LOOP: فب
+b a
+a
+MATCH!
+MATCH LOOP: فب_DROP_
+MATCH LOOP: فبا
+MATCH LOOP: فبة
+MATCH LOOP: فبه
+MATCH LOOP: فبى
+MATCH LOOP: فبي
+a l
+l
+MATCH!
+MATCH LOOP: فب_DROP_ل
+l s
+l
+MATCH!
+MATCH LOOP: فبال
+l s
+l
+MATCH!
+MATCH LOOP: فبةل
+l s
+l
+MATCH!
+MATCH LOOP: فبهل
+l s
+l
+MATCH!
+MATCH LOOP: فبىل
+l s
+l
+MATCH!
+MATCH LOOP: فبيل
+l s
+s
+MATCH!
+MATCH LOOP: فب_DROP_لث
+MATCH LOOP: فب_DROP_لس
+MATCH LOOP: فب_DROP_لص
+s t
+s
+MATCH!
+MATCH LOOP: فبالث
+MATCH LOOP: فبالس
+MATCH LOOP: فبالص
+s t
+s
+MATCH!
+MATCH LOOP: فبةلث
+MATCH LOOP: فبةلس
+MATCH LOOP: فبةلص
+s t
+s
+MATCH!
+MATCH LOOP: فبهلث
+MATCH LOOP: فبهلس
+MATCH LOOP: فبهلص
+s t
+s
+MATCH!
+MATCH LOOP: فبىلث
+MATCH LOOP: فبىلس
+MATCH LOOP: فبىلص
+s t
+s
+MATCH!
+MATCH LOOP: فبيلث
+MATCH LOOP: فبيلس
+MATCH LOOP: فبيلص
+s t
+t
+MATCH!
+MATCH LOOP: فب_DROP_لثت
+MATCH LOOP: فب_DROP_لثط
+t e
+t
+MATCH!
+MATCH LOOP: فب_DROP_لست
+MATCH LOOP: فب_DROP_لسط
+t e
+t
+MATCH!
+MATCH LOOP: فب_DROP_لصت
+MATCH LOOP: فب_DROP_لصط
+t e
+t
+MATCH!
+MATCH LOOP: فبالثت
+MATCH LOOP: فبالثط
+t e
+t
+MATCH!
+MATCH LOOP: فبالست
+MATCH LOOP: فبالسط
+t e
+t
+MATCH!
+MATCH LOOP: فبالصت
+MATCH LOOP: فبالصط
+t e
+t
+MATCH!
+MATCH LOOP: فبةلثت
+MATCH LOOP: فبةلثط
+t e
+t
+MATCH!
+MATCH LOOP: فبةلست
+MATCH LOOP: فبةلسط
+t e
+t
+MATCH!
+MATCH LOOP: فبةلصت
+MATCH LOOP: فبةلصط
+t e
+t
+MATCH!
+MATCH LOOP: فبهلثت
+MATCH LOOP: فبهلثط
+t e
+t
+MATCH!
+MATCH LOOP: فبهلست
+MATCH LOOP: فبهلسط
+t e
+t
+MATCH!
+MATCH LOOP: فبهلصت
+MATCH LOOP: فبهلصط
+t e
+t
+MATCH!
+MATCH LOOP: فبىلثت
+MATCH LOOP: فبىلثط
+t e
+t
+MATCH!
+MATCH LOOP: فبىلست
+MATCH LOOP: فبىلسط
+t e
+t
+MATCH!
+MATCH LOOP: فبىلصت
+MATCH LOOP: فبىلصط
+t e
+t
+MATCH!
+MATCH LOOP: فبيلثت
+MATCH LOOP: فبيلثط
+t e
+t
+MATCH!
+MATCH LOOP: فبيلست
+MATCH LOOP: فبيلسط
+t e
+t
+MATCH!
+MATCH LOOP: فبيلصت
+MATCH LOOP: فبيلصط
+t e
+e
+MATCH!
+MATCH LOOP: فب_DROP_لثت_DROP_
+MATCH LOOP: فب_DROP_لثتا
+MATCH LOOP: فب_DROP_لثتة
+MATCH LOOP: فب_DROP_لثته
+e k
+e
+MATCH!
+MATCH LOOP: فب_DROP_لثط_DROP_
+MATCH LOOP: فب_DROP_لثطا
+MATCH LOOP: فب_DROP_لثطة
+MATCH LOOP: فب_DROP_لثطه
+e k
+e
+MATCH!
+MATCH LOOP: فب_DROP_لست_DROP_
+MATCH LOOP: فب_DROP_لستا
+MATCH LOOP: فب_DROP_لستة
+MATCH LOOP: فب_DROP_لسته
+e k
+e
+MATCH!
+MATCH LOOP: فب_DROP_لسط_DROP_
+MATCH LOOP: فب_DROP_لسطا
+MATCH LOOP: فب_DROP_لسطة
+MATCH LOOP: فب_DROP_لسطه
+e k
+e
+MATCH!
+MATCH LOOP: فب_DROP_لصت_DROP_
+MATCH LOOP: فب_DROP_لصتا
+MATCH LOOP: فب_DROP_لصتة
+MATCH LOOP: فب_DROP_لصته
+e k
+e
+MATCH!
+MATCH LOOP: فب_DROP_لصط_DROP_
+MATCH LOOP: فب_DROP_لصطا
+MATCH LOOP: فب_DROP_لصطة
+MATCH LOOP: فب_DROP_لصطه
+e k
+e
+MATCH!
+MATCH LOOP: فبالثت_DROP_
+MATCH LOOP: فبالثتا
+MATCH LOOP: فبالثتة
+MATCH LOOP: فبالثته
+e k
+e
+MATCH!
+MATCH LOOP: فبالثط_DROP_
+MATCH LOOP: فبالثطا
+MATCH LOOP: فبالثطة
+MATCH LOOP: فبالثطه
+e k
+e
+MATCH!
+MATCH LOOP: فبالست_DROP_
+MATCH LOOP: فبالستا
+MATCH LOOP: فبالستة
+MATCH LOOP: فبالسته
+e k
+e
+MATCH!
+MATCH LOOP: فبالسط_DROP_
+MATCH LOOP: فبالسطا
+MATCH LOOP: فبالسطة
+MATCH LOOP: فبالسطه
+e k
+e
+MATCH!
+MATCH LOOP: فبالصت_DROP_
+MATCH LOOP: فبالصتا
+MATCH LOOP: فبالصتة
+MATCH LOOP: فبالصته
+e k
+e
+MATCH!
+MATCH LOOP: فبالصط_DROP_
+MATCH LOOP: فبالصطا
+MATCH LOOP: فبالصطة
+MATCH LOOP: فبالصطه
+e k
+e
+MATCH!
+MATCH LOOP: فبةلثت_DROP_
+MATCH LOOP: فبةلثتا
+MATCH LOOP: فبةلثتة
+MATCH LOOP: فبةلثته
+e k
+e
+MATCH!
+MATCH LOOP: فبةلثط_DROP_
+MATCH LOOP: فبةلثطا
+MATCH LOOP: فبةلثطة
+MATCH LOOP: فبةلثطه
+e k
+e
+MATCH!
+MATCH LOOP: فبةلست_DROP_
+MATCH LOOP: فبةلستا
+MATCH LOOP: فبةلستة
+MATCH LOOP: فبةلسته
+e k
+e
+MATCH!
+MATCH LOOP: فبةلسط_DROP_
+MATCH LOOP: فبةلسطا
+MATCH LOOP: فبةلسطة
+MATCH LOOP: فبةلسطه
+e k
+e
+MATCH!
+MATCH LOOP: فبةلصت_DROP_
+MATCH LOOP: فبةلصتا
+MATCH LOOP: فبةلصتة
+MATCH LOOP: فبةلصته
+e k
+e
+MATCH!
+MATCH LOOP: فبةلصط_DROP_
+MATCH LOOP: فبةلصطا
+MATCH LOOP: فبةلصطة
+MATCH LOOP: فبةلصطه
+e k
+e
+MATCH!
+MATCH LOOP: فبهلثت_DROP_
+MATCH LOOP: فبهلثتا
+MATCH LOOP: فبهلثتة
+MATCH LOOP: فبهلثته
+e k
+e
+MATCH!
+MATCH LOOP: فبهلثط_DROP_
+MATCH LOOP: فبهلثطا
+MATCH LOOP: فبهلثطة
+MATCH LOOP: فبهلثطه
+e k
+e
+MATCH!
+MATCH LOOP: فبهلست_DROP_
+MATCH LOOP: فبهلستا
+MATCH LOOP: فبهلستة
+MATCH LOOP: فبهلسته
+e k
+e
+MATCH!
+MATCH LOOP: فبهلسط_DROP_
+MATCH LOOP: فبهلسطا
+MATCH LOOP: فبهلسطة
+MATCH LOOP: فبهلسطه
+e k
+e
+MATCH!
+MATCH LOOP: فبهلصت_DROP_
+MATCH LOOP: فبهلصتا
+MATCH LOOP: فبهلصتة
+MATCH LOOP: فبهلصته
+e k
+e
+MATCH!
+MATCH LOOP: فبهلصط_DROP_
+MATCH LOOP: فبهلصطا
+MATCH LOOP: فبهلصطة
+MATCH LOOP: فبهلصطه
+e k
+e
+MATCH!
+MATCH LOOP: فبىلثت_DROP_
+MATCH LOOP: فبىلثتا
+MATCH LOOP: فبىلثتة
+MATCH LOOP: فبىلثته
+e k
+e
+MATCH!
+MATCH LOOP: فبىلثط_DROP_
+MATCH LOOP: فبىلثطا
+MATCH LOOP: فبىلثطة
+MATCH LOOP: فبىلثطه
+e k
+e
+MATCH!
+MATCH LOOP: فبىلست_DROP_
+MATCH LOOP: فبىلستا
+MATCH LOOP: فبىلستة
+MATCH LOOP: فبىلسته
+e k
+e
+MATCH!
+MATCH LOOP: فبىلسط_DROP_
+MATCH LOOP: فبىلسطا
+MATCH LOOP: فبىلسطة
+MATCH LOOP: فبىلسطه
+e k
+e
+MATCH!
+MATCH LOOP: فبىلصت_DROP_
+MATCH LOOP: فبىلصتا
+MATCH LOOP: فبىلصتة
+MATCH LOOP: فبىلصته
+e k
+e
+MATCH!
+MATCH LOOP: فبىلصط_DROP_
+MATCH LOOP: فبىلصطا
+MATCH LOOP: فبىلصطة
+MATCH LOOP: فبىلصطه
+e k
+e
+MATCH!
+MATCH LOOP: فبيلثت_DROP_
+MATCH LOOP: فبيلثتا
+MATCH LOOP: فبيلثتة
+MATCH LOOP: فبيلثته
+e k
+e
+MATCH!
+MATCH LOOP: فبيلثط_DROP_
+MATCH LOOP: فبيلثطا
+MATCH LOOP: فبيلثطة
+MATCH LOOP: فبيلثطه
+e k
+e
+MATCH!
+MATCH LOOP: فبيلست_DROP_
+MATCH LOOP: فبيلستا
+MATCH LOOP: فبيلستة
+MATCH LOOP: فبيلسته
+e k
+e
+MATCH!
+MATCH LOOP: فبيلسط_DROP_
+MATCH LOOP: فبيلسطا
+MATCH LOOP: فبيلسطة
+MATCH LOOP: فبيلسطه
+e k
+e
+MATCH!
+MATCH LOOP: فبيلصت_DROP_
+MATCH LOOP: فبيلصتا
+MATCH LOOP: فبيلصتة
+MATCH LOOP: فبيلصته
+e k
+e
+MATCH!
+MATCH LOOP: فبيلصط_DROP_
+MATCH LOOP: فبيلصطا
+MATCH LOOP: فبيلصطة
+MATCH LOOP: فبيلصطه
+e k
+k
+MATCH!
+MATCH LOOP: فب_DROP_لثت_DROP_ك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لثتاك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لثتةك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لثتهك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لثط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لثطاك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لثطةك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لثطهك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لست_DROP_ك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لستاك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لستةك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لستهك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لسط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لسطاك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لسطةك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لسطهك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لصت_DROP_ك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لصتاك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لصتةك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لصتهك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لصط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لصطاك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لصطةك
+k
+MATCH!
+MATCH LOOP: فب_DROP_لصطهك
+k
+MATCH!
+MATCH LOOP: فبالثت_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبالثتاك
+k
+MATCH!
+MATCH LOOP: فبالثتةك
+k
+MATCH!
+MATCH LOOP: فبالثتهك
+k
+MATCH!
+MATCH LOOP: فبالثط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبالثطاك
+k
+MATCH!
+MATCH LOOP: فبالثطةك
+k
+MATCH!
+MATCH LOOP: فبالثطهك
+k
+MATCH!
+MATCH LOOP: فبالست_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبالستاك
+k
+MATCH!
+MATCH LOOP: فبالستةك
+k
+MATCH!
+MATCH LOOP: فبالستهك
+k
+MATCH!
+MATCH LOOP: فبالسط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبالسطاك
+k
+MATCH!
+MATCH LOOP: فبالسطةك
+k
+MATCH!
+MATCH LOOP: فبالسطهك
+k
+MATCH!
+MATCH LOOP: فبالصت_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبالصتاك
+k
+MATCH!
+MATCH LOOP: فبالصتةك
+k
+MATCH!
+MATCH LOOP: فبالصتهك
+k
+MATCH!
+MATCH LOOP: فبالصط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبالصطاك
+k
+MATCH!
+MATCH LOOP: فبالصطةك
+k
+MATCH!
+MATCH LOOP: فبالصطهك
+k
+MATCH!
+MATCH LOOP: فبةلثت_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبةلثتاك
+k
+MATCH!
+MATCH LOOP: فبةلثتةك
+k
+MATCH!
+MATCH LOOP: فبةلثتهك
+k
+MATCH!
+MATCH LOOP: فبةلثط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبةلثطاك
+k
+MATCH!
+MATCH LOOP: فبةلثطةك
+k
+MATCH!
+MATCH LOOP: فبةلثطهك
+k
+MATCH!
+MATCH LOOP: فبةلست_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبةلستاك
+k
+MATCH!
+MATCH LOOP: فبةلستةك
+k
+MATCH!
+MATCH LOOP: فبةلستهك
+k
+MATCH!
+MATCH LOOP: فبةلسط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبةلسطاك
+k
+MATCH!
+MATCH LOOP: فبةلسطةك
+k
+MATCH!
+MATCH LOOP: فبةلسطهك
+k
+MATCH!
+MATCH LOOP: فبةلصت_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبةلصتاك
+k
+MATCH!
+MATCH LOOP: فبةلصتةك
+k
+MATCH!
+MATCH LOOP: فبةلصتهك
+k
+MATCH!
+MATCH LOOP: فبةلصط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبةلصطاك
+k
+MATCH!
+MATCH LOOP: فبةلصطةك
+k
+MATCH!
+MATCH LOOP: فبةلصطهك
+k
+MATCH!
+MATCH LOOP: فبهلثت_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبهلثتاك
+k
+MATCH!
+MATCH LOOP: فبهلثتةك
+k
+MATCH!
+MATCH LOOP: فبهلثتهك
+k
+MATCH!
+MATCH LOOP: فبهلثط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبهلثطاك
+k
+MATCH!
+MATCH LOOP: فبهلثطةك
+k
+MATCH!
+MATCH LOOP: فبهلثطهك
+k
+MATCH!
+MATCH LOOP: فبهلست_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبهلستاك
+k
+MATCH!
+MATCH LOOP: فبهلستةك
+k
+MATCH!
+MATCH LOOP: فبهلستهك
+k
+MATCH!
+MATCH LOOP: فبهلسط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبهلسطاك
+k
+MATCH!
+MATCH LOOP: فبهلسطةك
+k
+MATCH!
+MATCH LOOP: فبهلسطهك
+k
+MATCH!
+MATCH LOOP: فبهلصت_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبهلصتاك
+k
+MATCH!
+MATCH LOOP: فبهلصتةك
+k
+MATCH!
+MATCH LOOP: فبهلصتهك
+k
+MATCH!
+MATCH LOOP: فبهلصط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبهلصطاك
+k
+MATCH!
+MATCH LOOP: فبهلصطةك
+k
+MATCH!
+MATCH LOOP: فبهلصطهك
+k
+MATCH!
+MATCH LOOP: فبىلثت_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبىلثتاك
+k
+MATCH!
+MATCH LOOP: فبىلثتةك
+k
+MATCH!
+MATCH LOOP: فبىلثتهك
+k
+MATCH!
+MATCH LOOP: فبىلثط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبىلثطاك
+k
+MATCH!
+MATCH LOOP: فبىلثطةك
+k
+MATCH!
+MATCH LOOP: فبىلثطهك
+k
+MATCH!
+MATCH LOOP: فبىلست_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبىلستاك
+k
+MATCH!
+MATCH LOOP: فبىلستةك
+k
+MATCH!
+MATCH LOOP: فبىلستهك
+k
+MATCH!
+MATCH LOOP: فبىلسط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبىلسطاك
+k
+MATCH!
+MATCH LOOP: فبىلسطةك
+k
+MATCH!
+MATCH LOOP: فبىلسطهك
+k
+MATCH!
+MATCH LOOP: فبىلصت_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبىلصتاك
+k
+MATCH!
+MATCH LOOP: فبىلصتةك
+k
+MATCH!
+MATCH LOOP: فبىلصتهك
+k
+MATCH!
+MATCH LOOP: فبىلصط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبىلصطاك
+k
+MATCH!
+MATCH LOOP: فبىلصطةك
+k
+MATCH!
+MATCH LOOP: فبىلصطهك
+k
+MATCH!
+MATCH LOOP: فبيلثت_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبيلثتاك
+k
+MATCH!
+MATCH LOOP: فبيلثتةك
+k
+MATCH!
+MATCH LOOP: فبيلثتهك
+k
+MATCH!
+MATCH LOOP: فبيلثط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبيلثطاك
+k
+MATCH!
+MATCH LOOP: فبيلثطةك
+k
+MATCH!
+MATCH LOOP: فبيلثطهك
+k
+MATCH!
+MATCH LOOP: فبيلست_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبيلستاك
+k
+MATCH!
+MATCH LOOP: فبيلستةك
+k
+MATCH!
+MATCH LOOP: فبيلستهك
+k
+MATCH!
+MATCH LOOP: فبيلسط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبيلسطاك
+k
+MATCH!
+MATCH LOOP: فبيلسطةك
+k
+MATCH!
+MATCH LOOP: فبيلسطهك
+k
+MATCH!
+MATCH LOOP: فبيلصت_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبيلصتاك
+k
+MATCH!
+MATCH LOOP: فبيلصتةك
+k
+MATCH!
+MATCH LOOP: فبيلصتهك
+k
+MATCH!
+MATCH LOOP: فبيلصط_DROP_ك
+k
+MATCH!
+MATCH LOOP: فبيلصطاك
+k
+MATCH!
+MATCH LOOP: فبيلصطةك
+k
+MATCH!
+MATCH LOOP: فبيلصطهك
+فبهلصتاك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ص|t :: ت|e :: ا|k :: ك
+فبىلثتهك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ث|t :: ت|e :: ه|k :: ك
+فبىلصتك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ص|t :: ت|e :: _DROP_|k :: ك
+فبالثطك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ث|t :: ط|e :: _DROP_|k :: ك
+فبلثتاك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ث|t :: ت|e :: ا|k :: ك
+فبهلسطهك	f :: ف|b :: ب|a :: ه|l :: ل|s :: س|t :: ط|e :: ه|k :: ك
+فبيلصتةك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ص|t :: ت|e :: ة|k :: ك
+فبةلسطاك	f :: ف|b :: ب|a :: ة|l :: ل|s :: س|t :: ط|e :: ا|k :: ك
+فبيلثطةك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ث|t :: ط|e :: ة|k :: ك
+فبهلصتهك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ص|t :: ت|e :: ه|k :: ك
+فبالسطاك	f :: ف|b :: ب|a :: ا|l :: ل|s :: س|t :: ط|e :: ا|k :: ك
+فبىلصطهك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ص|t :: ط|e :: ه|k :: ك
+فبالثتك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ث|t :: ت|e :: _DROP_|k :: ك
+فبيلثطك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ث|t :: ط|e :: _DROP_|k :: ك
+فبهلستك	f :: ف|b :: ب|a :: ه|l :: ل|s :: س|t :: ت|e :: _DROP_|k :: ك
+فبىلسطاك	f :: ف|b :: ب|a :: ى|l :: ل|s :: س|t :: ط|e :: ا|k :: ك
+فبهلستةك	f :: ف|b :: ب|a :: ه|l :: ل|s :: س|t :: ت|e :: ة|k :: ك
+فبيلسطهك	f :: ف|b :: ب|a :: ي|l :: ل|s :: س|t :: ط|e :: ه|k :: ك
+فبةلستاك	f :: ف|b :: ب|a :: ة|l :: ل|s :: س|t :: ت|e :: ا|k :: ك
+فبالثتهك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ث|t :: ت|e :: ه|k :: ك
+فبهلستاك	f :: ف|b :: ب|a :: ه|l :: ل|s :: س|t :: ت|e :: ا|k :: ك
+فبيلثتةك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ث|t :: ت|e :: ة|k :: ك
+فبلصتةك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ص|t :: ت|e :: ة|k :: ك
+فبىلثطةك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ث|t :: ط|e :: ة|k :: ك
+فبيلصتك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ص|t :: ت|e :: _DROP_|k :: ك
+فبيلستك	f :: ف|b :: ب|a :: ي|l :: ل|s :: س|t :: ت|e :: _DROP_|k :: ك
+فبىلستاك	f :: ف|b :: ب|a :: ى|l :: ل|s :: س|t :: ت|e :: ا|k :: ك
+فبالصتك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ص|t :: ت|e :: _DROP_|k :: ك
+فبةلستهك	f :: ف|b :: ب|a :: ة|l :: ل|s :: س|t :: ت|e :: ه|k :: ك
+فبهلصطةك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ص|t :: ط|e :: ة|k :: ك
+فبالسطةك	f :: ف|b :: ب|a :: ا|l :: ل|s :: س|t :: ط|e :: ة|k :: ك
+فبهلصطاك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ص|t :: ط|e :: ا|k :: ك
+فبالصطهك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ص|t :: ط|e :: ه|k :: ك
+فبىلثتك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ث|t :: ت|e :: _DROP_|k :: ك
+فبىلصطك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ص|t :: ط|e :: _DROP_|k :: ك
+فبلثطهك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ث|t :: ط|e :: ه|k :: ك
+فبلثطاك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ث|t :: ط|e :: ا|k :: ك
+فبةلصتك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ص|t :: ت|e :: _DROP_|k :: ك
+فبلصتك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ص|t :: ت|e :: _DROP_|k :: ك
+فبهلسطةك	f :: ف|b :: ب|a :: ه|l :: ل|s :: س|t :: ط|e :: ة|k :: ك
+فبالستهك	f :: ف|b :: ب|a :: ا|l :: ل|s :: س|t :: ت|e :: ه|k :: ك
+فبالصطاك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ص|t :: ط|e :: ا|k :: ك
+فبىلستك	f :: ف|b :: ب|a :: ى|l :: ل|s :: س|t :: ت|e :: _DROP_|k :: ك
+فبىلستةك	f :: ف|b :: ب|a :: ى|l :: ل|s :: س|t :: ت|e :: ة|k :: ك
+فبهلسطك	f :: ف|b :: ب|a :: ه|l :: ل|s :: س|t :: ط|e :: _DROP_|k :: ك
+فبةلصطك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ص|t :: ط|e :: _DROP_|k :: ك
+فبالستاك	f :: ف|b :: ب|a :: ا|l :: ل|s :: س|t :: ت|e :: ا|k :: ك
+فبيلستهك	f :: ف|b :: ب|a :: ي|l :: ل|s :: س|t :: ت|e :: ه|k :: ك
+فبةلثطهك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ث|t :: ط|e :: ه|k :: ك
+فبيلثتاك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ث|t :: ت|e :: ا|k :: ك
+فبىلصتهك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ص|t :: ت|e :: ه|k :: ك
+فبالثتاك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ث|t :: ت|e :: ا|k :: ك
+فبيلثتهك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ث|t :: ت|e :: ه|k :: ك
+فبلصطاك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ص|t :: ط|e :: ا|k :: ك
+فبيلصطهك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ص|t :: ط|e :: ه|k :: ك
+فبيلصطةك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ص|t :: ط|e :: ة|k :: ك
+فبالثطاك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ث|t :: ط|e :: ا|k :: ك
+فبهلثطةك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ث|t :: ط|e :: ة|k :: ك
+فبىلثتةك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ث|t :: ت|e :: ة|k :: ك
+فبالصتهك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ص|t :: ت|e :: ه|k :: ك
+فبالصطك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ص|t :: ط|e :: _DROP_|k :: ك
+فبلسطاك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: س|t :: ط|e :: ا|k :: ك
+فبىلثطهك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ث|t :: ط|e :: ه|k :: ك
+فبىلثطك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ث|t :: ط|e :: _DROP_|k :: ك
+فبالصطةك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ص|t :: ط|e :: ة|k :: ك
+فبةلثتك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ث|t :: ت|e :: _DROP_|k :: ك
+فبىلسطهك	f :: ف|b :: ب|a :: ى|l :: ل|s :: س|t :: ط|e :: ه|k :: ك
+فبةلصتهك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ص|t :: ت|e :: ه|k :: ك
+فبىلصتاك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ص|t :: ت|e :: ا|k :: ك
+فبةلثتةك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ث|t :: ت|e :: ة|k :: ك
+فبهلثطاك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ث|t :: ط|e :: ا|k :: ك
+فبالستك	f :: ف|b :: ب|a :: ا|l :: ل|s :: س|t :: ت|e :: _DROP_|k :: ك
+فبلستاك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: س|t :: ت|e :: ا|k :: ك
+فبىلصطاك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ص|t :: ط|e :: ا|k :: ك
+فبلسطهك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: س|t :: ط|e :: ه|k :: ك
+فبهلثطك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ث|t :: ط|e :: _DROP_|k :: ك
+فبلثتهك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ث|t :: ت|e :: ه|k :: ك
+فبةلسطهك	f :: ف|b :: ب|a :: ة|l :: ل|s :: س|t :: ط|e :: ه|k :: ك
+فبىلصطةك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ص|t :: ط|e :: ة|k :: ك
+فبهلصتك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ص|t :: ت|e :: _DROP_|k :: ك
+فبيلصتاك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ص|t :: ت|e :: ا|k :: ك
+فبلثتك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ث|t :: ت|e :: _DROP_|k :: ك
+فبيلسطك	f :: ف|b :: ب|a :: ي|l :: ل|s :: س|t :: ط|e :: _DROP_|k :: ك
+فبيلصطك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ص|t :: ط|e :: _DROP_|k :: ك
+فبالصتاك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ص|t :: ت|e :: ا|k :: ك
+فبالسطك	f :: ف|b :: ب|a :: ا|l :: ل|s :: س|t :: ط|e :: _DROP_|k :: ك
+فبيلستةك	f :: ف|b :: ب|a :: ي|l :: ل|s :: س|t :: ت|e :: ة|k :: ك
+فبالثتةك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ث|t :: ت|e :: ة|k :: ك
+فبالستةك	f :: ف|b :: ب|a :: ا|l :: ل|s :: س|t :: ت|e :: ة|k :: ك
+فبيلثطاك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ث|t :: ط|e :: ا|k :: ك
+فبيلصطاك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ص|t :: ط|e :: ا|k :: ك
+فبةلثطةك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ث|t :: ط|e :: ة|k :: ك
+فبلصطك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ص|t :: ط|e :: _DROP_|k :: ك
+فبالصتةك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ص|t :: ت|e :: ة|k :: ك
+فبلستهك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: س|t :: ت|e :: ه|k :: ك
+فبهلستهك	f :: ف|b :: ب|a :: ه|l :: ل|s :: س|t :: ت|e :: ه|k :: ك
+فبهلثطهك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ث|t :: ط|e :: ه|k :: ك
+فبهلسطاك	f :: ف|b :: ب|a :: ه|l :: ل|s :: س|t :: ط|e :: ا|k :: ك
+فبهلثتهك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ث|t :: ت|e :: ه|k :: ك
+فبلسطك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: س|t :: ط|e :: _DROP_|k :: ك
+فبالثطةك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ث|t :: ط|e :: ة|k :: ك
+فبةلصطةك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ص|t :: ط|e :: ة|k :: ك
+فبهلثتاك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ث|t :: ت|e :: ا|k :: ك
+فبةلسطةك	f :: ف|b :: ب|a :: ة|l :: ل|s :: س|t :: ط|e :: ة|k :: ك
+فبلثطةك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ث|t :: ط|e :: ة|k :: ك
+فبةلستةك	f :: ف|b :: ب|a :: ة|l :: ل|s :: س|t :: ت|e :: ة|k :: ك
+فبةلصتاك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ص|t :: ت|e :: ا|k :: ك
+فبلصطةك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ص|t :: ط|e :: ة|k :: ك
+فبلستك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: س|t :: ت|e :: _DROP_|k :: ك
+فبىلثطاك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ث|t :: ط|e :: ا|k :: ك
+فبلصتهك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ص|t :: ت|e :: ه|k :: ك
+فبةلثتاك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ث|t :: ت|e :: ا|k :: ك
+فبىلسطةك	f :: ف|b :: ب|a :: ى|l :: ل|s :: س|t :: ط|e :: ة|k :: ك
+فبىلثتاك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ث|t :: ت|e :: ا|k :: ك
+فبيلثتك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ث|t :: ت|e :: _DROP_|k :: ك
+فبىلصتةك	f :: ف|b :: ب|a :: ى|l :: ل|s :: ص|t :: ت|e :: ة|k :: ك
+فبةلصتةك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ص|t :: ت|e :: ة|k :: ك
+فبةلستك	f :: ف|b :: ب|a :: ة|l :: ل|s :: س|t :: ت|e :: _DROP_|k :: ك
+فبةلثطاك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ث|t :: ط|e :: ا|k :: ك
+فبالثطهك	f :: ف|b :: ب|a :: ا|l :: ل|s :: ث|t :: ط|e :: ه|k :: ك
+فبلثطك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ث|t :: ط|e :: _DROP_|k :: ك
+فبةلصطهك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ص|t :: ط|e :: ه|k :: ك
+فبةلثطك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ث|t :: ط|e :: _DROP_|k :: ك
+فبيلسطاك	f :: ف|b :: ب|a :: ي|l :: ل|s :: س|t :: ط|e :: ا|k :: ك
+فبلصتاك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ص|t :: ت|e :: ا|k :: ك
+فبىلستهك	f :: ف|b :: ب|a :: ى|l :: ل|s :: س|t :: ت|e :: ه|k :: ك
+فبةلصطاك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ص|t :: ط|e :: ا|k :: ك
+فبلستةك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: س|t :: ت|e :: ة|k :: ك
+فبىلسطك	f :: ف|b :: ب|a :: ى|l :: ل|s :: س|t :: ط|e :: _DROP_|k :: ك
+فبةلثتهك	f :: ف|b :: ب|a :: ة|l :: ل|s :: ث|t :: ت|e :: ه|k :: ك
+فبالسطهك	f :: ف|b :: ب|a :: ا|l :: ل|s :: س|t :: ط|e :: ه|k :: ك
+فبلثتةك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ث|t :: ت|e :: ة|k :: ك
+فبهلصطك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ص|t :: ط|e :: _DROP_|k :: ك
+فبهلصطهك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ص|t :: ط|e :: ه|k :: ك
+فبلسطةك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: س|t :: ط|e :: ة|k :: ك
+فبهلثتةك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ث|t :: ت|e :: ة|k :: ك
+فبهلصتةك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ص|t :: ت|e :: ة|k :: ك
+فبيلسطةك	f :: ف|b :: ب|a :: ي|l :: ل|s :: س|t :: ط|e :: ة|k :: ك
+فبيلثطهك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ث|t :: ط|e :: ه|k :: ك
+فبةلسطك	f :: ف|b :: ب|a :: ة|l :: ل|s :: س|t :: ط|e :: _DROP_|k :: ك
+فبيلصتهك	f :: ف|b :: ب|a :: ي|l :: ل|s :: ص|t :: ت|e :: ه|k :: ك
+فبهلثتك	f :: ف|b :: ب|a :: ه|l :: ل|s :: ث|t :: ت|e :: _DROP_|k :: ك
+فبيلستاك	f :: ف|b :: ب|a :: ي|l :: ل|s :: س|t :: ت|e :: ا|k :: ك
+فبلصطهك	f :: ف|b :: ب|a :: _DROP_|l :: ل|s :: ص|t :: ط|e :: ه|k :: ك
+------ 

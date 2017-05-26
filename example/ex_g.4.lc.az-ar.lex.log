@@ -1,0 +1,376 @@
+i
+MATCH!
+MATCH LOOP: _DROP_
+MATCH LOOP: ى
+MATCH LOOP: ي
+i g
+g
+MATCH!
+MATCH LOOP: _DROP_ج
+MATCH LOOP: _DROP_ق
+MATCH LOOP: _DROP_ك
+g o
+g
+MATCH!
+MATCH LOOP: ىج
+MATCH LOOP: ىق
+MATCH LOOP: ىك
+g o
+g
+MATCH!
+MATCH LOOP: يج
+MATCH LOOP: يق
+MATCH LOOP: يك
+g o
+o
+MATCH!
+MATCH LOOP: _DROP_ج_DROP_
+MATCH LOOP: _DROP_جو
+o u
+MATCH!
+MATCH LOOP: _DROP_ج_DROP_
+MATCH LOOP: _DROP_جو
+o
+MATCH!
+MATCH LOOP: _DROP_ق_DROP_
+MATCH LOOP: _DROP_قو
+o u
+MATCH!
+MATCH LOOP: _DROP_ق_DROP_
+MATCH LOOP: _DROP_قو
+o
+MATCH!
+MATCH LOOP: _DROP_ك_DROP_
+MATCH LOOP: _DROP_كو
+o u
+MATCH!
+MATCH LOOP: _DROP_ك_DROP_
+MATCH LOOP: _DROP_كو
+o
+MATCH!
+MATCH LOOP: ىج_DROP_
+MATCH LOOP: ىجو
+o u
+MATCH!
+MATCH LOOP: ىج_DROP_
+MATCH LOOP: ىجو
+o
+MATCH!
+MATCH LOOP: ىق_DROP_
+MATCH LOOP: ىقو
+o u
+MATCH!
+MATCH LOOP: ىق_DROP_
+MATCH LOOP: ىقو
+o
+MATCH!
+MATCH LOOP: ىك_DROP_
+MATCH LOOP: ىكو
+o u
+MATCH!
+MATCH LOOP: ىك_DROP_
+MATCH LOOP: ىكو
+o
+MATCH!
+MATCH LOOP: يج_DROP_
+MATCH LOOP: يجو
+o u
+MATCH!
+MATCH LOOP: يج_DROP_
+MATCH LOOP: يجو
+o
+MATCH!
+MATCH LOOP: يق_DROP_
+MATCH LOOP: يقو
+o u
+MATCH!
+MATCH LOOP: يق_DROP_
+MATCH LOOP: يقو
+o
+MATCH!
+MATCH LOOP: يك_DROP_
+MATCH LOOP: يكو
+o u
+MATCH!
+MATCH LOOP: يك_DROP_
+MATCH LOOP: يكو
+u
+MATCH!
+MATCH LOOP: _DROP_ج_DROP__DROP_
+MATCH LOOP: _DROP_ج_DROP_و
+u l
+u
+MATCH!
+MATCH LOOP: _DROP_جو_DROP_
+MATCH LOOP: _DROP_جوو
+u l
+l
+MATCH!
+MATCH LOOP: _DROP_ج_DROP_ل
+l
+MATCH!
+MATCH LOOP: _DROP_جول
+u
+MATCH!
+MATCH LOOP: _DROP_ق_DROP__DROP_
+MATCH LOOP: _DROP_ق_DROP_و
+u l
+u
+MATCH!
+MATCH LOOP: _DROP_قو_DROP_
+MATCH LOOP: _DROP_قوو
+u l
+l
+MATCH!
+MATCH LOOP: _DROP_ق_DROP_ل
+l
+MATCH!
+MATCH LOOP: _DROP_قول
+u
+MATCH!
+MATCH LOOP: _DROP_ك_DROP__DROP_
+MATCH LOOP: _DROP_ك_DROP_و
+u l
+u
+MATCH!
+MATCH LOOP: _DROP_كو_DROP_
+MATCH LOOP: _DROP_كوو
+u l
+l
+MATCH!
+MATCH LOOP: _DROP_ك_DROP_ل
+l
+MATCH!
+MATCH LOOP: _DROP_كول
+u
+MATCH!
+MATCH LOOP: ىج_DROP__DROP_
+MATCH LOOP: ىج_DROP_و
+u l
+u
+MATCH!
+MATCH LOOP: ىجو_DROP_
+MATCH LOOP: ىجوو
+u l
+l
+MATCH!
+MATCH LOOP: ىج_DROP_ل
+l
+MATCH!
+MATCH LOOP: ىجول
+u
+MATCH!
+MATCH LOOP: ىق_DROP__DROP_
+MATCH LOOP: ىق_DROP_و
+u l
+u
+MATCH!
+MATCH LOOP: ىقو_DROP_
+MATCH LOOP: ىقوو
+u l
+l
+MATCH!
+MATCH LOOP: ىق_DROP_ل
+l
+MATCH!
+MATCH LOOP: ىقول
+u
+MATCH!
+MATCH LOOP: ىك_DROP__DROP_
+MATCH LOOP: ىك_DROP_و
+u l
+u
+MATCH!
+MATCH LOOP: ىكو_DROP_
+MATCH LOOP: ىكوو
+u l
+l
+MATCH!
+MATCH LOOP: ىك_DROP_ل
+l
+MATCH!
+MATCH LOOP: ىكول
+u
+MATCH!
+MATCH LOOP: يج_DROP__DROP_
+MATCH LOOP: يج_DROP_و
+u l
+u
+MATCH!
+MATCH LOOP: يجو_DROP_
+MATCH LOOP: يجوو
+u l
+l
+MATCH!
+MATCH LOOP: يج_DROP_ل
+l
+MATCH!
+MATCH LOOP: يجول
+u
+MATCH!
+MATCH LOOP: يق_DROP__DROP_
+MATCH LOOP: يق_DROP_و
+u l
+u
+MATCH!
+MATCH LOOP: يقو_DROP_
+MATCH LOOP: يقوو
+u l
+l
+MATCH!
+MATCH LOOP: يق_DROP_ل
+l
+MATCH!
+MATCH LOOP: يقول
+u
+MATCH!
+MATCH LOOP: يك_DROP__DROP_
+MATCH LOOP: يك_DROP_و
+u l
+u
+MATCH!
+MATCH LOOP: يكو_DROP_
+MATCH LOOP: يكوو
+u l
+l
+MATCH!
+MATCH LOOP: يك_DROP_ل
+l
+MATCH!
+MATCH LOOP: يكول
+l
+MATCH!
+MATCH LOOP: _DROP_ج_DROP__DROP_ل
+l
+MATCH!
+MATCH LOOP: _DROP_ج_DROP_ول
+l
+MATCH!
+MATCH LOOP: _DROP_جو_DROP_ل
+l
+MATCH!
+MATCH LOOP: _DROP_جوول
+l
+MATCH!
+MATCH LOOP: _DROP_ق_DROP__DROP_ل
+l
+MATCH!
+MATCH LOOP: _DROP_ق_DROP_ول
+l
+MATCH!
+MATCH LOOP: _DROP_قو_DROP_ل
+l
+MATCH!
+MATCH LOOP: _DROP_قوول
+l
+MATCH!
+MATCH LOOP: _DROP_ك_DROP__DROP_ل
+l
+MATCH!
+MATCH LOOP: _DROP_ك_DROP_ول
+l
+MATCH!
+MATCH LOOP: _DROP_كو_DROP_ل
+l
+MATCH!
+MATCH LOOP: _DROP_كوول
+l
+MATCH!
+MATCH LOOP: ىج_DROP__DROP_ل
+l
+MATCH!
+MATCH LOOP: ىج_DROP_ول
+l
+MATCH!
+MATCH LOOP: ىجو_DROP_ل
+l
+MATCH!
+MATCH LOOP: ىجوول
+l
+MATCH!
+MATCH LOOP: ىق_DROP__DROP_ل
+l
+MATCH!
+MATCH LOOP: ىق_DROP_ول
+l
+MATCH!
+MATCH LOOP: ىقو_DROP_ل
+l
+MATCH!
+MATCH LOOP: ىقوول
+l
+MATCH!
+MATCH LOOP: ىك_DROP__DROP_ل
+l
+MATCH!
+MATCH LOOP: ىك_DROP_ول
+l
+MATCH!
+MATCH LOOP: ىكو_DROP_ل
+l
+MATCH!
+MATCH LOOP: ىكوول
+l
+MATCH!
+MATCH LOOP: يج_DROP__DROP_ل
+l
+MATCH!
+MATCH LOOP: يج_DROP_ول
+l
+MATCH!
+MATCH LOOP: يجو_DROP_ل
+l
+MATCH!
+MATCH LOOP: يجوول
+l
+MATCH!
+MATCH LOOP: يق_DROP__DROP_ل
+l
+MATCH!
+MATCH LOOP: يق_DROP_ول
+l
+MATCH!
+MATCH LOOP: يقو_DROP_ل
+l
+MATCH!
+MATCH LOOP: يقوول
+l
+MATCH!
+MATCH LOOP: يك_DROP__DROP_ل
+l
+MATCH!
+MATCH LOOP: يك_DROP_ول
+l
+MATCH!
+MATCH LOOP: يكو_DROP_ل
+l
+MATCH!
+MATCH LOOP: يكوول
+قول	i :: _DROP_|g :: ق|o u :: و|l :: ل ||| i :: _DROP_|g :: ق|o :: _DROP_|u :: و|l :: ل ||| i :: _DROP_|g :: ق|o :: و|u :: _DROP_|l :: ل
+ىقول	i :: ى|g :: ق|o u :: و|l :: ل ||| i :: ى|g :: ق|o :: _DROP_|u :: و|l :: ل ||| i :: ى|g :: ق|o :: و|u :: _DROP_|l :: ل
+ىقوول	i :: ى|g :: ق|o :: و|u :: و|l :: ل
+ىكل	i :: ى|g :: ك|o u :: _DROP_|l :: ل ||| i :: ى|g :: ك|o :: _DROP_|u :: _DROP_|l :: ل
+يقوول	i :: ي|g :: ق|o :: و|u :: و|l :: ل
+يكل	i :: ي|g :: ك|o u :: _DROP_|l :: ل ||| i :: ي|g :: ك|o :: _DROP_|u :: _DROP_|l :: ل
+يجوول	i :: ي|g :: ج|o :: و|u :: و|l :: ل
+ىكوول	i :: ى|g :: ك|o :: و|u :: و|l :: ل
+كوول	i :: _DROP_|g :: ك|o :: و|u :: و|l :: ل
+ىجل	i :: ى|g :: ج|o u :: _DROP_|l :: ل ||| i :: ى|g :: ج|o :: _DROP_|u :: _DROP_|l :: ل
+يجول	i :: ي|g :: ج|o u :: و|l :: ل ||| i :: ي|g :: ج|o :: _DROP_|u :: و|l :: ل ||| i :: ي|g :: ج|o :: و|u :: _DROP_|l :: ل
+يكول	i :: ي|g :: ك|o u :: و|l :: ل ||| i :: ي|g :: ك|o :: _DROP_|u :: و|l :: ل ||| i :: ي|g :: ك|o :: و|u :: _DROP_|l :: ل
+ىجوول	i :: ى|g :: ج|o :: و|u :: و|l :: ل
+يكوول	i :: ي|g :: ك|o :: و|u :: و|l :: ل
+جوول	i :: _DROP_|g :: ج|o :: و|u :: و|l :: ل
+كل	i :: _DROP_|g :: ك|o u :: _DROP_|l :: ل ||| i :: _DROP_|g :: ك|o :: _DROP_|u :: _DROP_|l :: ل
+يجل	i :: ي|g :: ج|o u :: _DROP_|l :: ل ||| i :: ي|g :: ج|o :: _DROP_|u :: _DROP_|l :: ل
+يقول	i :: ي|g :: ق|o u :: و|l :: ل ||| i :: ي|g :: ق|o :: _DROP_|u :: و|l :: ل ||| i :: ي|g :: ق|o :: و|u :: _DROP_|l :: ل
+ىكول	i :: ى|g :: ك|o u :: و|l :: ل ||| i :: ى|g :: ك|o :: _DROP_|u :: و|l :: ل ||| i :: ى|g :: ك|o :: و|u :: _DROP_|l :: ل
+قوول	i :: _DROP_|g :: ق|o :: و|u :: و|l :: ل
+ىقل	i :: ى|g :: ق|o u :: _DROP_|l :: ل ||| i :: ى|g :: ق|o :: _DROP_|u :: _DROP_|l :: ل
+ىجول	i :: ى|g :: ج|o u :: و|l :: ل ||| i :: ى|g :: ج|o :: _DROP_|u :: و|l :: ل ||| i :: ى|g :: ج|o :: و|u :: _DROP_|l :: ل
+كول	i :: _DROP_|g :: ك|o u :: و|l :: ل ||| i :: _DROP_|g :: ك|o :: _DROP_|u :: و|l :: ل ||| i :: _DROP_|g :: ك|o :: و|u :: _DROP_|l :: ل
+قل	i :: _DROP_|g :: ق|o u :: _DROP_|l :: ل ||| i :: _DROP_|g :: ق|o :: _DROP_|u :: _DROP_|l :: ل
+يقل	i :: ي|g :: ق|o u :: _DROP_|l :: ل ||| i :: ي|g :: ق|o :: _DROP_|u :: _DROP_|l :: ل
+جل	i :: _DROP_|g :: ج|o u :: _DROP_|l :: ل ||| i :: _DROP_|g :: ج|o :: _DROP_|u :: _DROP_|l :: ل
+جول	i :: _DROP_|g :: ج|o u :: و|l :: ل ||| i :: _DROP_|g :: ج|o :: _DROP_|u :: و|l :: ل ||| i :: _DROP_|g :: ج|o :: و|u :: _DROP_|l :: ل
+------ 

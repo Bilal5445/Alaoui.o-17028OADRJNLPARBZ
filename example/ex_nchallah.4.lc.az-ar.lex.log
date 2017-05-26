@@ -1,0 +1,288 @@
+n
+MATCH!
+MATCH LOOP: ن
+n c
+c
+c h
+MATCH!
+MATCH LOOP: نش
+a
+MATCH!
+MATCH LOOP: نش_DROP_
+MATCH LOOP: نشا
+MATCH LOOP: نشة
+MATCH LOOP: نشه
+MATCH LOOP: نشى
+MATCH LOOP: نشي
+a l
+l
+MATCH!
+MATCH LOOP: نش_DROP_ل
+l l
+l
+MATCH!
+MATCH LOOP: نشال
+l l
+l
+MATCH!
+MATCH LOOP: نشةل
+l l
+l
+MATCH!
+MATCH LOOP: نشهل
+l l
+l
+MATCH!
+MATCH LOOP: نشىل
+l l
+l
+MATCH!
+MATCH LOOP: نشيل
+l l
+l
+MATCH!
+MATCH LOOP: نش_DROP_لل
+l a
+l
+MATCH!
+MATCH LOOP: نشالل
+l a
+l
+MATCH!
+MATCH LOOP: نشةلل
+l a
+l
+MATCH!
+MATCH LOOP: نشهلل
+l a
+l
+MATCH!
+MATCH LOOP: نشىلل
+l a
+l
+MATCH!
+MATCH LOOP: نشيلل
+l a
+a
+MATCH!
+MATCH LOOP: نش_DROP_لل_DROP_
+MATCH LOOP: نش_DROP_للا
+MATCH LOOP: نش_DROP_للة
+MATCH LOOP: نش_DROP_لله
+MATCH LOOP: نش_DROP_للى
+MATCH LOOP: نش_DROP_للي
+a h
+MATCH!
+MATCH LOOP: نش_DROP_للة
+MATCH LOOP: نش_DROP_لله
+a
+MATCH!
+MATCH LOOP: نشالل_DROP_
+MATCH LOOP: نشاللا
+MATCH LOOP: نشاللة
+MATCH LOOP: نشالله
+MATCH LOOP: نشاللى
+MATCH LOOP: نشاللي
+a h
+MATCH!
+MATCH LOOP: نشاللة
+MATCH LOOP: نشالله
+a
+MATCH!
+MATCH LOOP: نشةلل_DROP_
+MATCH LOOP: نشةللا
+MATCH LOOP: نشةللة
+MATCH LOOP: نشةلله
+MATCH LOOP: نشةللى
+MATCH LOOP: نشةللي
+a h
+MATCH!
+MATCH LOOP: نشةللة
+MATCH LOOP: نشةلله
+a
+MATCH!
+MATCH LOOP: نشهلل_DROP_
+MATCH LOOP: نشهللا
+MATCH LOOP: نشهللة
+MATCH LOOP: نشهلله
+MATCH LOOP: نشهللى
+MATCH LOOP: نشهللي
+a h
+MATCH!
+MATCH LOOP: نشهللة
+MATCH LOOP: نشهلله
+a
+MATCH!
+MATCH LOOP: نشىلل_DROP_
+MATCH LOOP: نشىللا
+MATCH LOOP: نشىللة
+MATCH LOOP: نشىلله
+MATCH LOOP: نشىللى
+MATCH LOOP: نشىللي
+a h
+MATCH!
+MATCH LOOP: نشىللة
+MATCH LOOP: نشىلله
+a
+MATCH!
+MATCH LOOP: نشيلل_DROP_
+MATCH LOOP: نشيللا
+MATCH LOOP: نشيللة
+MATCH LOOP: نشيلله
+MATCH LOOP: نشيللى
+MATCH LOOP: نشيللي
+a h
+MATCH!
+MATCH LOOP: نشيللة
+MATCH LOOP: نشيلله
+h
+MATCH!
+MATCH LOOP: نش_DROP_لل_DROP_ه
+h
+MATCH!
+MATCH LOOP: نش_DROP_للاه
+h
+MATCH!
+MATCH LOOP: نش_DROP_للةه
+h
+MATCH!
+MATCH LOOP: نش_DROP_للهه
+h
+MATCH!
+MATCH LOOP: نش_DROP_للىه
+h
+MATCH!
+MATCH LOOP: نش_DROP_لليه
+h
+MATCH!
+MATCH LOOP: نشالل_DROP_ه
+h
+MATCH!
+MATCH LOOP: نشاللاه
+h
+MATCH!
+MATCH LOOP: نشاللةه
+h
+MATCH!
+MATCH LOOP: نشاللهه
+h
+MATCH!
+MATCH LOOP: نشاللىه
+h
+MATCH!
+MATCH LOOP: نشالليه
+h
+MATCH!
+MATCH LOOP: نشةلل_DROP_ه
+h
+MATCH!
+MATCH LOOP: نشةللاه
+h
+MATCH!
+MATCH LOOP: نشةللةه
+h
+MATCH!
+MATCH LOOP: نشةللهه
+h
+MATCH!
+MATCH LOOP: نشةللىه
+h
+MATCH!
+MATCH LOOP: نشةلليه
+h
+MATCH!
+MATCH LOOP: نشهلل_DROP_ه
+h
+MATCH!
+MATCH LOOP: نشهللاه
+h
+MATCH!
+MATCH LOOP: نشهللةه
+h
+MATCH!
+MATCH LOOP: نشهللهه
+h
+MATCH!
+MATCH LOOP: نشهللىه
+h
+MATCH!
+MATCH LOOP: نشهلليه
+h
+MATCH!
+MATCH LOOP: نشىلل_DROP_ه
+h
+MATCH!
+MATCH LOOP: نشىللاه
+h
+MATCH!
+MATCH LOOP: نشىللةه
+h
+MATCH!
+MATCH LOOP: نشىللهه
+h
+MATCH!
+MATCH LOOP: نشىللىه
+h
+MATCH!
+MATCH LOOP: نشىلليه
+h
+MATCH!
+MATCH LOOP: نشيلل_DROP_ه
+h
+MATCH!
+MATCH LOOP: نشيللاه
+h
+MATCH!
+MATCH LOOP: نشيللةه
+h
+MATCH!
+MATCH LOOP: نشيللهه
+h
+MATCH!
+MATCH LOOP: نشيللىه
+h
+MATCH!
+MATCH LOOP: نشيلليه
+نشالله	n :: ن|c h :: ش|a :: ا|l :: ل|l :: ل|a h :: ه ||| n :: ن|c h :: ش|a :: ا|l :: ل|l :: ل|a :: _DROP_|h :: ه
+نشيللةه	n :: ن|c h :: ش|a :: ي|l :: ل|l :: ل|a :: ة|h :: ه
+نشاللاه	n :: ن|c h :: ش|a :: ا|l :: ل|l :: ل|a :: ا|h :: ه
+نشةلليه	n :: ن|c h :: ش|a :: ة|l :: ل|l :: ل|a :: ي|h :: ه
+نشللاه	n :: ن|c h :: ش|a :: _DROP_|l :: ل|l :: ل|a :: ا|h :: ه
+نشاللىه	n :: ن|c h :: ش|a :: ا|l :: ل|l :: ل|a :: ى|h :: ه
+نشةللاه	n :: ن|c h :: ش|a :: ة|l :: ل|l :: ل|a :: ا|h :: ه
+نشةللة	n :: ن|c h :: ش|a :: ة|l :: ل|l :: ل|a h :: ة
+نشيلليه	n :: ن|c h :: ش|a :: ي|l :: ل|l :: ل|a :: ي|h :: ه
+نشةللهه	n :: ن|c h :: ش|a :: ة|l :: ل|l :: ل|a :: ه|h :: ه
+نشهللىه	n :: ن|c h :: ش|a :: ه|l :: ل|l :: ل|a :: ى|h :: ه
+نشيللة	n :: ن|c h :: ش|a :: ي|l :: ل|l :: ل|a h :: ة
+نشىللهه	n :: ن|c h :: ش|a :: ى|l :: ل|l :: ل|a :: ه|h :: ه
+نشهللةه	n :: ن|c h :: ش|a :: ه|l :: ل|l :: ل|a :: ة|h :: ه
+نشةللىه	n :: ن|c h :: ش|a :: ة|l :: ل|l :: ل|a :: ى|h :: ه
+نشىلله	n :: ن|c h :: ش|a :: ى|l :: ل|l :: ل|a h :: ه ||| n :: ن|c h :: ش|a :: ى|l :: ل|l :: ل|a :: _DROP_|h :: ه
+نشلليه	n :: ن|c h :: ش|a :: _DROP_|l :: ل|l :: ل|a :: ي|h :: ه
+نشهلله	n :: ن|c h :: ش|a :: ه|l :: ل|l :: ل|a h :: ه ||| n :: ن|c h :: ش|a :: ه|l :: ل|l :: ل|a :: _DROP_|h :: ه
+نشهلليه	n :: ن|c h :: ش|a :: ه|l :: ل|l :: ل|a :: ي|h :: ه
+نشىللة	n :: ن|c h :: ش|a :: ى|l :: ل|l :: ل|a h :: ة
+نشالليه	n :: ن|c h :: ش|a :: ا|l :: ل|l :: ل|a :: ي|h :: ه
+نشهللة	n :: ن|c h :: ش|a :: ه|l :: ل|l :: ل|a h :: ة
+نشللهه	n :: ن|c h :: ش|a :: _DROP_|l :: ل|l :: ل|a :: ه|h :: ه
+نشللىه	n :: ن|c h :: ش|a :: _DROP_|l :: ل|l :: ل|a :: ى|h :: ه
+نشاللة	n :: ن|c h :: ش|a :: ا|l :: ل|l :: ل|a h :: ة
+نشهللاه	n :: ن|c h :: ش|a :: ه|l :: ل|l :: ل|a :: ا|h :: ه
+نشىللىه	n :: ن|c h :: ش|a :: ى|l :: ل|l :: ل|a :: ى|h :: ه
+نشهللهه	n :: ن|c h :: ش|a :: ه|l :: ل|l :: ل|a :: ه|h :: ه
+نشيللاه	n :: ن|c h :: ش|a :: ي|l :: ل|l :: ل|a :: ا|h :: ه
+نشةللةه	n :: ن|c h :: ش|a :: ة|l :: ل|l :: ل|a :: ة|h :: ه
+نشىللةه	n :: ن|c h :: ش|a :: ى|l :: ل|l :: ل|a :: ة|h :: ه
+نشيللىه	n :: ن|c h :: ش|a :: ي|l :: ل|l :: ل|a :: ى|h :: ه
+نشلله	n :: ن|c h :: ش|a :: _DROP_|l :: ل|l :: ل|a h :: ه ||| n :: ن|c h :: ش|a :: _DROP_|l :: ل|l :: ل|a :: _DROP_|h :: ه
+نشللة	n :: ن|c h :: ش|a :: _DROP_|l :: ل|l :: ل|a h :: ة
+نشىلليه	n :: ن|c h :: ش|a :: ى|l :: ل|l :: ل|a :: ي|h :: ه
+نشللةه	n :: ن|c h :: ش|a :: _DROP_|l :: ل|l :: ل|a :: ة|h :: ه
+نشةلله	n :: ن|c h :: ش|a :: ة|l :: ل|l :: ل|a h :: ه ||| n :: ن|c h :: ش|a :: ة|l :: ل|l :: ل|a :: _DROP_|h :: ه
+نشاللةه	n :: ن|c h :: ش|a :: ا|l :: ل|l :: ل|a :: ة|h :: ه
+نشاللهه	n :: ن|c h :: ش|a :: ا|l :: ل|l :: ل|a :: ه|h :: ه
+نشيللهه	n :: ن|c h :: ش|a :: ي|l :: ل|l :: ل|a :: ه|h :: ه
+نشىللاه	n :: ن|c h :: ش|a :: ى|l :: ل|l :: ل|a :: ا|h :: ه
+نشيلله	n :: ن|c h :: ش|a :: ي|l :: ل|l :: ل|a h :: ه ||| n :: ن|c h :: ش|a :: ي|l :: ل|l :: ل|a :: _DROP_|h :: ه
+------ 

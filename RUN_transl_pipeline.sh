@@ -1,14 +1,21 @@
 # The following paths have to be specified:
-# TEST=example/small-example # Set this to the filename to transliterate (the input to the pipeline will be $TEST.arabizi)
-TEST=example/test_01_tkharbiq
+TEST=example/small-example # Set this to the filename to transliterate (the input to the pipeline will be $TEST.arabizi)
+# TEST=example/test_01_tkharbiq
+# TEST=example/ex_g
+# TEST=example/ex_fbalstek
+# TEST=example/ex_nchallah
+# TEST=example/ex_bezzaf
+# TEST=example/ex_cridi
 BASEDIR=.
 ARABIC_LM=lm/moroccan_arabic_corpus_01.lm
 DISAMBIG=srilm-1.7.2/bin/cygwin64/disambig.exe
-WPAIRS_DATA_FILE_ARABIZI=/path/to/arabizi/side/of/bitext # (e.g. LDC2013E125)
-WPAIRS_DATA_FILE_ARABIC=/path/to/arabic/side/of/bitext # (e.g. LDC2013E125)
+# WPAIRS_DATA_FILE_ARABIZI=/path/to/arabizi/side/of/bitext # (e.g. LDC2013E125)
+WPAIRS_DATA_FILE_ARABIZI=arabizi-arabic-bitext/arabizi-arabic-bitext.arz
+# WPAIRS_DATA_FILE_ARABIC=/path/to/arabic/side/of/bitext # (e.g. LDC2013E125)
+WPAIRS_DATA_FILE_ARABIC=arabizi-arabic-bitext/arabizi-arabic-bitext.ar
 #####
 
-ADD_WORD_PAIRS=0   # Set this to 1 to add transliterated word pairs, otherwise 0
+ADD_WORD_PAIRS=1   # Set this to 1 to add transliterated word pairs, otherwise 0
 NB_CORES=1         # If processing a large file, increase this to parallelize tokenization step
 
 # scripts and binaries
@@ -56,12 +63,13 @@ if [ $ADD_WORD_PAIRS == 1 ]; then
     ( perl $EXTRACTWPAIRS \
         --arabizi=$WPAIRS_DATA_AZ \
         --arabic=$WPAIRS_DATA_AR \
-        --map=$TEST.lc.az-ar.lex > $TEST.lc.az-ar.lex$WSUFF ) \
-        >& $TEST.lc.az-ar.lex$WSUFF.log
+        --map=$TEST.3.lc.az-ar.lex > $TEST.3.lc.az-ar.lex$WSUFF ) \
+        >& $TEST.4.lc.az-ar.lex$WSUFF.log
 fi
 
 if [ 1 == 1 ]; then
     echo "# call SRILM disambig"
+    echo "$DISAMBIG -keep-unk -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc -lm $ARABIC_LM -order $LMORDER | sed -r 's/^<s> //;s/ <\/s>$//' > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF"
     $DISAMBIG -keep-unk \
         -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc \
         -lm $ARABIC_LM -order $LMORDER \
@@ -75,8 +83,8 @@ fi
 echo "The final transliterated file is here:"
 
 if [ $ADD_WORD_PAIRS == 1 ]; then
-    cp $TEST.arabizi.ENTOK.lc.disambig$WSUFF.pp $TEST.charWordTransl
-    echo $TEST.charWordTransl
+    cp $TEST.6.arabizi.ENTOK.lc.disambig$WSUFF.pp $TEST.7.charWordTransl
+    echo $TEST.7.charWordTransl
 else
     cp $TEST.6.arabizi.ENTOK.lc.disambig$WSUFF.pp $TEST.7.charTransl
     echo $TEST.7.charTransl
