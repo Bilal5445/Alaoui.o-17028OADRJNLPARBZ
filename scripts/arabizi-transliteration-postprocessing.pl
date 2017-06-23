@@ -22,7 +22,9 @@ while(defined(my $line=<STDIN>)) {
     $line=~s/\:p /\:P /g;
     $line=~s/\:p\s*\n/\:P\n/g;
     $line=~s/\:d /\:D /g;
-    $line=~s/\:d\s*\n/\:D\n/g;
+    
+    # replace - to spaces
+    $line=~s/-/ /g;
 
     print $line;
 }
