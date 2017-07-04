@@ -17,8 +17,10 @@ $0 --arabizi=FILE --arabic=FILE > arabizi-arabic-word-pairs
 # --bitext      : Suffix of bitext to print out (bitext.arabizi, bitext.arabic)
 ";
 
-my $MIN_RATIO = 0.5;
-my $MAX_RATIO = 2.0;
+# my $MIN_RATIO = 0.5; why are we constraining the size to no be too much smaller ?
+my $MIN_RATIO = 0.33;
+# my $MAX_RATIO = 2.0;
+my $MAX_RATIO = 3.0;
 
 my $BACKOFF = 0;
 my $PROBNEW = 0.999;
