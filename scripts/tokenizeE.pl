@@ -58,7 +58,7 @@ while(<INP>){
 #    s/^\s*//;
 #    s/\s*$//;
 
-    tr/ / /;  # remove character 160 - non breaking space
+    tr/Â / /;  # remove character 160 - non breaking space
     tr/\t/ /; # Replace all tabs with space
     s/(http:\/\/[^ \)\(]*[^\.\,\: \(\)\[\]])/<url>$1<\/url>/g;
     s/(<[^>]+\@[^>]+>[^\.\,\: \(\)\[\]])/<url>$1<\/url>/g;
@@ -222,12 +222,12 @@ sub Edelimit_tokens(){
     s/([^ \|])(\|+)/$1 $2/g;
     s/([^ \=])(\=+)/$1 $2/g;
     s/([^ \`])(\`+)/$1 $2/g;
-    s/([^ \²])(\²+)/$1 $2/g;
-    s/([^ \³])(\³+)/$1 $2/g;
-    s/([^ \«])(\«+)/$1 $2/g;
-    s/([^ \»])(\»+)/$1 $2/g;
-    s/([^ \¢])(\¢+)/$1 $2/g;
-    s/([^ \°])(\°+)/$1 $2/g;
+    s/([^ \Â²])(\Â²+)/$1 $2/g;
+    s/([^ \Â³])(\Â³+)/$1 $2/g;
+    s/([^ \Â«])(\Â«+)/$1 $2/g;
+    s/([^ \Â»])(\Â»+)/$1 $2/g;
+    s/([^ \Â¢])(\Â¢+)/$1 $2/g;
+    s/([^ \Â°])(\Â°+)/$1 $2/g;
 
 # put space after any other punctuation and special symbols sequences
     s/(\!+)([^ \!])/$1 $2/g;
@@ -260,12 +260,12 @@ sub Edelimit_tokens(){
     s/(\`+)([^ \`])/$1 $2/g;
 # s/(\'+)([^ \'])/$1 $2/g;      # do not insert space after forward tic
 
-    s/(\²+)([^ \²])/$1 $2/g;
-    s/(\³+)([^ \³])/$1 $2/g;
-    s/(\«+)([^ \«])/$1 $2/g;
-    s/(\»+)([^ \»])/$1 $2/g;
-    s/(\¢+)([^ \¢])/$1 $2/g;
-    s/(\°+)([^ \°])/$1 $2/g;
+    s/(\Â²+)([^ \Â²])/$1 $2/g;
+    s/(\Â³+)([^ \Â³])/$1 $2/g;
+    s/(\Â«+)([^ \Â«])/$1 $2/g;
+    s/(\Â»+)([^ \Â»])/$1 $2/g;
+    s/(\Â¢+)([^ \Â¢])/$1 $2/g;
+    s/(\Â°+)([^ \Â°])/$1 $2/g;
 
 # separate alphabetical tokens
 #    s/([a-zA-Z]+)/ $1 /g;
@@ -317,7 +317,7 @@ sub Emerge_abbr(){
     s/\s+sess\s+\./ sess./g;
     s/\s+seq\s+\./ seq./g;
     s/\s+sec\s+\./ sec./g;
-    s/\s+rév\s+\./ rév./g;
+    s/\s+rÃ©v\s+\./ rÃ©v./g;
     s/\s+rev\s+\./ rev./g;
     s/\s+repl\s+\./ repl./g;
     s/\s+rep\s+\./ rep./g;
@@ -328,7 +328,7 @@ sub Emerge_abbr(){
     s/\s+nom\s+\./ nom./g;
     s/\s+nil\s+\./ nil./g;
     s/\s+mr\s+\./ mr./g;
-    s/\s+lég\s+\./ lég./g;
+    s/\s+lÃ©g\s+\./ lÃ©g./g;
     s/\s+loc\s+\./ loc./g;
     s/\s+jur\s+\./ jur./g;
     s/\s+int\s+\./ int./g;
@@ -338,7 +338,7 @@ sub Emerge_abbr(){
     s/\s+ibid\s+\./ ibid./g;
     s/\s+hum\s+\./ hum./g;
     s/\s+hon\s+\./ hon./g;
-    s/\s+gén\s+\./ gén./g;
+    s/\s+gÃ©n\s+\./ gÃ©n./g;
     s/\s+etc\s+\./ etc./g;
     s/\s+esp\s+\./ esp./g;
     s/\s+eg\s+\./ eg./g;
@@ -405,7 +405,7 @@ sub Emerge_abbr(){
     s/\s+Rep\s+\./ Rep./g;
     s/\s+Reg\s+\./ Reg./g;
     s/\s+Ref\s+\./ Ref./g;
-    s/\s+Qué\s+\./ Qué./g;
+    s/\s+QuÃ©\s+\./ QuÃ©./g;
     s/\s+Que\s+\./ Que./g;
     s/\s+Pub\s+\./ Pub./g;
     s/\s+Phil\s+\./ Phil./g;
