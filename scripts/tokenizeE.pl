@@ -49,6 +49,11 @@ $ctrl_m=chr(13);
 while(<INP>){
     chomp();
 
+    # 5dh => 5 dh
+    s/\b(\d+)dh\b/$1 dh/g;
+    # 30min => 30 min
+    s/\b(\d+)min\b/$1 minutes/g; # minutes instead of min because min is confusing
+
     s/^([^ ])/ $1/;
     s/([^ ])$/$1 /;
 #    s/\xe2\x80\x9c/\"/g;
