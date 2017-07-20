@@ -102,10 +102,10 @@ while (defined(my $line=<STDIN>)) {
     # print STDERR "size array cn: ", scalar @cn, "\n";
     # print STDERR "cn first item size: ", scalar @{ $cn[0] }, "\n";  # returns 72 ?!
     # print STDERR "cn first first item: ", $cn[0][0], "\n";
-    for(my $i = 0; $i < scalar @{ $cn[0] }; $i++) {
-        print STDERR $cn[0][$i], "\n";
-    }
-    print STDERR "------ \n";
+    # for(my $i = 0; $i < scalar @{ $cn[0] }; $i++) {
+    #    print STDERR $cn[0][$i], "\n";
+    # }
+    # print STDERR "------ \n";
     # at this point, we have all arabic variations possible (included the wierd ones : eg : taa marbouta in middle of word) for the entry arabizi word
     # TODO : drop the wierd variations
 
@@ -230,8 +230,20 @@ sub arabizi_msa_candidates {
                         $last_state_id++;
                         $state_current_position{$last_state_id} = $right + 1;
 
+                        # insert the arabic letter msa_string into the array in the hash state_output
+                        # MC200717 but only if the previous char is compatible
+                        my $currArabicChar = $msa_string;
+                        my @tmpArray = @{ $state_output{$state_id} };
+                        my $prevArabicChar = $tmpArray[-1];
+                        # print STDERR $currArabicChar, ".", $prevArabicChar, "\n";
+                        if (&IsCompatibleWithPrevious($currArabicChar, $prevArabicChar)) {
+                            # print STDERR $currArabicChar, ".", $prevArabicChar, " = OK\n";
+                            # print STDERR $currArabicChar, ".", $prevArabicChar, " = KO\n";
+                        
                         @{ $state_output{$last_state_id} } = @{ $state_output{$state_id} };
                         push(@{ $state_output{$last_state_id} }, $msa_string);
+
+                        #
                         @{ $state_derivation{$last_state_id} } = @{ $state_derivation{$state_id} };
                         push(@{ $state_derivation{$last_state_id} }, "$match_string :: $msa_string");
 
@@ -239,6 +251,7 @@ sub arabizi_msa_candidates {
                             push(@completed_states, $last_state_id);
                         } else {
                             push(@active_states, $last_state_id);
+                        }
                         }                       
                     # }
                 }
@@ -246,14 +259,32 @@ sub arabizi_msa_candidates {
         }
     }
 
+    # print STDERR "scalar state output $ : ", scalar($state_output), "\n";
+    # print STDERR "scalar state output % : ", scalar(%state_output), "\n";
+    # print STDERR "scalar state output % 2 : ", scalar %state_output, "\n";
+    # print STDERR "scalar keys % state output : ", scalar keys %state_output, "\n";
+    # print STDERR "scalar @ completed_states : ", scalar(@completed_states), "\n";
+
+    # DBG : show content of the hash %state_output
+=pod
+    my $y = 0;
+    foreach my $key (keys %state_output) {
+        print STDERR $y, " : ";
+        $y++;
+        print STDERR $key, "\t";
+        print STDERR scalar(@{ $state_output{$key} }), "\t";
+        print STDERR join(".", @{ $state_output{$key} }),"\n";
+    }
+=cut
+
     #
     my %completed_strings;
-    for(my $i = 0; $i <@completed_states; $i++) {
+    for(my $i = 0; $i < @completed_states; $i++) {
         my $string = join(' ', @{ $state_output{$completed_states[$i]} });
         # print STDERR $string, " => ";
         $string =~ s/ +//g;         # remove spaces
         $string =~ s/\_DROP\_//g;   # remove any _DROP_
-        # print STDERR $string, "\n";
+        print STDERR $string, "\n";
         my $derivation = join('|',@{ $state_derivation{$completed_states[$i]} });
         # print STDERR $derivation, "\n";
         push( @{ $completed_strings{$string} }, $derivation);
@@ -275,6 +306,18 @@ sub arabizi_msa_candidates {
     }
 
     return 1;
+}
+
+sub IsCompatibleWithPrevious {
+    my($currArabicChar, $prevArabicChar) = @_;
+
+    if ($prevArabicChar eq 'ى') {
+        return 0;
+    } elsif ($prevArabicChar eq 'ة') {
+        return 0;
+    } else {         
+        return 1;
+    }
 }
 
 sub preprocess {
@@ -377,5 +420,6 @@ sub get_viterbi {
     return join(' ',@max_derivation_yield);
 
 }
+
 
 
