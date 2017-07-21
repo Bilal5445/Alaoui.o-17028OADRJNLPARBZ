@@ -418,7 +418,6 @@ sub get_viterbi {
     #get rid off '<s>':
     shift(@max_derivation_yield);
     return join(' ',@max_derivation_yield);
-
 }
 
 
