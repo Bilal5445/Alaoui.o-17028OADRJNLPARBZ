@@ -68,13 +68,28 @@ if [ $ADD_WORD_PAIRS == 1 ]; then
 fi
 
 if [ 1 == 1 ]; then
-    echo "# call SRILM disambig"
-    echo "$DISAMBIG -keep-unk -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc -lm $ARABIC_LM -order $LMORDER | sed -r 's/^<s> //;s/ <\/s>$//' > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF"
-    $DISAMBIG -keep-unk \
-        -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc \
-        -lm $ARABIC_LM -order $LMORDER \
-        | sed -r 's/^<s> //;s/ <\/s>$//' \
-    > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF
+
+    # check if 0.999 in $TEST.3.lc.az-ar.lex$WSUFF
+    if grep -q "0.99" $TEST.3.lc.az-ar.lex$WSUFF; then
+        echo "0.999 using no lm"
+        #
+        echo "# call SRILM disambig"
+        echo "$DISAMBIG -keep-unk -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc | sed -r 's/^<s> //;s/ <\/s>$//' > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF"
+        $DISAMBIG -keep-unk \
+            -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc \
+            | sed -r 's/^<s> //;s/ <\/s>$//' \
+        > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF
+    else
+        echo "no 0.999 using lm"
+        #
+        echo "# call SRILM disambig"
+        echo "$DISAMBIG -keep-unk -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc -lm $ARABIC_LM -order $LMORDER | sed -r 's/^<s> //;s/ <\/s>$//' > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF"
+        $DISAMBIG -keep-unk \
+            -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc \
+            -lm $ARABIC_LM -order $LMORDER \
+            | sed -r 's/^<s> //;s/ <\/s>$//' \
+        > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF
+    fi
 
     echo "# post-processing for special characters, smileys etc."
     $POSTPROCESS < $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF > $TEST.6.arabizi.ENTOK.lc.disambig$WSUFF.pp
