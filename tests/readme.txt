@@ -11,3 +11,6 @@ srilm-1.7.2/bin/cygwin64/disambig.exe -keep-unk -map  example/small-example.3.lc
 - cat corpus/170426_extended_dict.txt | perl scripts/create-dictionary.pl > models/moroccan-arabic-dict
 
 // info : dict & lm are not committed to versioning (because file too big: +7Meg & +49Meg). Do not forget to regenerate them with above commands if new pull to a new dev machine
+
+// find variants : generated into example out.variants.txt
+./RUN_transl_transcm.sh motolat
