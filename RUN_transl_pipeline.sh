@@ -71,18 +71,18 @@ if [ 1 == 1 ]; then
 
     # check if 0.999 in $TEST.3.lc.az-ar.lex$WSUFF
     if grep -q "0.99" $TEST.3.lc.az-ar.lex$WSUFF; then
-        echo "0.999 using no lm"
+        echo "we have a 0.999 in bi-dict, so not using lm"
         #
-        echo "# call SRILM disambig"
+        echo "# call SRILM disambig without LM"
         echo "$DISAMBIG -keep-unk -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc | sed -r 's/^<s> //;s/ <\/s>$//' > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF"
         $DISAMBIG -keep-unk \
             -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc \
             | sed -r 's/^<s> //;s/ <\/s>$//' \
         > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF
     else
-        echo "no 0.999 using lm"
+        echo "we have no 0.999 in bi-dict, so using lm"
         #
-        echo "# call SRILM disambig"
+        echo "# call SRILM disambig with LM"
         echo "$DISAMBIG -keep-unk -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc -lm $ARABIC_LM -order $LMORDER | sed -r 's/^<s> //;s/ <\/s>$//' > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF"
         $DISAMBIG -keep-unk \
             -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc \

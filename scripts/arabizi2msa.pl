@@ -60,7 +60,6 @@ my $nbl = 0;
 while (defined(my $line=<STDIN>)) {
     $nbl++;
     if ($nbl % 50 == 0) { print STDERR "line $nbl..."; };
-    # print STDERR "line $line \n";
     
     # remove ending \n and any whitespaces inside (space, cr, lf, ...) 
     chomp($line);
@@ -77,8 +76,6 @@ while (defined(my $line=<STDIN>)) {
     #
     my %msa_substrings = ();
     my @tokens = split(/ SEP /o, $line);
-    # print STDERR "line: ", $line, "\n";
-    # print STDERR "tokens: ", $tokens[0], "\n";
 
     #
     my $length = @tokens;
@@ -96,25 +93,15 @@ while (defined(my $line=<STDIN>)) {
     for(my $i = 0; $i < @tokens; $i++) {
         # eg : $tokens[$i] = s m e 3 t i
         &arabizi_msa_candidates($tokens[$i], \%arabizi_map, \@{ $cn[$i] }, \%msa_substrings);
-        # print STDERR "size hash msa_substrings: ", scalar keys %msa_substrings, "\n";
     }
-    # print STDERR "size hash msa_substrings: ", scalar keys %msa_substrings, "\n";
-    # print STDERR "size array cn: ", scalar @cn, "\n";
-    # print STDERR "cn first item size: ", scalar @{ $cn[0] }, "\n";  # returns 72 ?!
-    # print STDERR "cn first first item: ", $cn[0][0], "\n";
-    # for(my $i = 0; $i < scalar @{ $cn[0] }; $i++) {
-    #    print STDERR $cn[0][$i], "\n";
-    # }
-    # print STDERR "------ \n";
-    # at this point, we have all arabic variations possible (included the wierd ones : eg : taa marbouta in middle of word) for the entry arabizi word
-    # TODO : drop the wierd variations
 
     # create confusion network (CN) containing transliterated words that are in the Arabic vocabulary, otherwise the Arabizi word itself
     # vocab = models/arabic-dict
     my @cn_lm = ();
-    for(my $i=0; $i<@tokens; $i++) {
-        for(my $j=0; $j<@{ $cn[$i] }; $j++) {
-            my($msa_token, $derivations) = split(/\t/,$cn[$i][$j]);
+    for (my $i = 0; $i < @tokens; $i++) {
+        for (my $j = 0; $j < @{ $cn[$i] }; $j++) {
+            my($msa_token, $derivations) = split(/\t/, $cn[$i][$j]);
+            print STDERR $msa_token, "\n";
             if(exists($vocab{$msa_token})) {
                 push(@{ $cn_lm[$i] }, $msa_token);                
             }
@@ -198,10 +185,6 @@ sub arabizi_msa_candidates {
 
     my $nbStep = 0;
     while (@active_states > 0) {
-        #$nbStep++;
-        #print STDERR "nbStep:$nbStep.. ";
-        #if($nbStep%100==0) { print STDERR "nbStep:$nbStep.. "; }
-        #print STDERR "nbActStates: ", scalar(@active_states), "\n";
         
         my $state_id = shift(@active_states);
         my $current_position = $state_current_position{$state_id};
@@ -212,33 +195,24 @@ sub arabizi_msa_candidates {
         for (my $right = $current_position; $right < $length && $right - $current_position < $match_length; $right++) {
 
             my $match_string = join(' ', @arabizi_tokens[$current_position..$right]);
-            # print STDERR "string to match : ", $match_string, "\n";
             if (exists($$arabizi_map{$match_string})) {
-                # print STDERR "------------ ('$match_string') \n";
-                # print STDERR "MATCH! '$match_string' in ptable", "\n";
-                # print STDERR $match_string;
                 foreach my $msa_string (sort (keys %{ $$arabizi_map{$match_string} })) {
                     my $string = $output_prefix . $msa_string;
-                    # print STDERR "msa string : $msa_string for $match_string ==> ";
-                    # print STDERR "MATCH LOOP: ", $string, "\n";
                     $string =~ s/ +//g;         # remove spaces
                     $string =~ s/\_DROP\_//g;   # remove any _DROP_
                     #$string=~s/\_BOW\_//g;
                     #$string=~s/\_EOW\_//g;
 
-                    # if (1 || exists($$msa_substrings{$string})) {
-                        $last_state_id++;
-                        $state_current_position{$last_state_id} = $right + 1;
+                    $last_state_id++;
+                    $state_current_position{$last_state_id} = $right + 1;
 
-                        # insert the arabic letter msa_string into the array in the hash state_output
-                        # MC200717 but only if the previous char is compatible
-                        # MC250717 also for 'o', should not be 'haa' only if final
-                        my $currArabicChar = $msa_string;
-                        my @tmpArray = @{ $state_output{$state_id} };
-                        my $prevArabicChar = $tmpArray[-1];
-                        if (&IsCompatibleWithPrevious($right, $length, $match_string, $currArabicChar, $prevArabicChar)) {
-                            # print STDERR $currArabicChar, ".", $prevArabicChar, " = OK\n";
-                            # print STDERR $currArabicChar, ".", $prevArabicChar, " = KO\n";
+                    # insert the arabic letter msa_string into the array in the hash state_output
+                    # MC200717 but only if the previous char is compatible
+                    # MC250717 also for 'o', should not be 'haa' only if final
+                    my $currArabicChar = $msa_string;
+                    my @tmpArray = @{ $state_output{$state_id} };
+                    my $prevArabicChar = $tmpArray[-1];
+                    if (&IsCompatibleWithPrevious($right, $length, $match_string, $currArabicChar, $prevArabicChar)) {
                         
                         @{ $state_output{$last_state_id} } = @{ $state_output{$state_id} };
                         push(@{ $state_output{$last_state_id} }, $msa_string);
@@ -252,21 +226,14 @@ sub arabizi_msa_candidates {
                         } else {
                             push(@active_states, $last_state_id);
                         }
-                        }                       
-                    # }
+                    }                       
                 }
             }
         }
     }
 
-    # print STDERR "scalar state output $ : ", scalar($state_output), "\n";
-    # print STDERR "scalar state output % : ", scalar(%state_output), "\n";
-    # print STDERR "scalar state output % 2 : ", scalar %state_output, "\n";
-    # print STDERR "scalar keys % state output : ", scalar keys %state_output, "\n";
-    # print STDERR "scalar @ completed_states : ", scalar(@completed_states), "\n";
-
-    # DBG : show content of the hash %state_output
 =pod
+    # DBG : show content of the hash %state_output
     my $y = 0;
     foreach my $key (keys %state_output) {
         print STDERR $y, " : ";
@@ -281,25 +248,18 @@ sub arabizi_msa_candidates {
     my %completed_strings;
     for(my $i = 0; $i < @completed_states; $i++) {
         my $string = join(' ', @{ $state_output{$completed_states[$i]} });
-        # print STDERR $string, " => ";
         $string =~ s/ +//g;         # remove spaces
         $string =~ s/\_DROP\_//g;   # remove any _DROP_
-        print STDERR $string, "\n";
+        # print STDERR $string, "\n";
         my $derivation = join('|',@{ $state_derivation{$completed_states[$i]} });
-        # print STDERR $derivation, "\n";
         push( @{ $completed_strings{$string} }, $derivation);
     }
     
     foreach my $string (keys %completed_strings) {
         my $derivations = join(' ||| ', @{ $completed_strings{$string} });
         push(@$cn, "$string\t$derivations"); # string contains recomposed arabic string (eg: يانعآل one of the possible variations for 'yan3al')
-        # print STDERR "$string\t$derivations", "\n";
-        # print STDERR "$derivations", "\n";
-        # print STDERR "$string", "\n";
         
-        # print STDERR "-----------", "\n";
         my $arabizi_string = join('', @arabizi_tokens);
-        # print STDERR "$arabizi_string", "\n";
         if($arabizi_string =~ /^[0-9]+$/) {
             push(@$cn,"$arabizi_string\tNIL");
         }
