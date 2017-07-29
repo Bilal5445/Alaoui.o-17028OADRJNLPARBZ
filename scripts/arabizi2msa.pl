@@ -232,11 +232,11 @@ sub arabizi_msa_candidates {
 
                         # insert the arabic letter msa_string into the array in the hash state_output
                         # MC200717 but only if the previous char is compatible
+                        # MC250717 also for 'o', should not be 'haa' only if final
                         my $currArabicChar = $msa_string;
                         my @tmpArray = @{ $state_output{$state_id} };
                         my $prevArabicChar = $tmpArray[-1];
-                        # print STDERR $currArabicChar, ".", $prevArabicChar, "\n";
-                        if (&IsCompatibleWithPrevious($currArabicChar, $prevArabicChar)) {
+                        if (&IsCompatibleWithPrevious($right, $length, $match_string, $currArabicChar, $prevArabicChar)) {
                             # print STDERR $currArabicChar, ".", $prevArabicChar, " = OK\n";
                             # print STDERR $currArabicChar, ".", $prevArabicChar, " = KO\n";
                         
@@ -309,12 +309,34 @@ sub arabizi_msa_candidates {
 }
 
 sub IsCompatibleWithPrevious {
-    my($currArabicChar, $prevArabicChar) = @_;
+    my($right, $length, $match_string, $currArabicChar, $prevArabicChar) = @_;
 
+    # MC250717 also for 'o', should not be 'haa' only if final
+    if ($match_string eq 'o' and $currArabicChar eq 'ه' and $right < ($length -1) ) {
+        # print STDERR "for letter $match_string, the pos is $right : $currArabicChar : $prevArabicChar", "\n";
+        return 0;
+    }
+    # same for 'e' to 'haa'
+    if ($match_string eq 'e' and $currArabicChar eq 'ه' and $right < ($length -1) ) {
+        # print STDERR "for letter $match_string, the pos is $right : $currArabicChar : $prevArabicChar", "\n";
+        return 0;
+    }
+
+    # remove impossible combo
     if ($prevArabicChar eq 'ى') {
         return 0;
     } elsif ($prevArabicChar eq 'ة') {
         return 0;
+    } elsif ($prevArabicChar eq 'ا' and $currArabicChar eq 'ا') {
+        return 0;
+    } elsif ($prevArabicChar eq 'ي' and $currArabicChar eq 'ي') {
+        return 0;
+    } elsif ($prevArabicChar eq 'إ' and $currArabicChar eq 'إ') {
+        return 0;
+    } elsif ($prevArabicChar eq 'إ' and $currArabicChar eq 'ا') {
+        return 0;
+    } elsif ($currArabicChar eq 'إ' and $prevArabicChar ne '') {
+        return 0;               
     } else {         
         return 1;
     }

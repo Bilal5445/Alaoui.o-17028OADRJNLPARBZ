@@ -260,6 +260,16 @@ sub IsCompatibleWithPrevious {
         return 0;
     } elsif ($prevArabicChar eq 'ة') {
         return 0;
+    } elsif ($prevArabicChar eq 'ا' and $currArabicChar eq 'ا') {
+        return 0;
+    } elsif ($prevArabicChar eq 'ي' and $currArabicChar eq 'ي') {
+        return 0;
+    } elsif ($prevArabicChar eq 'إ' and $currArabicChar eq 'إ') {
+        return 0;
+    } elsif ($prevArabicChar eq 'إ' and $currArabicChar eq 'ا') {
+        return 0;
+    } elsif ($currArabicChar eq 'إ' and $prevArabicChar ne '') {
+        return 0;       
     } else {         
         return 1;
     }
