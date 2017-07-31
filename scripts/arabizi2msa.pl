@@ -287,6 +287,10 @@ sub IsCompatibleWithPrevious {
         return 0;
     } elsif ($prevArabicChar eq 'ة') {
         return 0;
+    } elsif ($prevArabicChar eq 'س' and $currArabicChar eq 'س') {
+        return 0;        
+    } elsif ($prevArabicChar eq 'ص' and $currArabicChar eq 'ص') {
+        return 0;                
     } elsif ($prevArabicChar eq 'ا' and $currArabicChar eq 'ا') {
         return 0;
     } elsif ($prevArabicChar eq 'ي' and $currArabicChar eq 'ي') {
