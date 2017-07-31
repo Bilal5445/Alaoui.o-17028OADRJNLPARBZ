@@ -70,7 +70,8 @@ fi
 if [ 1 == 1 ]; then
 
     # check if 0.999 in $TEST.3.lc.az-ar.lex$WSUFF
-    if grep -q "0.99" $TEST.3.lc.az-ar.lex$WSUFF; then
+    if [ 1 == 0 ]; then
+    # if grep -q "0.99" $TEST.3.lc.az-ar.lex$WSUFF; then
         echo "we have a 0.999 in bi-dict, so not using lm"
         #
         echo "# call SRILM disambig without LM"
