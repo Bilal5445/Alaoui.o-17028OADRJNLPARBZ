@@ -53,6 +53,8 @@ while(<INP>){
     s/\b(\d+)dh\b/$1 dh/g;
     # 30min => 30 min
     s/\b(\d+)min\b/$1 minutes/g; # minutes instead of min because min is confusing
+    # 5go => 5 go
+    s/\b(\d+)go\b/$1 go/g;
 
     s/^([^ ])/ $1/;
     s/([^ ])$/$1 /;
