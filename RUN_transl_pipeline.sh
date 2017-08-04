@@ -81,13 +81,14 @@ if [ 1 == 1 ]; then
             | sed -r 's/^<s> //;s/ <\/s>$//' \
         > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF
     else
-        echo "we have no 0.999 in bi-dict, so using lm"
+        # echo "we have no 0.999 in bi-dict, so using lm"
         #
         echo "# call SRILM disambig with LM"
         echo "$DISAMBIG -keep-unk -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc -lm $ARABIC_LM -order $LMORDER | sed -r 's/^<s> //;s/ <\/s>$//' > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF"
         $DISAMBIG -keep-unk \
             -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc \
             -lm $ARABIC_LM -order $LMORDER \
+            -mapw 100 \
             | sed -r 's/^<s> //;s/ <\/s>$//' \
         > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF
     fi
