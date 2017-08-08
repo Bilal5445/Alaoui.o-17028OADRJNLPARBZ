@@ -305,6 +305,8 @@ sub IsCompatibleWithPrevious {
         return 0;
     } elsif ($prevArabicChar eq 'ا' and $currArabicChar eq 'ا') {
         return 0;
+    } elsif ($prevArabicChar eq '_DROP_' and $currArabicChar eq '_DROP_') {
+        return 0;        
     } elsif ($prevArabicChar eq 'ي' and $currArabicChar eq 'ي') {
         return 0;
     } elsif ($prevArabicChar eq 'إ' and $currArabicChar eq 'إ') {

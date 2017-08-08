@@ -8,4 +8,4 @@ TRANSCM=$BASEDIR/scripts/arabizi2msavariants.pl
 ARABIC_DICT=$BASEDIR/models/moroccan-arabic-dict
 
 #
-perl $TRANSCM --use-lm=no $ARABIC_DICT <<< sali7a
+perl $TRANSCM --use-lm=no $ARABIC_DICT <<< sala7ia
