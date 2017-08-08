@@ -54,9 +54,9 @@ while(<INP>){
     # 30min => 30 min
     s/\b(\d+)min\b/$1 minutes/ig; # minutes instead of min because min is confusing
     # 5go => 5 go
-    s/\b(\d+)go\b/$1 go/ig;
-    s/\b(\d+)mo\b/$1 mo/ig;
-    s/\b(\d+)ko\b/$1 ko/ig;
+    s/\b(\d+)go\b/$1 giga/ig;
+    s/\b(\d+)mo\b/$1 mega/ig;
+    s/\b(\d+)ko\b/$1 kilo/ig;
 
     s/^([^ ])/ $1/;
     s/([^ ])$/$1 /;
