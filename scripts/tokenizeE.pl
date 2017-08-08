@@ -50,11 +50,13 @@ while(<INP>){
     chomp();
 
     # 5dh => 5 dh
-    s/\b(\d+)dh\b/$1 dh/g;
+    s/\b(\d+)dh\b/$1 dh/ig; # i = insensitive, g = global (all matches)
     # 30min => 30 min
-    s/\b(\d+)min\b/$1 minutes/g; # minutes instead of min because min is confusing
+    s/\b(\d+)min\b/$1 minutes/ig; # minutes instead of min because min is confusing
     # 5go => 5 go
-    s/\b(\d+)go\b/$1 go/g;
+    s/\b(\d+)go\b/$1 go/ig;
+    s/\b(\d+)mo\b/$1 mo/ig;
+    s/\b(\d+)ko\b/$1 ko/ig;
 
     s/^([^ ])/ $1/;
     s/([^ ])$/$1 /;
