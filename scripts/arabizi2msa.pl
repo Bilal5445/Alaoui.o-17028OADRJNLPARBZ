@@ -291,6 +291,8 @@ sub IsCompatibleWithPrevious {
         return 0;
     } elsif ($prevArabicChar eq 'ط' and $currArabicChar eq 'ط') {
         return 0;
+    } elsif ($prevArabicChar eq 'ط' and $currArabicChar eq 'ص') {
+        return 0;
     } elsif ($prevArabicChar eq 'س' and $currArabicChar eq 'س') {
         return 0;
     } elsif ($prevArabicChar eq 'ص' and $currArabicChar eq 'ص') {
