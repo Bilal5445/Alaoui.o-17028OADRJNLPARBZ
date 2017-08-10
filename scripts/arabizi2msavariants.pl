@@ -257,6 +257,8 @@ sub IsCompatibleWithPrevious {
         return 0;
     } elsif ($prevArabicChar eq 'ئ' and $currArabicChar eq 'و') {
         return 0;
+    } elsif ($prevArabicChar eq 'و' and $currArabicChar eq 'و') {
+        return 0;
     } elsif ($currArabicChar eq 'إ' and $prevArabicChar ne '') {
         return 0;       
     } else {         
