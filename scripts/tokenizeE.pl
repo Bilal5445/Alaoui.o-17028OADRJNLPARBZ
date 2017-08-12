@@ -53,6 +53,8 @@ while(<INP>){
     s/\b(\d+)dh\b/$1 dh/ig; # i = insensitive, g = global (all matches)
     # 30min => 30 min
     s/\b(\d+)min\b/$1 minutes/ig; # minutes instead of min because min is confusing
+    s/\b(\d+)mn\b/$1 minutes/ig; # minutes instead of min because min is confusing
+    s/\b(\d+)s\b/$1 secondes/ig; # minutes instead of min because min is confusing
     # 5go => 5 go
     s/\b(\d+)go\b/$1 giga/ig;
     s/\b(\d+)mo\b/$1 mega/ig;
