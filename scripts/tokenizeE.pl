@@ -51,7 +51,9 @@ while(<INP>){
 
     # 5dh => 5 dh
     s/\b(\d+)dh\b/$1 dh/ig; # i = insensitive, g = global (all matches)
+    s/\b(\d+)dhs\b/$1 dhs/ig; # i = insensitive, g = global (all matches)
     # 30min => 30 min
+    s/\b(\d+)h\b/$1 heures/ig; # minutes instead of min because min is confusing
     s/\b(\d+)min\b/$1 minutes/ig; # minutes instead of min because min is confusing
     s/\b(\d+)mn\b/$1 minutes/ig; # minutes instead of min because min is confusing
     s/\b(\d+)s\b/$1 secondes/ig; # minutes instead of min because min is confusing
@@ -59,6 +61,9 @@ while(<INP>){
     s/\b(\d+)go\b/$1 giga/ig;
     s/\b(\d+)mo\b/$1 mega/ig;
     s/\b(\d+)ko\b/$1 kilo/ig;
+    # 15jour => 15 jour 
+    s/\b(\d+)jour\b/$1 jour/ig;
+    s/\b(\d+)j\b/$1 jour/ig;
 
     s/^([^ ])/ $1/;
     s/([^ ])$/$1 /;
