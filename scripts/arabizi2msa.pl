@@ -5,7 +5,7 @@ use strict;
 my $use_lm_str = $ARGV[0];
 my $vocab_file = $ARGV[1];
 
-my $MAX_WORD_LENGTH = 12;
+my $MAX_WORD_LENGTH = 17;
 my $match_length=2;
 
 my $print_derivation=0;
@@ -347,7 +347,7 @@ sub preprocess {
 
     $string=~s/ SEP e l SEP / SEP e l /g;
     $string=~s/^e l SEP /e l /g;
-    $string=~s/ e n n / e l n /g;
+    # $string=~s/ e n n / e l n /g;
 
     return $string;
 }
