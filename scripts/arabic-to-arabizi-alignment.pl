@@ -18,9 +18,11 @@ $0 --arabizi=FILE --arabic=FILE > arabizi-arabic-word-pairs
 ";
 
 # my $MIN_RATIO = 0.5; why are we constraining the size to no be too much smaller ?
-my $MIN_RATIO = 0.33;
+# my $MIN_RATIO = 0.33;
+my $MIN_RATIO = 0.20;
 # my $MAX_RATIO = 2.0;
-my $MAX_RATIO = 3.0;
+# my $MAX_RATIO = 3.0;
+my $MAX_RATIO = 5.0;
 
 my $BACKOFF = 0;
 my $PROBNEW = 0.999;
@@ -169,7 +171,7 @@ while (my $line = <MAP>) {
     s/ /-/g for @fields_new;
 
     # DBG
-    print STDERR "fields_new size : " . scalar(@fields_new) . "\n";
+    print STDERR "\nfields_new size : " . scalar(@fields_new) . "\n";
     foreach $a (@fields_new){
         print STDERR "value of a: $a\n";
     }
