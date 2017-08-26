@@ -64,6 +64,8 @@ while(<INP>){
     # 15jour => 15 jour 
     s/\b(\d+)jour\b/$1 jour/ig;
     s/\b(\d+)j\b/$1 jour/ig;
+    # zone1 => zone 1
+    s/\bzone(\d+)\b/zone $1/ig;
 
     s/^([^ ])/ $1/;
     s/([^ ])$/$1 /;
