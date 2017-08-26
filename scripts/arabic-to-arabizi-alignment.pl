@@ -165,12 +165,16 @@ while (my $line = <MAP>) {
         }
     }
     
-    # replacing spaces by - so disambig keep sentences togther (will be fixed downastread at postprocessing)
+    # replacing spaces by - so disambig can keep sentences together (will be fixed downstreamed at postprocessing)
     s/ /-/g for @fields_new;
+
+    # DBG
     print STDERR "fields_new size : " . scalar(@fields_new) . "\n";
     foreach $a (@fields_new){
         print STDERR "value of a: $a\n";
     }
+
+    #
     print $AZ_word, "\t", join(" ", @fields_new), "\n";
 }
 
