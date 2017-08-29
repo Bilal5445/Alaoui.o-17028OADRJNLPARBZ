@@ -61,9 +61,11 @@ while(<INP>){
     s/\b(\d+)go\b/$1 giga/ig;
     s/\b(\d+)mo\b/$1 mega/ig;
     s/\b(\d+)ko\b/$1 kilo/ig;
+    s/\b(\d+)mg\b/$1 mg/ig;
     # 15jour => 15 jour 
     s/\b(\d+)jour\b/$1 jour/ig;
     s/\b(\d+)j\b/$1 jour/ig;
+    s/\b(\d+)jours\b/$1 jours/ig;
     # zone1 => zone 1
     s/\bzone(\d+)\b/zone $1/ig;
 
@@ -87,7 +89,6 @@ while(<INP>){
     # use this to deal with urls in general?
     s/ (([A-Za-z0-9\-]+\s*\.)+?(com|edu|net|org|ac\.uk|org\.uk|co\.uk|ae|af|ar|at|au|az|be|bg|br|ca|ch|cl|cz|de|dk|eg|es|fi|fr|ge|gr|hk|hr|ie|il|in|ir|is|it|jo|jp|kg|kr|kw|kz|lk|lu|lv|mg|mn|mt|mx|my|nl|no|nz|ph|pk|qa|ro|ru|sa|se|sg|si|sk|sn|so|su|th|tj|tm|tn|tr|tw|ua|ug|uk|za)) /<url>$1<\/url>/g;
 
-
 #    s/([^ \(\)\@]+\.com)/<url>$1<\/url>/g;
 
     #for image and file names:
@@ -102,7 +103,6 @@ while(<INP>){
     &Estem_contractions();
     &Emerge_abbr();
     &postTokenize();
-
 
 #    print STDERR $_, "\n";
 
