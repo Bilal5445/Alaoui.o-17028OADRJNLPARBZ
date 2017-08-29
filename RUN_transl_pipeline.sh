@@ -1,11 +1,5 @@
 # The following paths have to be specified:
 TEST=example/small-example # Set this to the filename to transliterate (the input to the pipeline will be $TEST.arabizi)
-# TEST=example/test_01_tkharbiq
-# TEST=example/ex_g
-# TEST=example/ex_fbalstek
-# TEST=example/ex_nchallah
-# TEST=example/ex_bezzaf
-# TEST=example/ex_cridi
 BASEDIR=.
 ARABIC_LM=lm/moroccan_arabic_corpus_01.lm
 DISAMBIG=srilm-1.7.2/bin/cygwin64/disambig.exe
@@ -27,7 +21,6 @@ TRANSCM=$BASEDIR/scripts/arabizi2msa.pl
 POSTPROCESS=$BASEDIR/scripts/arabizi-transliteration-postprocessing.pl
 
 # models and data
-# ARABIC_DICT=$BASEDIR/models/arabic-dict
 ARABIC_DICT=$BASEDIR/models/moroccan-arabic-dict
 LMORDER=3
 
@@ -69,29 +62,15 @@ fi
 
 if [ 1 == 1 ]; then
 
-    # check if 0.999 in $TEST.3.lc.az-ar.lex$WSUFF
-    if [ 1 == 0 ]; then
-    # if grep -q "0.99" $TEST.3.lc.az-ar.lex$WSUFF; then
-        echo "we have a 0.999 in bi-dict, so not using lm"
-        #
-        echo "# call SRILM disambig without LM"
-        echo "$DISAMBIG -keep-unk -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc | sed -r 's/^<s> //;s/ <\/s>$//' > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF"
-        $DISAMBIG -keep-unk \
-            -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc \
-            | sed -r 's/^<s> //;s/ <\/s>$//' \
-        > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF
-    else
-        # echo "we have no 0.999 in bi-dict, so using lm"
-        #
-        echo "# call SRILM disambig with LM"
-        echo "$DISAMBIG -keep-unk -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc -lm $ARABIC_LM -order $LMORDER | sed -r 's/^<s> //;s/ <\/s>$//' > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF"
-        $DISAMBIG -keep-unk \
-            -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc \
-            -lm $ARABIC_LM -order $LMORDER \
-            -mapw 100 \
-            | sed -r 's/^<s> //;s/ <\/s>$//' \
-        > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF
-    fi
+    #
+    echo "# call SRILM disambig with LM"
+    echo "$DISAMBIG -keep-unk -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc -lm $ARABIC_LM -order $LMORDER | sed -r 's/^<s> //;s/ <\/s>$//' > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF"
+    $DISAMBIG -keep-unk \
+        -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc \
+        -lm $ARABIC_LM -order $LMORDER \
+        -mapw 100 \
+        | sed -r 's/^<s> //;s/ <\/s>$//' \
+    > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF
 
     echo "# post-processing for special characters, smileys etc."
     $POSTPROCESS < $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF > $TEST.6.arabizi.ENTOK.lc.disambig$WSUFF.pp
