@@ -282,10 +282,11 @@ sub IsCompatibleWithPrevious {
         return 0;
     }
     # MC260817 'i' can be 'alef' only if initial
-    if ($match_string eq 'i' and $currArabicChar eq 'ا' and $right > 0 ) {
+    # MC290817 'i' can also be 'alef' if not initial but after 'alef-lam'
+    if ($match_string eq 'i' and $currArabicChar eq 'ا' and $right > 0 and $prevArabicChar ne 'ل') {
         return 0;
     }
-    if ($match_string eq 'i' and $currArabicChar eq 'إ' and $right > 0 ) {
+    if ($match_string eq 'i' and $currArabicChar eq 'إ' and $right > 0 and $prevArabicChar ne 'ل') {
         return 0;
     }
 
