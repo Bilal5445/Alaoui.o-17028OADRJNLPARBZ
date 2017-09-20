@@ -1,6 +1,6 @@
 inwi	BRAND
 orange	BRAND
-اتصالات المغرب	BRAND
+سلطان	BRAND
 IAM	BRAND
 3g	TECHNOLOGY
 4g	TECHNOLOGY
@@ -11,3 +11,4 @@ ultra	GROUP OF PEOPLE
 شهر	TEMPORAL:TIME
 مبروك	POSITIVE
 بصحتكم	POSITIVE
+تافراوت	LOCATION
