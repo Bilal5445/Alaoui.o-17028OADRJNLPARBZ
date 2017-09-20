@@ -6,6 +6,7 @@ srilm-1.7.2/bin/cygwin64/disambig.exe -keep-unk -map  example/small-example.3.lc
 // generate a language model (LM)
 - srilm-1.7.2/bin/cygwin64/ngram-count -text corpus/170328_clean_numbers_and_non-arabic_words_morocco_corpus.txt -order 3 -lm lm/moroccan_arabic_corpus_01.lm
 - srilm-1.7.2/bin/cygwin64/ngram-count -text corpus/170426_extended_dict.txt -order 3 -lm lm/moroccan_arabic_corpus_01.lm
+- srilm-1.7.2/bin/cygwin64/ngram-count -text corpus/170426_extended_dict.txt -order 3 -lm lm/moroccan_arabic_corpus_01.lm -write-binary-lm
 
 // generate a new arabic-dict (of words) from corpus (of sentences) each time we add new sentences to the corpus
 - cat corpus/170426_extended_dict.txt | perl scripts/create-dictionary.pl > models/moroccan-arabic-dict
