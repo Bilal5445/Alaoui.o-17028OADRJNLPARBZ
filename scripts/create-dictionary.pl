@@ -41,7 +41,7 @@ while (my $line = <STDIN>) {
     chomp $line;
     
 	$nbSnt++;
-    if($nbSnt%5000 == 0) { print STDERR "processed lines: $nbSnt\n"; }
+    if($nbSnt%100000 == 0) { print STDERR "processed lines: $nbSnt\n"; }
 
     foreach my $token (split('\s+', $line)) {
         $DICT{$token}++;
