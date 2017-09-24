@@ -12,3 +12,5 @@ ultra	GROUP OF PEOPLE
 مبروك	POSITIVE
 بصحتكم	POSITIVE
 تافراوت	LOCATION
+tom	PERSON
+jerry	PERSON
