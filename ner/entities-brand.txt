@@ -14,3 +14,7 @@ ultra	GROUP OF PEOPLE
 تافراوت	LOCATION
 tom	PERSON
 jerry	PERSON
+Renault	CAR BRAND
+Dacia	CAR BRAND
+logan	CAR MODEL
+diesel	CAR FUEL
