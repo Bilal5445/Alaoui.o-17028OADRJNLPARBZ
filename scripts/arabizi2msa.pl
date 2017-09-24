@@ -91,6 +91,7 @@ while (defined(my $line=<STDIN>)) {
     # for that purpose, we use only the models/ptable (mapper between arabizi letter and arabic letter)
     # models\arabic-dict is used in further steps
     for(my $i = 0; $i < @tokens; $i++) {
+        
         # eg : $tokens[$i] = s m e 3 t i
         &arabizi_msa_candidates($tokens[$i], \%arabizi_map, \@{ $cn[$i] }, \%msa_substrings);
     }
@@ -149,6 +150,11 @@ sub arabizi_msa_candidates {
 
     my @arabizi_tokens = split(/ +/, $arabizi_tokens_string);
     
+    # ignore if numeric (ex: "28") ie : containing numeral or comma or period
+    if ( $arabizi_tokens_string =~ /^[0-9, .]+$/ ) {
+        return 1;
+    }
+
     # check length of word
     if (scalar(@arabizi_tokens) > $MAX_WORD_LENGTH) {
         print STDERR "long word: $arabizi_tokens_string\n";
