@@ -172,9 +172,10 @@ sub arabizi_msa_candidates {
     my $length = @arabizi_tokens;
 
     # special treatment of "an" at the end of word
-    if($arabizi_tokens[$length-2] eq 'a' && $arabizi_tokens[$length-1] eq 'n') {
-        $arabizi_tokens[$length-1] = 'nEOW';
-    }
+    # MC092417 Comment this code and let ptable & lm decide
+    #if($arabizi_tokens[$length-2] eq 'a' && $arabizi_tokens[$length-1] eq 'n') {
+    #    $arabizi_tokens[$length-1] = 'nEOW';
+    #}
 
     my %state_current_position = ();
     my %state_output = ();
