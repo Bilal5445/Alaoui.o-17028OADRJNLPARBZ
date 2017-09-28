@@ -228,6 +228,14 @@ sub IsCompatibleWithPrevious {
         return 0;
     }
 
+    # MC280917 'i' cannot be 'alef' if isolated : ex : 'la hokoma i sarha'
+    if ($match_string eq 'i' and $currArabicChar eq 'ا' and $length = 1) {
+        return 0;
+    }
+    if ($match_string eq 'i' and $currArabicChar eq 'إ' and $length = 1) {
+        return 0;
+    }
+
     # MC250717 also for 'o', should not be 'haa' only if final
     if ($match_string eq 'o' and $currArabicChar eq 'ه' and $right < ($length -1) ) {
         # print STDERR "for letter $match_string, the pos is $right : $currArabicChar : $prevArabicChar", "\n";
