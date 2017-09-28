@@ -278,6 +278,14 @@ sub arabizi_msa_candidates {
 sub IsCompatibleWithPrevious {
     my($right, $length, $match_string, $currArabicChar, $prevArabicChar) = @_;
 
+    # MC280917 'i' cannot be 'waw' if in the middle
+    # MC280917 'i' cannot be 'waw' if in the end
+    # MC280917 'i' can be 'waw' if in the beginning : ex 'ikabri lablado' => 'wa kabri lablado'
+    # MC280917 'i' can be 'waw' if isolated : ex : 'la hokoma i sarha'
+    if ($match_string eq 'i' and $currArabicChar eq 'و' and $right > 0) {
+        return 0;
+    }
+
     # MC250717 also for 'o', should not be 'haa' only if final
     if ($match_string eq 'o' and $currArabicChar eq 'ه' and $right < ($length -1) ) {
         # print STDERR "for letter $match_string, the pos is $right : $currArabicChar : $prevArabicChar", "\n";
