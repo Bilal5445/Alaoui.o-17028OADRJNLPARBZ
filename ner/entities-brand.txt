@@ -19,9 +19,11 @@ tom	PERSON
 jerry	PERSON
 قذافي	PERSON
 القذافي	PERSON
+بنكيران	PERSON
 Renault	CAR BRAND
 Dacia	CAR BRAND
 logan	CAR MODEL
 diesel	CAR FUEL
 الله ينصرك	POSITIVE
 الله ياخد فيهم الحق	NEGATIVE
+ما صالح شي	NEGATIVE
