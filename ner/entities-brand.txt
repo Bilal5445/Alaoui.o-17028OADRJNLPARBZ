@@ -8,11 +8,7 @@ adsl	TECHNOLOGY
 HD	TECHNOLOGY
 ultra	GROUP OF PEOPLE
 الرجاء	SOCCER CLUB
-مشكل	NEGATIVE
 شهر	TEMPORAL:TIME
-مبروك	POSITIVE
-بصحتكم	POSITIVE
-زوين	POSITIVE
 تافراوت	LOCATION
 المغرب	LOCATION
 tom	PERSON
@@ -24,6 +20,26 @@ Renault	CAR BRAND
 Dacia	CAR BRAND
 logan	CAR MODEL
 diesel	CAR FUEL
+مبروك	POSITIVE
+بصحتكم	POSITIVE
+زوين	POSITIVE
 الله ينصرك	POSITIVE
+مشكل	NEGATIVE
 الله ياخد فيهم الحق	NEGATIVE
 ما صالح شي	NEGATIVE
+الخونة	NEGATIVE
+المجرمين	NEGATIVE
+تتستحمرو	NEGATIVE
+شوهتنا	NEGATIVE
+سير تقود	NEGATIVE
+لحاس الكابة	NEGATIVE
+شفار	NEGATIVE
+بغينا	WE DESIRE
+صحة	CONCEPT
+دراسة	CONCEPT
+المواطن	CONCEPT
+ديماغوجية	CONCEPT
+شعب	CONCEPT
+غلاء الأسعار	CONCEPT
+الفتنة	CONCEPT
+الحكومة	ORGANIZATION
