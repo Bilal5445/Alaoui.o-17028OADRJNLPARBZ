@@ -229,12 +229,17 @@ sub IsCompatibleWithPrevious {
     }
 
     # MC280917 'i' cannot be 'alef' if isolated : ex : 'la hokoma i sarha'
-    if ($match_string eq 'i' and $currArabicChar eq 'ا' and $length = 1) {
-        return 0;
-    }
-    if ($match_string eq 'i' and $currArabicChar eq 'إ' and $length = 1) {
-        return 0;
-    }
+    #if ($match_string eq 'i' and $currArabicChar eq 'ا' and $length = 1) {
+    #    return 0;
+    #}
+    #if ($match_string eq 'i' and $currArabicChar eq 'إ' and $length = 1) {
+    #    print STDERR "right : ", $right, "\n";
+    #    print STDERR "length : ", $length, "\n";
+    #    print STDERR "match_string : ", $match_string, "\n";
+    #    print STDERR "currArabicChar : ", $currArabicChar, "\n";
+    #    print STDERR "prevArabicChar : ", $prevArabicChar, "\n";
+    #    return 0;
+    #}
 
     # MC250717 also for 'o', should not be 'haa' only if final
     if ($match_string eq 'o' and $currArabicChar eq 'ه' and $right < ($length -1) ) {
