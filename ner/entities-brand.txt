@@ -11,6 +11,7 @@ ultra	GROUP OF PEOPLE
 شهر	TEMPORAL:TIME
 تافراوت	LOCATION
 المغرب	LOCATION
+إفريقيا	LOCATION
 tom	PERSON
 jerry	PERSON
 قذافي	PERSON
@@ -34,7 +35,7 @@ diesel	CAR FUEL
 سير تقود	NEGATIVE
 لحاس الكابة	NEGATIVE
 شفار	NEGATIVE
-بغينا	WE DESIRE
+بغينا	DESIRE
 صحة	CONCEPT
 دراسة	CONCEPT
 المواطن	CONCEPT
