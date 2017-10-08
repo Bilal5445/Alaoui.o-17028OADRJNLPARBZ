@@ -595,6 +595,8 @@ sub postTokenize{
 
     # Separate the last period
     s/\.\s*$/ \./g;
+    # separate if a period is just before the word
+    s/\.(.+)\b/\. $1/g;
 
     # Convert 3 or more of -, _, =, +, #, or * with two of the same symbol
     s/\-{3,}/\-\-/g;
