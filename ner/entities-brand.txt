@@ -195,6 +195,8 @@ jerry	PERSON
 قذافي	PERSON
 القذافي	PERSON
 بنكيران	PERSON
+يعقوب	PERSON
+مروان	PERSON
 Renault	CAR BRAND
 Dacia	CAR BRAND
 logan	CAR MODEL
@@ -213,6 +215,8 @@ diesel	CAR FUEL
 سير تقود	NEGATIVE
 لحاس الكابة	NEGATIVE
 شفار	NEGATIVE
+راه بزاف	NEGATIVE
+عندك صح	SUPPORT
 بغينا	DESIRE
 صحة	CONCEPT
 دراسة	CONCEPT
@@ -221,5 +225,8 @@ diesel	CAR FUEL
 شعب	CONCEPT
 غلاء الأسعار	CONCEPT
 الفتنة	CONCEPT
+بنات	CONCEPT
+بنت	CONCEPT
+رجل	CONCEPT
 الحكومة	ORGANIZATION
 ههههه	LOL
