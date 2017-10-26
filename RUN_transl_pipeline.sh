@@ -9,7 +9,8 @@ WPAIRS_DATA_FILE_ARABIZI=arabizi-arabic-bitext/arabizi-arabic-bitext.arz
 WPAIRS_DATA_FILE_ARABIC=arabizi-arabic-bitext/arabizi-arabic-bitext.ar
 #####
 
-ADD_WORD_PAIRS=1   # Set this to 1 to add transliterated word pairs, otherwise 0
+# ADD_WORD_PAIRS=1   # Set this to 1 to add transliterated word pairs, otherwise 0
+ADD_WORD_PAIRS=0
 NB_CORES=1         # If processing a large file, increase this to parallelize tokenization step
 
 # scripts and binaries
