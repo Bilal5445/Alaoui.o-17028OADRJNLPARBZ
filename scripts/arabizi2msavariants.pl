@@ -2,6 +2,8 @@
 
 use strict;
 
+use Data::Dumper;
+
 my $MAX_WORD_LENGTH = 17;
 my $match_length=2;
 
@@ -52,6 +54,8 @@ while (defined(my $line=<STDIN>)) {
     if($pre_process) {
         $line = &preprocess($line);
     }
+    # $line = "n _VOW_ d";
+    # print STDERR "$line\n"; die;
 
     #
     my %msa_substrings = ();
@@ -82,7 +86,7 @@ while (defined(my $line=<STDIN>)) {
     for (my $i = 0; $i < @tokens; $i++) {
         for (my $j = 0; $j < @{ $cn[$i] }; $j++) {
             my($msa_token, $derivations) = split(/\t/, $cn[$i][$j]);
-            print STDERR $msa_token, "\n";
+            print STDERR $msa_token, "\n";  # this prints out the variants
         }
     }
 }
@@ -119,31 +123,31 @@ sub arabizi_msa_candidates {
     #    $arabizi_tokens[$length-1] = 'nEOW';
     #}
 
-    my %state_current_position = ();
-    my %state_output = ();
-    my @active_states = ();
-    push(@active_states, 0);
+    # empty hashes and arrays to work with
+    my %state_current_position = (); $state_current_position{0} = 0;
+    my %state_output = (); @{ $state_output{0} } = ();
+    my @active_states = (); push(@active_states, 0);
     my @completed_states = ();
+    my %state_derivation = (); @{ $state_derivation{0} } = ();
 
+    # vars
     my $last_state_id = 0;
-    $state_current_position{0} = 0;
-    @{ $state_output{0} } = ();
-
-    my %state_derivation = ();
-    @{ $state_derivation{0} } = ();
-
     my $nbStep = 0;
+
+    # while array active_states not empty
     while (@active_states > 0) {
         
         my $state_id = shift(@active_states);
         my $current_position = $state_current_position{$state_id};
-
         my $output_prefix = join('', @{ $state_output{$state_id} });
 
         #
-        for (my $right = $current_position; $right < $length && $right - $current_position < $match_length; $right++) {
+        for (my $right = $current_position; 
+            $right < $length && $right - $current_position < $match_length; 
+            $right++) {
 
             my $match_string = join(' ', @arabizi_tokens[$current_position..$right]);
+
             if (exists($$arabizi_map{$match_string})) {
                 foreach my $msa_string (sort (keys %{ $$arabizi_map{$match_string} })) {
                     my $string = $output_prefix . $msa_string;
@@ -165,33 +169,23 @@ sub arabizi_msa_candidates {
                         
                         @{ $state_output{$last_state_id} } = @{ $state_output{$state_id} };
                         push(@{ $state_output{$last_state_id} }, $msa_string);
+                        # print Dumper(\%state_output); return 1;
 
                         #
                         @{ $state_derivation{$last_state_id} } = @{ $state_derivation{$state_id} };
                         push(@{ $state_derivation{$last_state_id} }, "$match_string :: $msa_string");
+                        # print Dumper(\%state_derivation); # return 1;
 
                         if ($right + 1 == $length) {
                             push(@completed_states, $last_state_id);
                         } else {
                             push(@active_states, $last_state_id);
                         }
-                    }                       
+                    }
                 }
             }
         }
     }
-
-=pod
-    # DBG : show content of the hash %state_output
-    my $y = 0;
-    foreach my $key (keys %state_output) {
-        print STDERR $y, " : ";
-        $y++;
-        print STDERR $key, "\t";
-        print STDERR scalar(@{ $state_output{$key} }), "\t";
-        print STDERR join(".", @{ $state_output{$key} }),"\n";
-    }
-=cut
 
     #
     my %completed_strings;
@@ -199,7 +193,6 @@ sub arabizi_msa_candidates {
         my $string = join(' ', @{ $state_output{$completed_states[$i]} });
         $string =~ s/ +//g;         # remove spaces
         $string =~ s/\_DROP\_//g;   # remove any _DROP_
-        # print STDERR $string, "\n";
         my $derivation = join('|',@{ $state_derivation{$completed_states[$i]} });
         push( @{ $completed_strings{$string} }, $derivation);
     }
@@ -318,6 +311,7 @@ sub preprocess {
     $string=~s/(.)\1{2,}/$1$1/g;
     #if($str_bck ne $string) {  print STDERR "STR: $str_bck \t => $string \n"; }
     
+    # pass through SEP (spaces)
     $string=~s/ +/SEP/g;
     my @chars=split(//,$string);
     $string=join(' ',@chars);
@@ -326,6 +320,17 @@ sub preprocess {
     $string=~s/ SEP e l SEP / SEP e l /g;
     $string=~s/^e l SEP /e l /g;
     # $string=~s/ e n n / e l n /g;
+
+    # pass through _VOW_ (vowels)
+    # print STDERR  "string : $string\n"; die;
+    $string=~s/_ v o w _/_VOW_/g;
+    # $string=~s/\_/\\\_/g;
+    # $string=~s/\_/\_/g;
+    # $string=~s/([^ \_])(\_+)/$1 $2/g;
+    # $string=~s/([^ \_])(\_{2,})/$1 $2/g;
+    # $string=~s/(\_{2,})([^ \_])/$1 $2/g;
+    # $string=~s/\_{3,}/\_\_/g;
+    # print STDERR  "string : $string\n"; die;
 
     return $string;
 }

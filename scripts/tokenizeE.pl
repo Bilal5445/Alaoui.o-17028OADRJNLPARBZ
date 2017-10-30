@@ -118,11 +118,11 @@ while(<INP>){
 	$url=~s/\?/\\\?/g;
 	$url=~s/\&/\\\&/g;
 	$url=~s/\%/\\\%/g;
-	$url=~s/\_/\\\_/g;
+	# $url=~s/\_/\\\_/g;  # this one disturb passing though of _VOW_
 	$url=~s/\[/\\\[/g;
 	$url=~s/\]/\\\]/g;
-        $url=~s/\+/\\\+/g;
-        $url=~s/\@/\\\@/g;
+    $url=~s/\+/\\\+/g;
+    $url=~s/\@/\\\@/g;
  	$url=~s/\./\\\./g;
  	$url=~s/\*/\\\*/g;
 	$url_no_space=~s/ +//g;
@@ -234,7 +234,7 @@ sub Edelimit_tokens(){
     s/([^ \}])(\}+)/$1 $2/g;
     s/([^ \>])(\>+)/$1 $2/g;
     s/([^ \<])(\<+)/$1 $2/g;
-    s/([^ \_])(\_+)/$1 $2/g;
+    # s/([^ \_])(\_+)/$1 $2/g;  # this one disturb passing though of _VOW_
     s/([^ \_])(\_{2,})/$1 $2/g;
     s/([^ \\])(\\+)/$1 $2/g;
     s/([^ \|])(\|+)/$1 $2/g;

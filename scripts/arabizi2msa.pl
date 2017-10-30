@@ -371,6 +371,7 @@ sub preprocess {
     $string=~s/(.)\1{2,}/$1$1/g;
     #if($str_bck ne $string) {  print STDERR "STR: $str_bck \t => $string \n"; }
     
+    # pass through SEP (spaces)
     $string=~s/ +/SEP/g;
     my @chars=split(//,$string);
     $string=join(' ',@chars);
@@ -379,6 +380,11 @@ sub preprocess {
     $string=~s/ SEP e l SEP / SEP e l /g;
     $string=~s/^e l SEP /e l /g;
     # $string=~s/ e n n / e l n /g;
+
+    # pass through _VOW_ (vowels)
+    # print STDERR  "string : $string\n"; die;
+    $string=~s/_ v o w _/_VOW_/g;
+    # print STDERR  "string : $string\n"; die;
 
     return $string;
 }
