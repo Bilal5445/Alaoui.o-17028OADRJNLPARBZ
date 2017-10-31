@@ -203,12 +203,14 @@ jerry	PERSON
 بنكيران	PERSON
 يعقوب	PERSON
 مروان	PERSON
+روعة	PERSON
 Renault	CAR BRAND
 Dacia	CAR BRAND
 logan	CAR MODEL
 diesel	CAR FUEL
 مبروك	POSITIVE
 بصحتكم	POSITIVE
+بالصحة	POSITIVE
 زوين	POSITIVE
 الله ينصرك	POSITIVE
 مشكل	NEGATIVE
@@ -222,7 +224,10 @@ diesel	CAR FUEL
 لحاس الكابة	NEGATIVE
 شفار	NEGATIVE
 راه بزاف	NEGATIVE
+احمق	NEGATIVE
+مصيبة كحلة	NEGATIVE
 عندك صح	SUPPORT
+بالسيف	IMPOSE
 بغينا	DESIRE
 صحة	CONCEPT
 دراسة	CONCEPT
@@ -234,5 +239,7 @@ diesel	CAR FUEL
 بنات	CONCEPT
 بنت	CONCEPT
 رجل	CONCEPT
+تربية	CONCEPT
 الحكومة	ORGANIZATION
+دولة	ORGANIZATION
 ههههه	LOL
