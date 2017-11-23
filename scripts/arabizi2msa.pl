@@ -18,7 +18,6 @@ my $use_lm=0;
 my $OISTERHOME=$ENV{'OISTERHOME'};
 
 my $arabizi_pt_file='models/ptable'; # e.g. constructed from LDC2013E125
-# my $srilm_lm='path/to/3gram/arabic/lm';
 my $srilm_lm='lm/moroccan_arabic_corpus_01.lm';
 
 my %parameters;
@@ -48,11 +47,14 @@ while(defined(my $line=<F>)) {
 close(F);
 
 # models/arabic-dict
+# this version take ~ +1.5 seconds to fill the hash from file with ~ 564000
 my %vocab;
+keys %vocab = 600000;   # slight improvement of ~100ms
 open(F,"<$vocab_file") || die("can't open vocab_file file $vocab_file: $!\n");
 while(defined(my $line=<F>)) {
     chomp($line);
-    $vocab{$line}=1;
+    # $vocab{$line}=1;
+    undef $vocab{$line};
 }
 close(F);
 
@@ -96,15 +98,16 @@ while (defined(my $line=<STDIN>)) {
         &arabizi_msa_candidates($tokens[$i], \%arabizi_map, \@{ $cn[$i] }, \%msa_substrings);
     }
 
-    # create confusion network (CN) containing transliterated words that are in the Arabic vocabulary, otherwise the Arabizi word itself
-    # vocab = models/arabic-dict
+    # create confusion network (CN) containing transliterated words that are in the 
+    # Arabic vocabulary, otherwise the Arabizi word itself
+    # vocab = models/arabic-dict (list of words one on each line)
     my @cn_lm = ();
     for (my $i = 0; $i < @tokens; $i++) {
         for (my $j = 0; $j < @{ $cn[$i] }; $j++) {
             my($msa_token, $derivations) = split(/\t/, $cn[$i][$j]);
             print STDERR $msa_token, "\n";
             if(exists($vocab{$msa_token})) {
-                push(@{ $cn_lm[$i] }, $msa_token);                
+                push(@{ $cn_lm[$i] }, $msa_token);
             }
         }
         if(!defined($cn_lm[$i]) || @{ $cn_lm[$i] }==0) {
@@ -239,18 +242,6 @@ sub arabizi_msa_candidates {
         }
     }
 
-=pod
-    # DBG : show content of the hash %state_output
-    my $y = 0;
-    foreach my $key (keys %state_output) {
-        print STDERR $y, " : ";
-        $y++;
-        print STDERR $key, "\t";
-        print STDERR scalar(@{ $state_output{$key} }), "\t";
-        print STDERR join(".", @{ $state_output{$key} }),"\n";
-    }
-=cut
-
     #
     my %completed_strings;
     for(my $i = 0; $i < @completed_states; $i++) {
@@ -304,12 +295,18 @@ sub IsCompatibleWithPrevious {
         # print STDERR "for letter $match_string, the pos is $right : $currArabicChar : $prevArabicChar", "\n";
         return 0;
     }
-    # MC260817 'i' can be 'alef' only if initial
-    # MC290817 'i' can also be 'alef' if not initial but after 'alef-lam'
-    if ($match_string eq 'i' and $currArabicChar eq 'ا' and $right > 0 and $prevArabicChar ne 'ل') {
+    # MC260817 'i' (or 'e') can be 'alef' only if initial
+    # MC290817 'i' (or 'e') can also be 'alef' if not initial but after 'alef-lam'
+    if ($match_string eq 'i' and $currArabicChar eq 'ا' and $right > 0 and $prevArabicChar ne 'ل' and $prevArabicChar ne 'ف') {
         return 0;
     }
-    if ($match_string eq 'i' and $currArabicChar eq 'إ' and $right > 0 and $prevArabicChar ne 'ل') {
+    if ($match_string eq 'e' and $currArabicChar eq 'ا' and $right > 0 and $prevArabicChar ne 'ل' and $prevArabicChar ne 'ف') {
+        return 0;
+    }
+    if ($match_string eq 'i' and $currArabicChar eq 'إ' and $right > 0 and $prevArabicChar ne 'ل' and $prevArabicChar ne 'ف') {
+        return 0;
+    }
+    if ($match_string eq 'e' and $currArabicChar eq 'إ' and $right > 0 and $prevArabicChar ne 'ل' and $prevArabicChar ne 'ف') {
         return 0;
     }
 
@@ -371,6 +368,9 @@ sub preprocess {
     $string=~s/(.)\1{2,}/$1$1/g;
     #if($str_bck ne $string) {  print STDERR "STR: $str_bck \t => $string \n"; }
     
+    # replace 'é' by 'e' and other accented letter
+    $string =~ s/é/e/g;
+    
     # pass through SEP (spaces)
     $string=~s/ +/SEP/g;
     my @chars=split(//,$string);
@@ -406,14 +406,12 @@ sub score_lm_paths {
     for(my $i=0; $i<@$cn_lm; $i++) {
         &prune_stack(\@{ $stack->[$i] },\%state_score,$stack_limit);
         for(my $j=0; $j<@{ $stack->[$i] }; $j++) {
-#            print STDERR "IN stack->[$i][$j]\n";
 
             for(my $k=0; $k<@{ $cn_lm->[$i] }; $k++) {
                 my @words_right=( $cn_lm->[$i][$k] );
                 my $lm_prob=&lm_cost_between(\@{ $state_history{$stack->[$i][$j]} },\@words_right,$src_language_index,\%parameters,\%features,\%feature_name2id,0,\%dummy_hash,\@lm_srilm_ids,0);
                 my $left=join(' ',@{ $state_history{$stack->[$i][$j]} });
                 my $right=join(' ',@words_right);
-#                print STDERR "p($right\|$left)=$lm_prob\n";
                 $last_state_id++;
                 @{ $state_history{$last_state_id} }=@{ $state_history{$stack->[$i][$j]} };
                 push(@{ $state_history{$last_state_id} },$cn_lm->[$i][$k]);
@@ -426,7 +424,6 @@ sub score_lm_paths {
                 push(@{ $stack->[$i+1] },$last_state_id);
             }
         }
-
     }
 
     my $string=&get_viterbi($stack,\%state_score,\%state_back,\%state_output);
@@ -466,6 +463,3 @@ sub get_viterbi {
     shift(@max_derivation_yield);
     return join(' ',@max_derivation_yield);
 }
-
-
-

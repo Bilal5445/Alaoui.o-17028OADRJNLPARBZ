@@ -244,12 +244,19 @@ sub IsCompatibleWithPrevious {
         # print STDERR "for letter $match_string, the pos is $right : $currArabicChar : $prevArabicChar", "\n";
         return 0;
     }
-    # MC260817 'i' can be 'alef' only if initial
-    # MC290817 'i' can also be 'alef' if not initial but after 'alef-lam'
-    if ($match_string eq 'i' and $currArabicChar eq 'ا' and $right > 0 and $prevArabicChar ne 'ل') {
+    # MC260817 'i' (or 'e') can be 'alef' only if initial
+    # MC290817 'i' (or 'e') can also be 'alef' if not initial but after 'alef-lam'
+    # MC171117 also the case where we start with 'f' ex : 'felkhadma'
+    if ($match_string eq 'i' and $currArabicChar eq 'ا' and $right > 0 and $prevArabicChar ne 'ل' and $prevArabicChar ne 'ف') {
         return 0;
     }
-    if ($match_string eq 'i' and $currArabicChar eq 'إ' and $right > 0 and $prevArabicChar ne 'ل') {
+    if ($match_string eq 'e' and $currArabicChar eq 'ا' and $right > 0 and $prevArabicChar ne 'ل' and $prevArabicChar ne 'ف') {
+        return 0;
+    }
+    if ($match_string eq 'i' and $currArabicChar eq 'إ' and $right > 0 and $prevArabicChar ne 'ل' and $prevArabicChar ne 'ف') {
+        return 0;
+    }
+    if ($match_string eq 'e' and $currArabicChar eq 'إ' and $right > 0 and $prevArabicChar ne 'ل' and $prevArabicChar ne 'ف') {
         return 0;
     }
 
@@ -304,17 +311,21 @@ sub IsCompatibleWithPrevious {
 sub preprocess {
     my($string)=@_;
 
-    $string=lc($string);
+    # lowercase
+    $string = lc($string);
 
     # remove repeated sequences of the same character
     my $str_bck = $string;
     $string=~s/(.)\1{2,}/$1$1/g;
     #if($str_bck ne $string) {  print STDERR "STR: $str_bck \t => $string \n"; }
     
+    # replace 'é' by 'e' and other accented letter
+    $string =~ s/é/e/g;
+
     # pass through SEP (spaces)
-    $string=~s/ +/SEP/g;
-    my @chars=split(//,$string);
-    $string=join(' ',@chars);
+    $string =~ s/ +/SEP/g;
+    my @chars = split(//, $string);
+    $string = join(' ', @chars);
     $string=~s/S E P/SEP/g;
 
     $string=~s/ SEP e l SEP / SEP e l /g;
