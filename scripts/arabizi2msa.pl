@@ -295,6 +295,12 @@ sub IsCompatibleWithPrevious {
         # print STDERR "for letter $match_string, the pos is $right : $currArabicChar : $prevArabicChar", "\n";
         return 0;
     }
+
+    # MC331117 'a' can be '_DROP_' only if not final
+    if ($match_string eq 'a' and $currArabicChar eq '_DROP_' and $right = ($length -1) ) {
+        return 0;
+    }
+
     # MC260817 'i' (or 'e') can be 'alef' only if initial
     # MC290817 'i' (or 'e') can also be 'alef' if not initial but after 'alef-lam'
     if ($match_string eq 'i' and $currArabicChar eq 'ا' and $right > 0 and $prevArabicChar ne 'ل' and $prevArabicChar ne 'ف') {

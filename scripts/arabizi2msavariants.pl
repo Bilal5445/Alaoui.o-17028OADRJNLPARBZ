@@ -213,15 +213,15 @@ sub arabizi_msa_candidates {
 sub IsCompatibleWithPrevious {
     my($right, $length, $match_string, $currArabicChar, $prevArabicChar) = @_;
 
-    # MC280917 'i' cannot be 'waw' if in the middle
-    # MC280917 'i' cannot be 'waw' if in the end
-    # MC280917 'i' can be 'waw' if in the beginning : ex 'ikabri lablado' => 'wa kabri lablado'
-    # MC280917 'i' can be 'waw' if isolated : ex : 'la hokoma i sarha'
+    # MC280917 medial 'i' cannot be 'waw'
+    # MC280917 final 'i' cannot be 'waw'
+    # MC280917 beginning 'i' can be 'waw' : ex 'ikabri lablado' => 'wa kabri lablado'
+    # MC280917 isolated 'i' can be 'waw' : ex : 'la hokoma i sarha'
     if ($match_string eq 'i' and $currArabicChar eq 'و' and $right > 0) {
         return 0;
     }
 
-    # MC280917 'i' cannot be 'alef' if isolated : ex : 'la hokoma i sarha'
+    # MC280917 isolated 'i' cannot be 'alef' : ex : 'la hokoma i sarha'
     #if ($match_string eq 'i' and $currArabicChar eq 'ا' and $length = 1) {
     #    return 0;
     #}
@@ -244,6 +244,12 @@ sub IsCompatibleWithPrevious {
         # print STDERR "for letter $match_string, the pos is $right : $currArabicChar : $prevArabicChar", "\n";
         return 0;
     }
+
+    # MC331117 'a' can be '_DROP_' only if not final
+    if ($match_string eq 'a' and $currArabicChar eq '_DROP_' and $right = ($length -1) ) {
+        return 0;
+    }
+
     # MC260817 'i' (or 'e') can be 'alef' only if initial
     # MC290817 'i' (or 'e') can also be 'alef' if not initial but after 'alef-lam'
     # MC171117 also the case where we start with 'f' ex : 'felkhadma'
