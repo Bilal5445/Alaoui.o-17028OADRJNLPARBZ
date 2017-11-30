@@ -245,8 +245,9 @@ sub IsCompatibleWithPrevious {
         return 0;
     }
 
-    # MC331117 'a' can be '_DROP_' only if not final
-    if ($match_string eq 'a' and $currArabicChar eq '_DROP_' and $right = ($length -1) ) {
+    # MC301117 'a' can be '_DROP_' only if not final
+    if ($match_string eq 'a' and $currArabicChar eq '_DROP_' and $right == ($length -1) ) {
+        # print STDERR "for letter $match_string, the pos is $right : $currArabicChar : $prevArabicChar", "\n";
         return 0;
     }
 
