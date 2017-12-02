@@ -51,11 +51,7 @@ close(F);
 my %vocab;
 keys %vocab = 600000;   # slight improvement of ~100ms
 open(F,"<$vocab_file") || die("can't open vocab_file file $vocab_file: $!\n");
-while(defined(my $line=<F>)) {
-    chomp($line);
-    # $vocab{$line}=1;
-    undef $vocab{$line};
-}
+chomp, undef $vocab{$_} while <F>;
 close(F);
 
 my $nbl = 0;
