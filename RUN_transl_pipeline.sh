@@ -32,7 +32,7 @@ timestamp() {
 
 ######### PIPELINE STARTS HERE ############
 
-# Phase I : tokenize, lowercase, get mapping variants
+# Phase I : tokenize, lowercase, get mapping variants (and exlude variants not in dic)
 if [ 1 == 1 ]; then
     timestamp 
     echo "# tokenize and lowercase the Arabizi file" 
@@ -47,9 +47,8 @@ if [ 1 == 1 ]; then
     ( perl $TRANSCM --use-lm=no $ARABIC_DICT < $TEST.2.arabizi.ENTOK.lc.dict > $TEST.3.lc.az-ar.lex ) >& $TEST.4.lc.az-ar.lex.log
 fi
 
+# Phase II : disambig
 if [ 1 == 1 ]; then
-
-    #
     timestamp
     echo "# call SRILM disambig with LM"
     echo "$DISAMBIG -keep-unk -map $MAP $TEST.3.lc.az-ar.lex$WSUFF -text $TEST.1.arabizi.ENTOK.lc -lm $ARABIC_LM -order $LMORDER | sed -r 's/^<s> //;s/ <\/s>$//' > $TEST.5.arabizi.ENTOK.lc.disambig$WSUFF"
