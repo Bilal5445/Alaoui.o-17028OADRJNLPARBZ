@@ -2562,3 +2562,4 @@ khobziste	CONCEPT
 تافهة	NEGATIVE
 مشرملة	NEGATIVE
 زبل	NEGATIVE
+allez vous faire foutre	INTERJECTION	NEGATIVE
