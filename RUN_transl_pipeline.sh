@@ -1,5 +1,14 @@
+#!/bin/bash
+
 # The following paths have to be specified:
 TEST=example/small-example # Set this to the filename to transliterate (the input to the pipeline will be $TEST.arabizi)
+echo "start0 : $0"
+echo "start1 : $1"
+if [ $# != 0 ]; then
+    TEST=$1
+fi
+echo "TEST : $TEST"
+
 BASEDIR=.
 ARABIC_LM=lm/moroccan_arabic_corpus_01.lm
 DISAMBIG=srilm-1.7.2/bin/cygwin64/disambig.exe
