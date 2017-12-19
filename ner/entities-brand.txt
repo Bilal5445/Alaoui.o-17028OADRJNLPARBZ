@@ -333,7 +333,7 @@ ZARA	BRAND
 الحماق	NEGATIVE
 اخي	personne
 ادق	concept
-اذن	concept
+اذن	CONJUNCTION
 اروع	concept
 اسبانيا	lieu
 استقلال	concept
@@ -492,7 +492,7 @@ ZARA	BRAND
 العشران	personne
 العطاوية	LOCATION
 العطل	concept
-العمل	concept
+العمل	CONCEPT
 العملاء	personne
 العميل	personne
 العميل	personne
@@ -1073,25 +1073,8 @@ ZARA	BRAND
 ختك	personne
 ختكوم	personne
 ختى	personne
-ختي	personne
-ختي	personne
-ختي	personne
-ختي	personne
-ختي	personne
-ختي	personne
-ختي	personne
-خدام	concept
-خدام	concept
-خدام	concept
-خدامين	concept
-خدامين	concept
-خدمة	concept
-خدمة	concept
-خدمة	concept
-خدمة	concept
 خدمة	concept
 خدمتكم	concept
-خديت	concept
 خديت	concept
 خديتيهم	concept
 خديتيهم	concept
@@ -1101,7 +1084,6 @@ ZARA	BRAND
 خرجنا	concept
 خريبكة	LOCATION
 خصك	concept
-خضته	concept
 خضته	concept
 خط	personne
 خطك	concept
@@ -1585,7 +1567,6 @@ hitler	PERSON
 كاسا	lieu
 كاسا	lieu
 كاسكيطا	objet
-كان	personne
 كان كورت	LOCATION
 كايحشمنا	desir
 كاين	concept
@@ -2459,7 +2440,6 @@ hitler	PERSON
 رانج روفر	BRAND
 رايبان	BRAND
 ريد بول	BRAND
-رونو	BRAND
 رونو	BRAND
 ريشبوند	BRAND
 ريميل	BRAND
