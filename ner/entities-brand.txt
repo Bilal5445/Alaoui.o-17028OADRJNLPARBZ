@@ -31,8 +31,6 @@ BIMO	BRAND
 BLEDINA	BRAND
 BMCE	BRAND
 bmce	BRAND
-bmce	BRAND
-bmce	BRAND
 BMCI	BRAND
 BMW	BRAND
 BRANDT	BRAND
@@ -94,18 +92,12 @@ GAULOISE	BRAND
 GERVAIS	BRAND
 GOOD YEAR	BRAND
 hafiid	personne
-hafiid	personne
-hamza	personne
 hamza	personne
 HAVANA	BRAND
 HD	TECHNOLOGY
 HEINEKEN	BRAND
 HENRY'S	BRAND
 HIT RADIO	BRAND
-hit radio	BRAND
-hit radio	BRAND
-hit radio	BRAND
-hit radio	BRAND
 hit radio	BRAND
 HONDA	BRAND
 honda	BRAND
@@ -169,13 +161,11 @@ Mini cooper	BRAND
 MITSUBISHI	BRAND
 MOBILIA	BRAND
 momo	personne
-momo	personne
 moslima ana	personne
 mouhamed 6	personne
 MOULINEX	BRAND
 Mr.PROPRE	BRAND
 mt	BRAND
-naïma	personne
 naïma	personne
 ‏nàjlae	personne
 naymar	personne
@@ -187,8 +177,6 @@ NISSAN	BRAND
 norwigien	personne
 ntouma	personne
 OMO	BRAND
-orange	BRAND
-orange	BRAND
 orange	BRAND
 Orangina	BRAND
 OULMES	BRAND
@@ -202,13 +190,11 @@ PIZZA HUT	BRAND
 PORSCHE	BRAND
 PRESIDENT	BRAND
 president	personne
-president	personne
 pull and bear	BRAND
 rahimi	personne
 RAIBI JAMILA	BRAND
 RAID	BRAND
 RAM	BRAND
-ram	BRAND
 ram	BRAND
 rashīd imzīne	personne
 RAYBAN	BRAND
@@ -220,10 +206,8 @@ RICHBOND	BRAND
 RMA WATANYA	BRAND
 ROCA	BRAND
 roi	personne
-roi	personne
 SAMAR	BRAND
 SAMSUNG	BRAND
-samsung	BRAND
 samsung	BRAND
 SAN MIGUEL	BRAND
 SEAT	BRAND
@@ -251,7 +235,6 @@ TOYOTA	BRAND
 toyota	BRAND
 ultra	GROUP OF PEOPLE
 unwi	BRAND
-unwi	BRAND
 UPS	BRAND
 VISA	BRAND
 VOLKSWAGEN	BRAND
@@ -259,7 +242,6 @@ WANADOO	BRAND
 WESTERN UNION	BRAND
 WHIRLPOOL	BRAND
 WINSTON	BRAND
-wlbajda	personne
 wlbajda	personne
 youtoub	produit
 ZARA	BRAND
@@ -298,7 +280,6 @@ ZARA	BRAND
 إسلام	concept
 إسم	concept
 إغلاق الحدود	concept
-إغلاق الحدود	concept
 إفران	LOCATION
 إفريقيا	LOCATION
 إمزورن	LOCATION
@@ -308,22 +289,15 @@ ZARA	BRAND
 إيمنتانوت	LOCATION
 إيموزر كاندار	LOCATION
 ابراهيم	personne
-ابراهيم	personne
 ابص	produit
-ابن كيران	personne
-ابن كيران	personne
 ابن كيران	personne
 ابوضبي	Lieu
 ابوضبي	pays
 ابيك	personne
 اتاي	produit
 اتصالات	BRAND
-اتصالات	BRAND
-اتصالات	BRAND
 اتصالات المغرب	BRAND
 اتصالات المغرب	marques
-اتصالات المغرب	marques
-اتمنى	desire
 اتمنى	desire
 اجي	concept
 احببت	concept
@@ -354,9 +328,7 @@ ZARA	BRAND
 الاعب	personne
 الامن	concept
 الانسان	personne
-الانسان	personne
-البحر	lieu
-البرامج	produit
+البحر	CONCEPT
 البرامج	produit
 البركة	concept
 البرلمان	concept
@@ -365,7 +337,7 @@ ZARA	BRAND
 البس	concept
 البطولات	concept
 البغاة	desire
-البلاد	lieu
+البلاد	CONCEPT
 البلاستيك	objet
 البلاصة	lieu
 البنات	personne
@@ -385,14 +357,10 @@ ZARA	BRAND
 الجزائر	lieu
 الجزائريين	personne
 الجيش	personne
-الجيش	personne
 الحاجب	LOCATION
 الحانة	lieu
 الحبس	lieu
-الحبس	lieu
 الحبيب	personne
-الحجاب	concept
-الحجاب	concept
 الحجاب	concept
 الحجب	objet
 الحراويين	LOCATION
@@ -409,27 +377,19 @@ ZARA	BRAND
 الحكومة	personne
 الحكومة	lieu
 الحل	concept
-الحل	concept
-الحل	concept
 الحلال	concept
 الحمد لله	concept
-الحمد لله	concept
 الحمدالله	desir
-الحمدلله	desire
 الحمدلله	desire
 الحنشان	LOCATION
 الحيوان	concept
 الخبر	concept
 الخدمات	produit
-الخدمات	produit
 الخدمة	concept
 الخط	objet
 الخطة	concept
 الخطوط الجوية الفرنسية	BRAND
-الخطوط الجوية الفرنسية	BRAND
 الخطوط الملكي	BRAND
-الخليج	lieu
-الخليج	lieu
 الخليج	lieu
 الخميسات	LOCATION
 الخونة	NEGATIVE
@@ -437,11 +397,6 @@ ZARA	BRAND
 الداخلة	LOCATION
 الدار البيضاء	LOCATION
 الدار البيضاء	lieu
-الدار البيضاء	lieu
-الدار البيضاء	lieu
-الدار البيضاء	lieu
-الدار البيضاء	lieu
-الدارالبيضاء	lieu
 الدارالبيضاء	lieu
 الدريوش	LOCATION
 الرجاء	SOCCER CLUB
@@ -454,17 +409,11 @@ ZARA	BRAND
 الزمامرة	LOCATION
 السطوح	lieu
 السعودية	lieu
-السعودية	lieu
 السعيدية	LOCATION
 السكان	personne
-السلام	concept
-السلام عليكم	concept
 السمارة	LOCATION
 السودان	pays
-السودان	pays
 السودان	lieu
-السودان	lieu
-السويس	pays
 السويس	pays
 السويسري	lieu
 السيد	personne
@@ -481,7 +430,7 @@ ZARA	BRAND
 العاصمة	lieu
 العالم	pays
 العالمين	personne
-العثماني	personne
+العثماني	PERSON
 العذاب	concept
 العر دبية	personne
 العرائش	LOCATION
@@ -495,85 +444,64 @@ ZARA	BRAND
 العمل	CONCEPT
 العملاء	personne
 العميل	personne
-العميل	personne
-العميل	personne
 العومى	concept
 العيون	LOCATION
 العيون سيدي ملوك	LOCATION
 الغرب	lieu
-الغرب	lieu
 الغرب	personne
 الغنية	concept
-الغنية	concept
 الفادة	concept
-الفتنة	CONCEPT
+الفتنة	NEGATIVE
 الفتيات	personne
 الفن	concept
 الفنيدق	LOCATION
 الفوز	concept
 الفيديو	concept
-الفيديو	concept
 الفيس بوك	BRAND
 القادر اسهار	personne
-القانون	concept
 القانون	concept
 القحاب	NEGATIVE
 القحبة	NEGATIVE
 القدافي	personne
-القدافي	personne
-القدافي	personne
-القدافي	personne
-القدافي	personne
-القدم	objet
 القدم	objet
 القذافي	PERSON
 القرعة	objet
 القصيبة	LOCATION
 القنيطرة	LOCATION
 الكاميرا	objet
-الكاميرا	objet
 الكتروني	concept
 الكتكوت	personne
 الكذب	concept
 الكرة	objet
-الكرة	objet
-الكرة	objet
 الكلخ	NEGATIVE
-الكمبيوتر	produit
 الكمبيوتر	produit
 الكمبيوتر المحمول	produit
 الكونتر	concept
 اللاب	personne
 اللاعب	personne
-الله جعل	INTERJECTION	PRAYER
-الله حسن عوان	INTERJECTION	PRAYER
-الله حفضك	INTERJECTION	PRAYER
-الله حفضهم	INTERJECTION	PRAYER
-الله خلالك	INTERJECTION	PRAYER
-الله خلانا	INTERJECTION	PRAYER
-الله خلانا	INTERJECTION	PRAYER
-الله دنا فضو	INTERJECTION	PRAYER
-الله وحدين	INTERJECTION	PRAYER
-الله ياخد	INTERJECTION	PRAYER
+الله جعل	INTERJECTION
+الله حسن عوان	INTERJECTION
+الله حفضك	INTERJECTION
+الله حفضهم	INTERJECTION
+الله خلالك	INTERJECTION
+الله خلانا	INTERJECTION
+الله دنا فضو	INTERJECTION
+الله وحدين	INTERJECTION
+الله ياخد	INTERJECTION
 الله ياخد فيهم الحق	NEGATIVE
-الله يتهم	INTERJECTION	PRAYER
-الله يجازيك	INTERJECTION	PRAYER
-الله يحفض	INTERJECTION	PRAYER
-الله يحفضك	INTERJECTION	PRAYER
-الله يحفظ	INTERJECTION	PRAYER
-الله يحفظ	INTERJECTION	PRAYER
-الله يخليك	INTERJECTION	PRAYER
-الله يخود	INTERJECTION	PRAYER
-الله يرحم	INTERJECTION	PRAYER
-الله يرحم	INTERJECTION	PRAYER
-الله يرحم	INTERJECTION	PRAYER
-الله يسهل	INTERJECTION	PRAYER
-الله يعطه	INTERJECTION	PRAYER
-الله ينصرك	INTERJECTION	PRAYER	POSITIVE
-الله ينعل	INTERJECTION	PRAYER	NEGATIVE
+الله يتهم	INTERJECTION
+الله يجازيك	INTERJECTION
+الله يحفض	INTERJECTION
+الله يحفضك	INTERJECTION
+الله يحفظ	INTERJECTION
+الله يخليك	INTERJECTION
+الله يخود	INTERJECTION
+الله يرحم	INTERJECTION
+الله يسهل	INTERJECTION
+الله يعطه	INTERJECTION
+الله ينصرك	POSITIVE
+الله ينعل	INTERJECTION
 الماكلة	concept
-المالك	personne
-المالك	personne
 المالك	personne
 المباشرين	personne
 المبشرين	personne
@@ -583,68 +511,44 @@ ZARA	BRAND
 المجلة	produit
 المحمدية	LOCATION
 المحمول	produit
-المحمول	produit
 المدرسة	lieu
 المدن الكبرى	lieu
-المدن الكبرى	lieu
-المدينة	lieu
 المدينة	lieu
 المذاق	produit
 المرا	personne
 المراكشي	personne
 المرجو	concept
 المرسى	LOCATION
-المسابقة	concept
+المسابقة	CONCEPT
 المسجات	produit
 المشكل	concept
-المصلحة	concept
 المصلحة	concept
 المضيق	LOCATION
 المعاقين	personne
 المعلم	personne
-المعلومات	concept
 المغاربة	personne
-المغاربة	personne
-المغاربة	personne
-المغاربة	personne
-المغاربة	personne
-المغاربة	personne
-المغاربة	personne
-المغاربة	personne
-المغاربية	personne
 المغاربية	personne
 المغر	concept
 المغرب	LOCATION
 المغرب تلكم	BRAND
 المغرب تلكوم	BRAND
-المغرب تلكوم	BRAND
 المغرب تيليكوم	BRAND
-المغربي	personne
-المغربي	personne
-المغربي	personne
 المغربي	personne
 المغربيات	personne
 المغربية	personne
-المغربية	personne
-المغربية	personne
-المقرب	personne
 المقرب	personne
 المكالمات	produit
 المكلا	concept
 الملك	personne
-الملك	personne
-الملكي	personne
 الملكي	personne
 المليك	personne
 المملكة	concept
 المناطق الغربية	lieu
 المنتجة	produit
 المنخرطين	personne
-المنخرطين	personne
 المنزل	LOCATION
 المنصورية	LOCATION
 المنطقة	lieu
-المنعم	concept
 المنعم	concept
 المنيوم	objet
 المهدية	LOCATION
@@ -659,30 +563,19 @@ ZARA	BRAND
 النرويجية	BRAND
 النشط	concept
 النواصر	LOCATION
-الهاتف	produit
-الهاتف	objet
-الهاتف	objet
 الهدية	objet
 الهذرة	concept
 الهضرة	concept
-الهضرة	concept
-الهضرة	concept
-الوالدبن	personne
 الوالدبن	personne
 الوالدين	personne
 الوزرة	personne
 الوزير	personne
 الوطن	lieu
-الوطن	lieu
-الوطن	lieu
-الوطن	lieu
-الوطني	lieu
 الوطني	lieu
 الوقفات	concept
 الولد	personne
 اليوسفية	LOCATION
 امام	personne
-امراة	personne
 امراة	personne
 امسكرود	lieu
 امكم	personne
@@ -696,28 +589,18 @@ ZARA	BRAND
 انترنيت	produit
 انتم	PRONOUN
 انسان	personne
-انسان	personne
 انستا	BRAND
 انشاء الله	desire
 انشاء الله	desir
 انشاءالله	concept
 انشاءالله	desire
-انشاءالله	concept
-انشاءالله	concept
-انشاءالله	desire
-انشاءالله	desire
-انشاءالله	desire
 انشاءالله	desir
 اه سهل	desire
 اه يزيدك	desire
 اوروبا	pays
-اوروبا	pays
-اولاد	personne
 اولاد	personne
 ايطاليا	lieu
 بأبل	produit
-بابل	BRAND
-بابل	BRAND
 بابل	BRAND
 بابيل	BRAND
 باسر	concept
@@ -734,7 +617,6 @@ ZARA	BRAND
 باغين	desire
 بافين	concept
 باك	personne
-باك	personne
 بالجعد	LOCATION
 بالدي	pays
 بالسيف	IMPOSE
@@ -742,13 +624,10 @@ ZARA	BRAND
 بتولة	concept
 بحالاش	concept
 بدر	personne
-بدر	personne
 براهيم	personne
 برشيد	LOCATION
 بركان	LOCATION
 برلمان	concept
-برلمان	concept
-برنامج	produit
 برنامج	produit
 برهمان	personne
 بريت ندير	desir
@@ -766,12 +645,10 @@ ZARA	BRAND
 بغات	desire
 بغاو	desire
 بغت	desir
-بغت	desir
 بغيتك	DESIRE
 بغيتوا	DESIRE
 بغينا	DESIRE
 بغينا نعرف	desire
-بك	personne
 بل انت بيغ	BRAND
 بلات	concept
 بلاتي	lieu
@@ -795,16 +672,10 @@ ZARA	BRAND
 بنادم	personne
 بنت	CONCEPT
 بنت	personne
-بنت	personne
-بنت	personne
-بنت	personne
-بنت	personne
 بنتنا	personne
 بنط	personne
 بنطلون	objet
 بنقرا	personne
-بنقرا	personne
-بنك	lieu
 بنكيران	PERSON
 بني أنصار	LOCATION
 بني بوياش	LOCATION
@@ -823,7 +694,6 @@ ZARA	BRAND
 بولمان دادس	LOCATION
 بويزكارن	LOCATION
 بيتك	lieu
-بيتك	lieu
 بيدل	concept
 بيك	personne
 بيناتهم	personne
@@ -838,8 +708,6 @@ ZARA	BRAND
 تازة	lieu
 تازناخت	LOCATION
 تافراوت	LOCATION
-تافراوت	LOCATION
-تافراوت	lieu
 تافراوت	lieu
 تالمست	LOCATION
 تاليوين	LOCATION
@@ -853,7 +721,6 @@ ZARA	BRAND
 تتستحمرو	NEGATIVE
 تتفتح	concept
 تتوجهوه	concept
-تتوجهوه	concept
 تجار	personne
 تجبرهم	concept
 تجربة	concept
@@ -866,17 +733,11 @@ ZARA	BRAND
 تحناوت	LOCATION
 تحياتي	concept
 تحية	concept
-تحية	concept
-تختار	concept
 تختار	concept
 تخدم	concept
 تخرج	concept
-تخرج	concept
 تخلص	concept
 تدهب	concept
-تدوي	concept
-تدوي	concept
-تدوي	concept
 تدوي	concept
 تدير	concept
 تران	lieu
@@ -887,7 +748,6 @@ ZARA	BRAND
 تزنيت	LOCATION
 تسافري	concept
 تستقبل	concept
-تستقبل	concept
 تسجيل	concept
 تشفر	concept
 تشكركم	concept
@@ -897,9 +757,7 @@ ZARA	BRAND
 تطلبه	concept
 تطوان	LOCATION
 تطوان	lieu
-تطوان	lieu
 تعبئ	concept
-تعبئة	produit
 تغير	concept
 تفاحة	produit
 تفراوت	lieu
@@ -913,8 +771,6 @@ ZARA	BRAND
 تقارب	concept
 تقاعد	concept
 تقدر	concept
-تقدر	concept
-تقود	NEGATIVE
 تقولوها	concept
 تكون	concept
 تلبس	concept
@@ -936,9 +792,6 @@ ZARA	BRAND
 تنقي	concept
 تهذر	concept
 توحشناك	concept
-توحشناك	concept
-توحشناك	desire
-توحشناك	concept
 توحشناك	desire
 توحشناك	desir
 توحشناك	d
@@ -958,7 +811,6 @@ ZARA	BRAND
 ثن	personne
 ثهار  السوق	LOCATION
 جا	concept
-جا	concept
 جاب	desire
 جابها	concept
 جات	concept
@@ -967,7 +819,6 @@ ZARA	BRAND
 جاوب	desire
 جاوبني	concept
 جاوبني	desire
-جاوبني	concept
 جرادة	LOCATION
 جراي	personne
 جرب	concept
@@ -975,53 +826,28 @@ ZARA	BRAND
 جريدة	objet
 جزائري	personne
 جزيري	personne
-جزيري	personne
-جفار	personne
 جفار	personne
 جلالات الملك	personne
 جماعة شايم	LOCATION
 جمس كرتون	personne
 جمهور	personne
-جمهور	personne
 جنس	personne
 جولف	BRAND
 جونس	personne
 جويا	personne
-جيت	concept
-جيت	concept
-جيوش	personne
 جيوش	personne
 حاج	personne
-حاجة	concept
-حاجة	concept
-حاجة	concept
-حاجة	concept
 حاضي	concept
 حب	concept
 حباب	personne
-حباب	personne
-حبب	personne
 حبب	personne
 حببتي	personne
-حببتي	personne
-حببتي	personne
 حبيب	personne
-حبيب	personne
-حبيب	personne
-حبيبا	personne
-حبيبا	personne
-حبيبا	personne
 حبيبا	personne
 حبيبة	personne
-حبيبة	personne
-حبيبتي	personne
-حبيبتي	personne
 حبيبتي	personne
 حبيبنا	personne
 حبيبى	personne
-حبيبي	personne
-حبيبي	personne
-حبيبي	personne
 حبيبي	personne
 حتى واحد	personne
 حجاب	CONCEPT
@@ -1030,20 +856,15 @@ ZARA	BRAND
 حرام	concept
 حرين	concept
 حزب العدالة و التنمية	BRAND
-حزب العدالة و التنمية	BRAND
 حساب	produit
 حسن	personne
-حسن	personne
 حسن 2	personne
-حشام	personne
 حشام	personne
 حضك	concept
 حطان	LOCATION
 حطك	concept
 حظر	concept
 حظوظه	concept
-حق	concept
-حق	concept
 حق	concept
 حقيبتي	concept
 حقير	NEGATIVE
@@ -1063,24 +884,13 @@ ZARA	BRAND
 خت	personne
 ختب	concept
 ختك	personne
-ختك	personne
-ختك	personne
-ختك	personne
-ختك	personne
-ختك	personne
-ختك	personne
-ختك	personne
-ختك	personne
 ختكوم	personne
 ختى	personne
 خدمة	concept
 خدمتكم	concept
 خديت	concept
 خديتيهم	concept
-خديتيهم	concept
 خرجت	concept
-خرجته	concept
-خرجنا	concept
 خرجنا	concept
 خريبكة	LOCATION
 خصك	concept
@@ -1104,7 +914,6 @@ ZARA	BRAND
 دارها	BRAND
 دارها	lieu
 دافعين	concept
-داك	personne
 دانمارك	pays
 دبدو	LOCATION
 دبلجة	concept
@@ -1120,11 +929,9 @@ ZARA	BRAND
 دعي	desire
 دفع	concept
 دلتا	BRAND
-دلتا	BRAND
 دلكم	personne
 دلمغرب	lieu
 دمنات	LOCATION
-دنمارك	pays
 دنمارك	pays
 دنيا	personne
 دول	lieu
@@ -1138,12 +945,9 @@ ZARA	BRAND
 ديماغوجية	CONCEPT
 ديموغرافية	concept
 دين	concept
-دين	concept
-دين	concept
 رئيس	TITLE
 الفقيه	TITLE
 hitler	PERSON
-راسكم	personne
 راغب	personne
 رام	BRAND
 راه بزاف	NEGATIVE
@@ -1154,7 +958,6 @@ hitler	PERSON
 رجاء	BRAND
 رجاوي	personne
 رجعت	concept
-رجعت	concept
 رجعتونا	concept
 رجعتي	concept
 رجعو	desire
@@ -1164,18 +967,13 @@ hitler	PERSON
 نصابة	CONCEPT
 رخصة	concept
 رد لينا	desire
-رسالة	objet
-رسول	personne
 رسول	personne
 رشيد	personne
-رشيد	personne
-رشيد رفيق عندكم	personne
 رشيد رفيق عندكم	personne
 رقم	objet
 ركبت	concept
 روعة	PERSON
 روعة	concept
-ريئس الحكومة	personne
 ريئس الحكومة	personne
 ريبات الخير	LOCATION
 ريتر	produit
@@ -1187,7 +985,6 @@ hitler	PERSON
 زاوية الشيخ	LOCATION
 زايو	LOCATION
 زب	NEGATIVE
-زبانة	personne
 زبانة	personne
 زعيم	personne
 زغنغان	LOCATION
@@ -1213,49 +1010,32 @@ hitler	PERSON
 سبحان الله	concept
 سبورا	objet
 ستفد	concept
-ستفد	concept
-سحر	lieu
 سحر	lieu
 سحرت	concept
-سرق	concept
 سرق	concept
 سطات	LOCATION
 سعداتك	desire
 سعيد	personne
-سعيد	personne
 سكه الصورة	produit
 سلا	LOCATION
 سلطان	BRAND
-سلطان	personne
-سلطان	personne
-سلطان	personne
 سلطان	personne
 سلطان‎‎	personne
 سلطان العنبر	BRAND
 سلع	produit
 سلوان	LOCATION
 سناء	personne
-سناء	personne
-سناء	personne
-سناء	personne
 سنة _rahimi	personne
 سنتر	lieu
 سوق الاربعاء	LOCATION
 سوق سبت أولاد نمة	LOCATION
-سول	concept
 سول	concept
 سولت	concept
 سياسا	objet
 سيبا	concept
 سيبيت	lieu
 سيتغير	desire
-سيد	personne
-سيد	personne
-سيد	personne
 سيدنا	peronne
-سيدنا	personne
-سيدنا	personne
-سيدنا	personne
 سيدي افني	LOCATION
 سيدي بنور	LOCATION
 سيدي بو عثمان	LOCATION
@@ -1266,61 +1046,35 @@ hitler	PERSON
 سيدي علال البحراوي	LOCATION
 سيدي قاسم	LOCATION
 سيدي يحيى الغرب	LOCATION
-سير	concept
-سير	concept
-سير	concept
-سير	concept
-سير	concept
 سير تقود	NEGATIVE
-سيري	desire
-سيري	personne
-سيري ‏	concept
 سيري تقود	NEGATIVE
 سيفط	concept
-سيفط	concept
-سيفط	concept
-سيفط	desir
 شاحنة	objet
-شارجيت	concept
 شارجيت	concept
 شحال جمعت	desire
 شحال خاصني	desire
 شحال نخلص	desire
 شخص	personne
-شخص	personne
-شخص	personne
-شخص	personne
 شخصية	personne
 شرجية	
 شرجيت	concept
-شرح	concept
 شرح	concept
 شركة	concept
 شعب	CONCEPT
 شفار	NEGATIVE
 شفت	concept
-شفت	concept
-شفت	concept
-شفت	concept
 شفتك	concept
 شفشاون	LOCATION
 شفشاون	lieu
-شفشاون	lieu
 شقة	objet
-شقة	objet
-شمال	lieu
 شمال	lieu
 شمالية	personne
 شمسه	personne
 شمسها	personne
 شميت	concept
-شميت	concept
 شنو	concept
 شنو	desire
 شهر	TEMPORAL:TIME
-شوف	concept
-شوف	concept
-شوفي	concept
 شوهتنا	NEGATIVE
 شوية	concept
 شي سلطان‎‎	personne
@@ -1328,15 +1082,12 @@ hitler	PERSON
 شيخة	personne
 شيشستر	LOCATION
 شيفور	personne
-شيفور	personne
 شيك	objet
 شيواحد	personne
-صاحب	personne
 صاحب	personne
 صادق	personne
 صارت	concept
 صحابي	personne
-صحافتكم	concept
 صحافتكم	concept
 صحافنكم	concept
 صحة	CONCEPT
@@ -1344,21 +1095,13 @@ hitler	PERSON
 صحراوي	personne
 صفرو	LOCATION
 صهيون	personne
-صهيون	personne
 صهيوني	personne
-صوت	concept
 صوت	concept
 صورة	objet
 ضحايا	personne
 ضحك	concept
-ضحك	concept
-ضحك	concept
-ضحك	concept
-ضحك	concept
 ضحكتنى	concept
 ضرها	desire
-ضروري	concept
-ضروري	concept
 ضروري	concept
 ضنكم الله	desir
 طاحت	concept
@@ -1375,46 +1118,28 @@ hitler	PERSON
 طن	produit
 طنجة	LOCATION
 طنجة	lieu
-طنجة	lieu
-طنجة	lieu
-طنجة	lieu
-طنجة	lieu
-طنجة	lieu
-طنجة	lieu
-طنجة	lieu
-طنجة	lieu
-طنجة	lieu
-طنجة	lieu
-طنجة	lieu
-طنجة	lieu
 طوال	desire
 طولنا	concept
 طونوبيل	objet
 طيارة	concept
 طيارة	produit
-طيارة	produit
-طيارة	concept
 عارض	produit
 عاش	concept
 عاش	desire
-عاش	concept
 عاشا	concept
 عافاك	desire
-عافاكم	desire
 عافاكم	desire
 عاهرة	NEGATIVE
 عايشين	concept
 عايك	concept
 عبادالله	personne
-عبد	personne
-عبد الله	personne
+عبد الله	PERSON
 عتمان	personne
 عجبهم	désire
 عجبهمش	concept
 عربي	personne
 عرض	concept
 عرض	objet
-عرض	concept
 عرض متعاف	produit
 عرفاك	concept
 عرفك	concept
@@ -1426,7 +1151,6 @@ hitler	PERSON
 عفاك	desire
 عقبال	concept
 عقبة	concept
-عقبت	concept
 عقبت	concept
 عكا	LOCATION
 عكاشة	lieu
@@ -1463,13 +1187,11 @@ hitler	PERSON
 غانجي	concept
 غبرتي	concept
 غتجي	concept
-غتجي	concept
 غرسون	personne
 غرسيف	LOCATION
 غزال	personne
 غزالة	personne
 غزالى	personne
-غزل	personne
 غزل	personne
 غسو	concept
 غفساي	LOCATION
@@ -1480,10 +1202,7 @@ hitler	PERSON
 غنيت	concept
 غوتي	personne
 فؤاد	personne
-فؤاد	personne
 فارق	concept
-فاس	lieu
-فاس	lieu
 فاس	lieu
 فاسي	personne
 فالمغرب	lieu
@@ -1496,33 +1215,20 @@ hitler	PERSON
 فرح	concept
 فرحانة	concept
 فرعون	personne
-فرعون	personne
 فرنسا	pays
 فرنسا	lieu
-فرنسا	pays
-فرنسا	pays
-فرنسا	lieu
-فس	lieu
 فس	lieu
 فقه بن صالح	LOCATION
-فكرة	concept
 فكرة	concept
 فكيك	LOCATION
 فلوريدا	lieu
 فلوس	objet
-فلوس	objet
-فلوس	objet
 فم زغيد	LOCATION
 فن	concept
 فنادق	lieu
-فنادق	lieu
-فنادق	lieu
-فنادق	lieu
-فنان	personne
 فنان	personne
 فهمت	concept
 فيديو	objet
-فيس بوك	BRAND
 فيس بوك	BRAND
 فيسبق	concept
 فيش	produit
@@ -1533,7 +1239,6 @@ hitler	PERSON
 قتلوه	concept
 قحبة	NEGATIVE
 قذافي	PERSON
-قذافي	personne
 قذافي	personne
 قرعت	objet
 قرية	LOCATION
@@ -1555,28 +1260,21 @@ hitler	PERSON
 قولتلها	concept
 قوللي	concept
 قيمة	concept
-قيمة	concept
-قيمة	concept
 كاتب	concept
-كاتجاوبني	concept
 كاتجاوبني	concept
 ‏كاتسونى	desir
 كاتقلب	concept
 كاثمان	personne
 كازا	Lieu
 كاسا	lieu
-كاسا	lieu
 كاسكيطا	objet
 كان كورت	LOCATION
 كايحشمنا	desir
-كاين	concept
-كاين	concept
 كاين	concept
 كتبت	concept
 كتبر	concept
 كتخدي	concept
 كتستحقو	concept
-كتشدوا	concept
 كتشدوا	concept
 كتصور	concept
 كتعجبني	concept
@@ -1584,7 +1282,6 @@ hitler	PERSON
 كتلقى	concept
 كتنفد	personne
 كتهددنا	concept
-كتوصلو	personne
 كتوصلو	personne
 كحت	concept
 كرة	objet
@@ -1611,8 +1308,6 @@ hitler	PERSON
 كنقول	concept
 كنقولولكم	concept
 كوبل	personne
-كوبل	personne
-كولنا	personne
 كولنا	personne
 كوميرسيال	personne
 كوميرسيال	désire
@@ -1623,10 +1318,8 @@ hitler	PERSON
 كيغنيو	concept
 كيقولولي	concept
 كيلو	produit
-كيلو	produit
 لابسين	concept
 لاسن	produit
-لاعب	personne
 لاعب	personne
 لاه ينصر	desire
 لبت	lieu
@@ -1634,31 +1327,23 @@ hitler	PERSON
 لبرمجة	concept
 لبكت	concept
 لبنت	personne
-لبنت	personne
-لبنت	personne
 لجميع	personne
 لحاس الكابة	NEGATIVE
 لحجاب	concept
-لحقوق	concept
 لحقوق	concept
 لحمد	personne
 لخصاص	LOCATION
 لفرص	produit
 لفلوس	objet
-لفلوس	objet
 لفوضى	concept
 لقليعة	LOCATION
 لقمان	personne
-لقيت	concept
 لقيت	concept
 لكم	personne
 لكوم	personne
 لكويرة	LOCATION
 لمطار	lieu
-لمطار	lieu
-لمطار	lieu
 لمطر	concept
-لموعد	concept
 لموعد	concept
 لنا	personne
 لهم	personne
@@ -1667,8 +1352,6 @@ hitler	PERSON
 لولاد	LOCATION
 ليبيا	lieu
 ليبيريا	BRAND
-ليبيريا	BRAND
-ليك	personne
 ليلى	PERSON
 لينا	personne
 مؤسسة	personne
@@ -1693,7 +1376,6 @@ hitler	PERSON
 متبعين	concept
 متواضع	concept
 مجانا	concept
-مجانا	concept
 مجهدة	concept
 محترمين	consept
 محسن	personne
@@ -1709,30 +1391,21 @@ hitler	PERSON
 مرا	personne
 مربين	concept
 مرتك	personne
-مرتك	personne
 مرتيل	LOCATION
 مرجا	lieu
 مركز الاتصال	lieu
 مروان	PERSON
 مروان	personne
-مروان	personne
-مروان	personne
-مروان	personne
-مروان	personne
-مروة	BRAND
 مروة	BRAND
 مريرت	LOCATION
 مريضة	concept
 مساج privé	objet
 مساعدة	concept
-مساعدة	concept
 مستر كارد	BRAND
 مستوى	concept
 مسجلين	concept
-مسجلين	concept
 مسكن	lieu
 مسلم	concept
-مسلم	personne
 مسلم	personne
 مسير	persone
 مشا	concept
@@ -1740,9 +1413,7 @@ hitler	PERSON
 مشرمل	personne
 مشكل	NEGATIVE
 مشكل	concept
-مشكل	concept
 مشيت	concept
-مصطفة	personne
 مصطفة	personne
 مصطفى	personne
 مصطفى بلعياش	personne
@@ -1750,9 +1421,6 @@ hitler	PERSON
 مصيبة	concept
 مصيبة كحلة	NEGATIVE
 معاك	personne
-معاك	personne
-معاك	personne
-معاه	personne
 معاه	personne
 معاها	personne
 معاهم ‏	personne
@@ -1760,24 +1428,14 @@ hitler	PERSON
 معرفة	concept
 معرفت	concept
 معطا	concept
-معطا	concept
 معلومات	concept
 مغاربة	personne
-مغاربة	personne
-مغاربة	personne
-مغاربة	personne
-مغرب	lieu
-مغرب	lieu
-مغرب	lieu
-مغرب	lieu
-مغرب	lieu
 مغرب	lieu
 مغربي	personne
 مغربيات	personne
 مغنطيس	objet
 مفاهم	concept
 مفتش	personne
-مفهمت	concept
 مفهمت	concept
 مفيد	concept
 مقتل	concept
@@ -1788,55 +1446,31 @@ hitler	PERSON
 مكاينش	concept
 مكينش	concept
 ملك	personne
-ملك	personne
-ملك	personne
-ملك	personne
-ملك	personne
-ملك	personne
-ملكنا	personne
-ملكنا	personne
-ملكنا	personne
-ملكنا	personne
-ملكنا	personne
-ملكنا	personne
-ملكنا	personne
-ملكنا	personne
 ملكنا	personne
 ملي	concept
 مليار	objet
-مليكة	personne
-مليكة	personne
 مليكة	personne
 مليون	objet
 ممكن	desire
 منار	personne
 منبقاش	concept
 منتخب	concept
-منتخب	concept
 منشستر	lieu
 منصور	personne
 منضمة	lieu
 منظمة	concept
 منكم	personne
-منكم	personne
 منى	personne
 منير	personne
-منير	personne
-مها	personne
 مها	personne
 موازنة	concept
 مواضيعكم	concept
 موضع	concept
 موظف	personne
 موك	personne
-موك	personne
-موك	personne
-موك	personne
-مول	personne
-مولاي	personne
 مولاي	personne
 مولاي دريس زيرهون	LOCATION
-مولاي عبد الله	personne
+مولاي عبد الله	PERSON
 مولاي علي شريف	LOCATION
 مولى ادريس زرهون	lieu
 مومو	personne
@@ -1853,45 +1487,27 @@ hitler	PERSON
 نبدا	desire
 نبص	produit
 نبنيو	concept
-نبنيو	concept
 نبيل	personne
-نبيل موهوب	personne
 نبيل موهوب	personne
 نتمنا	desir
 نتواصل	concept
 نتوما	personne
-نتوما	personne
-نتوما	personne
-نتوما	personne
 انت	PRONOUN
-نجاة عتاب	personne
 نجاة عتاب	personne
 نجيك	concept
 نحبكم	concept
-نحن	personne
-نحن	personne
-نحن	personne
-نحن	personne
-نحن	personne
-نحن	personne
-نحن	personne
-نحن	personne
+نحن	PRONOUN
 نخلص	concept
-ندخل	concept
 ندخل	concept
 ندخل نشوف	desire
 ندير	personne
-ندير	concept
-ندير	concept
 ندير	concept
 نذقه	concept
 نرجع	concept
 نرويج	lieu
 نريد	concept
-نريد	concept
 نزار بركة	personne
 نس	personne
-نستفاد	concept
 نستفاد	concept
 نسحة الله	
 نسمة	concept
@@ -1899,12 +1515,9 @@ hitler	PERSON
 نشارك	desire
 نشارك	concept
 نشرك	concept
-نشرك	concept
-نصت	concept
 نصت	concept
 نصيحة	concept
 نضام	concept
-نضحك	concept
 نضحك	concept
 نعاس	concept
 نعطيكم	concept
@@ -1912,7 +1525,6 @@ hitler	PERSON
 نعمات	concept
 نعمة	LOCATION
 نعناع	produit
-نعيمة	personne
 نعيمة	personne
 نعيمة سميح	personne
 نفرق	desire
@@ -1935,13 +1547,9 @@ hitler	PERSON
 هادوك	personne
 هادي	personne
 هاز	concept
-هاز	concept
-هببت	personne
-هببت	personne
 هببت	personne
 هة	concept
 هتت هدى	personne
-هدي	personne
 هدية	concept
 هذا	PRONOUN
 هل	personne
@@ -1959,7 +1567,6 @@ hitler	PERSON
 واد زم	LOCATION
 واد لاو	LOCATION
 واش	concept
-واش	concept
 واش بقى	desire
 واعر	concept
 واقع	concept
@@ -1973,11 +1580,9 @@ hitler	PERSON
 وجدة	lieu
 وحد	personne
 وراقك	concept
-وراقك	concept
 ورزازات	LOCATION
 ورقات	objet
 وزان	LOCATION
-وش	concept
 وش	concept
 وصلني	concept
 وفاسلف	personne
@@ -1993,7 +1598,6 @@ hitler	PERSON
 يا رب نسالك	desire
 يا ست	personne
 يارب	desire
-يارب	desire
 ياسين ‏zouitine	personne
 يامعلم	personne
 يبادلوها	concept
@@ -2007,22 +1611,13 @@ hitler	PERSON
 يرزقك	desir
 يستحق	concept
 يسلم	concept
-يسلم	concept
 يسميكم	concept
 يطلب	concept
-يطلب	concept
 يطوللنا	desire
-يعطيك	concept
-يعطيكم	desire
 يعقوب	PERSON
-يغسل	concept
 يغسل	concept
 يقول	concept
 يمشي	concept
-يمشي	concept
-يمكن	concept
-يمكن	concept
-يمكن لكم	concept
 يمكن لكم	concept
 يمكن لينا	concept
 يهتم	concept
@@ -2117,7 +1712,6 @@ hitler	PERSON
 راديو شاك	BRAND
 رينو	BRAND
 رولز رويس	BRAND
-لاند روفر	BRAND
 سامسونج	BRAND
 سانديسك	BRAND
 سانسوى	BRAND
@@ -2152,7 +1746,6 @@ hitler	PERSON
 عين افران	BRAND
 عين سايس	BRAND
 عين السلطان	BRAND
-الخطوط الجوية الفرنسية	BRAND
 ايرلوكس	BRAND
 الايام	BRAND
 مساء	BRAND
@@ -2161,12 +1754,10 @@ hitler	PERSON
 الشيميز	BRAND
 الدو	BRAND
 الفا روميو	BRAND
-الفا روميو	BRAND
 اليونس دارنا	BRAND
 اولويز	BRAND
 اميريكان ايڭل	BRAND
 امورا	BRAND
-ابل	BRAND
 ارادو كوسميتيك	BRAND
 اريال	BRAND
 ارماني	BRAND
@@ -2176,7 +1767,6 @@ hitler	PERSON
 استرال	BRAND
 اطلس بلو	BRAND
 التجاري وفابنك	BRAND
-اودي	BRAND
 اودي	BRAND
 او اونفون دابوغ	BRAND
 افون	BRAND
@@ -2188,8 +1778,6 @@ hitler	PERSON
 بارييا	BRAND
 بايڭون	BRAND
 بيل مغرب	BRAND
-بيل مغرب	BRAND
-بنتلي	BRAND
 بيرشكا	BRAND
 زبد البدوية	BRAND
 بيير كازابلنكا	BRAND
@@ -2201,19 +1789,15 @@ hitler	PERSON
 بلادينا	BRAND
 البنك المغربي للتجارة الخارجية	BRAND
 البنك المغربي للتجارة و الصناعة	BRAND
-بي ام دبليو	BRAND
 بو ديزاين	BRAND
 بوش مغرب	BRAND
 بونتي	BRAND
-بونتي	BRAND
-براندت	BRAND
 براندت	BRAND
 برون	BRAND
 بودويزر	BRAND
 بولڭاري	BRAND
 كادوم	BRAND
 كالور	BRAND
-كانون	BRAND
 كاوبيل	BRAND
 كارط نوار	BRAND
 كارتيي	BRAND
@@ -2234,7 +1818,6 @@ hitler	PERSON
 كلينيك	BRAND
 كوكا كولا	BRAND
 قلب الحليب	BRAND
-قلب الحليب	BRAND
 كولورادو	BRAND
 كوول	BRAND
 كوباك	BRAND
@@ -2243,8 +1826,6 @@ hitler	PERSON
 كريسطال	BRAND
 سيتيام	BRAND
 ضاسيا	BRAND
-ضاسيا	BRAND
-دايهاتسو	BRAND
 دانون	BRAND
 داري	BRAND
 دي دييتريش	BRAND
@@ -2277,9 +1858,7 @@ hitler	PERSON
 فيديكس	BRAND
 فام دو ماروك	BRAND
 فينيادي	BRAND
-فيراري	BRAND
 فيريرو	BRAND
-فياط	BRAND
 فورد	BRAND
 فروماج الاطفال	BRAND
 فروماج لوبريزيدون	BRAND
@@ -2298,7 +1877,6 @@ hitler	PERSON
 هينريز	BRAND
 هوم اند صوفا	BRAND
 هوم وير	BRAND
-هوندا	BRAND
 اش بي	BRAND
 اش تي سي	BRAND
 هواوي	BRAND
@@ -2318,7 +1896,6 @@ hitler	PERSON
 جاكوار	BRAND
 جودة	BRAND
 جاسبرومو	BRAND
-جودة	BRAND
 جبلي	BRAND
 جينيفير	BRAND
 جبال	BRAND
@@ -2330,7 +1907,6 @@ hitler	PERSON
 كيطو	BRAND
 كيلوڭز	BRAND
 كينوود	BRAND
-كيا	BRAND
 كيندر	BRAND
 كيري	BRAND
 كيت كات	BRAND
@@ -2356,7 +1932,6 @@ hitler	PERSON
 الاطفال	BRAND
 لوسيور	BRAND
 ليكسوس	BRAND
-ال جي	BRAND
 لييبهير	BRAND
 ليندت	BRAND
 ليون	BRAND
@@ -2369,14 +1944,11 @@ hitler	PERSON
 مانڭو	BRAND
 مرجان	BRAND
 مارلبورو	BRAND
-اتصالات المغرب	BRAND
 مارس	BRAND
-مازيراتي	BRAND
 ماستركارد	BRAND
 ماكس مارا	BRAND
 ماكسيس	BRAND
 مايبيلين	BRAND
-مازدا	BRAND
 ماكدونالددز	BRAND
 ميديتيل	BRAND
 مينارا	BRAND
@@ -2386,8 +1958,6 @@ hitler	PERSON
 ميكروسوفت	BRAND
 ميلكا	BRAND
 ميني كوبر	BRAND
-ميتسوبيشي	BRAND
-ميتسوبيشي	BRAND
 موبيليا	BRAND
 موروكان توتش	BRAND
 موطورولا	BRAND
@@ -2401,7 +1971,6 @@ hitler	PERSON
 نوتروجينا	BRAND
 نيكسط	BRAND
 نيدو	BRAND
-نيسان	BRAND
 نيفيا	BRAND
 نوكيا	BRAND
 نوتيلا	BRAND
@@ -2420,13 +1989,10 @@ hitler	PERSON
 بانزاتي	BRAND
 بيبسي	BRAND
 بوجو	BRAND
-فيليبس	BRAND
 بيمكي	BRAND
 بانجوان	BRAND
 بيتزا هوت	BRAND
 بومس	BRAND
-بومس	BRAND
-بورش	BRAND
 بريط بلوس	BRAND
 بريم اينفيست	BRAND
 بريوس	BRAND
@@ -2461,22 +2027,17 @@ hitler	PERSON
 شيل	BRAND
 شيراطون	BRAND
 سيدي علي	BRAND
-سيدي علي	BRAND
 سيدي حرازم	BRAND
 سيامانس	BRAND
 سييرا	BRAND
 سينيال	BRAND
 سيمونس	BRAND
-سكودا	BRAND
 سي ام اي جي	BRAND
 الشركة العامة	BRAND
 صوفيطيل	BRAND
 صوني	BRAND
 صوني ايريكسون	BRAND
 صطراديفاريوس	BRAND
-سوبارو	BRAND
-سلطان	BRAND
-سوزوكي	BRAND
 سواتش	BRAND
 تي موبيل	BRAND
 طيكنو	BRAND
@@ -2509,19 +2070,18 @@ hitler	PERSON
 يا لطيف	INTERJECTION
 يالطيف	INTERJECTION
 والله	INTERJECTION
-عاين باين	EXPRESSION	NEGATIVE
+عاين باين	EXPRESSION
 ديال بصح	EXPRESSION
-ديال زبي	EXPRESSION	NEGATIVE
+ديال زبي	EXPRESSION
 طريق الله	EXPRESSION
-حضي جنابك	EXPRESSION	NEGATIVE	WARNING
+حضي جنابك	EXPRESSION
 إوا من بعد	EXPRESSION
 بحال بحال	EXPRESSION
 زادو فيه	EXPRESSION
-يا زبي	INTERJECTION	NEGATIVE
-الله يهديكم	INTERJECTION	PRAYER
-FUCK	INTERJECTION	NEGATIVE
+يا زبي	INTERJECTION
+الله يهديكم	INTERJECTION
+FUCK	INTERJECTION
 السماوي	CONCEPT
-حجاب	CONCEPT
 ولد الحاج	CONCEPT
 زروطة	CONCEPT
 بيران	CONCEPT
@@ -2530,16 +2090,22 @@ FUCK	INTERJECTION	NEGATIVE
 حانات	CONCEPT
 الملاهي	CONCEPT
 دراوش	CONCEPT
-سيوفة	CONCEPT	WEAPON
-قحبة	CONCEPT	NEGATIVE
-سكران	CONCEPT	NEGATIVE
+سيوفة	CONCEPT
+قحبة	CONCEPT
+سكران	CONCEPT
 شمايت	NEGATIVE
 khobziste	CONCEPT
 سردي	POSITIVE
 الموسيقة	CONCEPT
 باجدوب	PERSON
-تفوو	INTERJECTION	NEGATIVE
+تفوو	INTERJECTION
 تافهة	NEGATIVE
 مشرملة	NEGATIVE
 زبل	NEGATIVE
-allez vous faire foutre	INTERJECTION	NEGATIVE
+allez vous faire foutre	INTERJECTION
+ندمت	NEGATIVE
+تعبئة	TECHNOLOGY
+الهاتف	TECHNOLOGY
+OTHMANI	PERSON
+التعليم	CONCEPT
+الدولة	ORGANIZATION
