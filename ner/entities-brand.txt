@@ -456,7 +456,7 @@ ZARA	BRAND
 الفن	concept
 الفنيدق	LOCATION
 الفوز	concept
-الفيديو	concept
+الفيديو	CONCEPT
 الفيس بوك	BRAND
 القادر اسهار	personne
 القانون	concept
@@ -499,6 +499,8 @@ ZARA	BRAND
 الله يرحم	INTERJECTION
 الله يسهل	INTERJECTION
 الله يعطه	INTERJECTION
+الله يعطيك كسيدة	NEGATIVE	INTERJECTION
+ندفلو على مك	NEGATIVE	INTERJECTION
 الله ينصرك	POSITIVE
 الله ينعل	INTERJECTION
 الماكلة	concept
@@ -631,7 +633,6 @@ ZARA	BRAND
 برنامج	produit
 برهمان	personne
 بريت ندير	desir
-بزاف	concept
 بش نشارك	desire
 بشرى	PERSON
 بصحتك	concept
@@ -999,7 +1000,6 @@ hitler	PERSON
 ساحر	personne
 ساره	personne
 ساطبق	concept
-ساعة	produit
 سافر	concept
 سانا	personne
 سانتا	personne
@@ -1441,7 +1441,6 @@ hitler	PERSON
 مقتل	concept
 مقود	NEGATIVE
 مقوم	concept
-مك	personne
 مكافأة	concept
 مكاينش	concept
 مكينش	concept
