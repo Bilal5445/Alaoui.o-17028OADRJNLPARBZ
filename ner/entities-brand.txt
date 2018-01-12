@@ -109,7 +109,6 @@ IDEAL	BRAND
 IKEA	BRAND
 ikea	BRAND
 INGELEC	BRAND
-inwi	BRAND
 J'BEN DE KIRI	BRAND
 JACOB DELAFON	BRAND
 JAGUAR	BRAND
@@ -142,6 +141,7 @@ LG	BRAND
 LIPTON	BRAND
 logan	CAR MODEL
 LOL	LOL
+لول	LOL
 MAGGI	BRAND
 MANGO	BRAND
 MARJANE	BRAND
@@ -233,8 +233,11 @@ TOSHIBA	BRAND
 TOTAL	BRAND
 TOYOTA	BRAND
 toyota	BRAND
-ultra	GROUP OF PEOPLE
-unwi	BRAND
+ultra	ORGANIZATION	FOOTBALL
+Eau micellaire Ultra	PRODUCT	COSMETICS
+الماكياج	CONCEPT	COSMETICS
+بشرتي	CONCEPT	COSMETICS
+inwi	BRAND
 UPS	BRAND
 VISA	BRAND
 VOLKSWAGEN	BRAND
@@ -401,7 +404,7 @@ ZARA	BRAND
 الدريوش	LOCATION
 الرجاء	SOCCER CLUB
 الوداد	SOCCER CLUB
-الرجال	personne
+الرجال	CONCEPT
 الرشيدية	LOCATION
 الرماني	LOCATION
 الريش	LOCATION
@@ -418,7 +421,12 @@ ZARA	BRAND
 السويسري	lieu
 السيد	personne
 الشاب	personne
-الشباب	personne
+الشباب	CONCEPT
+شباب	CONCEPT
+المستقبل	CONCEPT
+رائعة	POSITIVE
+رائع	POSITIVE
+الفنان	CONCEPT
 الشبكة	concept
 الشرع	concept
 الشعب	personne
@@ -502,7 +510,7 @@ ZARA	BRAND
 الله يعطيك كسيدة	NEGATIVE	INTERJECTION
 ندفلو على مك	NEGATIVE	INTERJECTION
 الله ينصرك	POSITIVE
-الله ينعل	INTERJECTION
+الله ينعل	NEGATIVE	INTERJECTION
 الماكلة	concept
 المالك	personne
 المباشرين	personne
@@ -572,8 +580,7 @@ ZARA	BRAND
 الوالدين	personne
 الوزرة	personne
 الوزير	personne
-الوطن	lieu
-الوطني	lieu
+الوطن	CONCEPT
 الوقفات	concept
 الولد	personne
 اليوسفية	LOCATION
@@ -714,10 +721,9 @@ ZARA	BRAND
 تاليوين	LOCATION
 تاوريرت	LOCATION
 تاونات	LOCATION
-تبارك الله	desire
-تباركالله	desir
-تباركالله	desire
-تباركله	desire
+تبارك الله	POSITIVE
+الخير هذا	POSITIVE
+ما شاء الله	POSITIVE
 تبغي تمشي	desir
 تتستحمرو	NEGATIVE
 تتفتح	concept
@@ -750,7 +756,8 @@ ZARA	BRAND
 تسافري	concept
 تستقبل	concept
 تسجيل	concept
-تشفر	concept
+تشفر	NEGATIVE
+شفرة	NEGATIVE
 تشكركم	concept
 تشهيت	DESIRE
 تصور	objet
@@ -771,9 +778,7 @@ ZARA	BRAND
 تفهم	desire
 تقارب	concept
 تقاعد	concept
-تقدر	concept
 تقولوها	concept
-تكون	concept
 تلبس	concept
 تلزمها	desire
 تلصق	concept
@@ -811,15 +816,12 @@ ZARA	BRAND
 ثت	
 ثن	personne
 ثهار  السوق	LOCATION
-جا	concept
 جاب	desire
 جابها	concept
 جات	concept
 جاتكم	concept
 جاتني	concept
 جاوب	desire
-جاوبني	concept
-جاوبني	desire
 جرادة	LOCATION
 جراي	personne
 جرب	concept
@@ -832,7 +834,9 @@ ZARA	BRAND
 جماعة شايم	LOCATION
 جمس كرتون	personne
 جمهور	personne
+saadlamjarred	PERSON
 جنس	personne
+الحبان	CONCEPT
 جولف	BRAND
 جونس	personne
 جويا	personne
@@ -858,7 +862,7 @@ ZARA	BRAND
 حرين	concept
 حزب العدالة و التنمية	BRAND
 حساب	produit
-حسن	personne
+حسن	PERSON
 حسن 2	personne
 حشام	personne
 حضك	concept
@@ -919,7 +923,6 @@ ZARA	BRAND
 دبدو	LOCATION
 دبلجة	concept
 دخلت	concept
-دراري	personne
 دراسة	CONCEPT
 دراهم	MONEY
 دربي	concept
@@ -938,6 +941,7 @@ ZARA	BRAND
 دول	lieu
 دولة	ORGANIZATION
 الشرطة	ORGANIZATION
+وزارة	ORGANIZATION
 ديالكم	personne
 ديالكم	PRONOUN
 ديالنا	PRONOUN
@@ -945,6 +949,8 @@ ZARA	BRAND
 ديرو	desire
 ديماغوجية	CONCEPT
 ديموغرافية	concept
+لفرشي	CONCEPT
+الفرشي	CONCEPT
 دين	concept
 رئيس	TITLE
 الفقيه	TITLE
@@ -1055,28 +1061,23 @@ hitler	PERSON
 شحال خاصني	desire
 شحال نخلص	desire
 شخص	personne
-شخصية	personne
-شرجية	
-شرجيت	concept
 شرح	concept
 شركة	concept
 شعب	CONCEPT
 شفار	NEGATIVE
-شفت	concept
 شفتك	concept
 شفشاون	LOCATION
 شفشاون	lieu
 شقة	objet
 شمال	lieu
+أسامة	PERSON
+effaclar	BRAND
 شمالية	personne
 شمسه	personne
 شمسها	personne
 شميت	concept
-شنو	concept
-شنو	desire
 شهر	TEMPORAL:TIME
 شوهتنا	NEGATIVE
-شوية	concept
 شي سلطان‎‎	personne
 شيخ	personne
 شيخة	personne
@@ -1097,12 +1098,10 @@ hitler	PERSON
 صهيون	personne
 صهيوني	personne
 صوت	concept
-صورة	objet
 ضحايا	personne
 ضحك	concept
 ضحكتنى	concept
 ضرها	desire
-ضروري	concept
 ضنكم الله	desir
 طاحت	concept
 طاطا	LOCATION
@@ -1127,8 +1126,6 @@ hitler	PERSON
 عاش	concept
 عاش	desire
 عاشا	concept
-عافاك	desire
-عافاكم	desire
 عاهرة	NEGATIVE
 عايشين	concept
 عايك	concept
@@ -1138,8 +1135,7 @@ hitler	PERSON
 عجبهم	désire
 عجبهمش	concept
 عربي	personne
-عرض	concept
-عرض	objet
+عرض	CONCEPT
 عرض متعاف	produit
 عرفاك	concept
 عرفك	concept
@@ -1148,13 +1144,11 @@ hitler	PERSON
 عطاها	concept
 عطوك	concept
 عطيني	concept
-عفاك	desire
 عقبال	concept
 عقبة	concept
 عقبت	concept
 عكا	LOCATION
 عكاشة	lieu
-علاش	desire
 علم	concept
 علم دلمغرب	concept
 عليك	PREPOSITION
@@ -1219,7 +1213,6 @@ hitler	PERSON
 فرنسا	lieu
 فس	lieu
 فقه بن صالح	LOCATION
-فكرة	concept
 فكيك	LOCATION
 فلوريدا	lieu
 فلوس	objet
@@ -1228,12 +1221,11 @@ hitler	PERSON
 فنادق	lieu
 فنان	personne
 فهمت	concept
-فيديو	objet
+فيديو	CONCEPT
 فيس بوك	BRAND
 فيسبق	concept
 فيش	produit
 فيه	PREPOSITION
-فيهم	personne
 قانون	concept
 قتلن	concept
 قتلوه	concept
@@ -1339,7 +1331,7 @@ hitler	PERSON
 لقليعة	LOCATION
 لقمان	personne
 لقيت	concept
-لكم	personne
+لكم	PREPOSITION
 لكوم	personne
 لكويرة	LOCATION
 لمطار	lieu
@@ -1356,7 +1348,6 @@ hitler	PERSON
 لينا	personne
 مؤسسة	personne
 ما صالح شي	NEGATIVE
-مات	concept
 ماتخليوها	desire
 ماجا	BRAND
 مادين	lieu
@@ -1436,9 +1427,9 @@ hitler	PERSON
 مغنطيس	objet
 مفاهم	concept
 مفتش	personne
-مفهمت	concept
 مفيد	concept
 مقتل	concept
+الحبوب	CONCEPT
 مقود	NEGATIVE
 مقوم	concept
 مكافأة	concept
@@ -1541,8 +1532,6 @@ hitler	PERSON
 هؤلاء	PRONOUN
 هاد	personne
 هادر	concept
-هادشي	concept
-هادشي	objet
 هادوك	personne
 هادي	personne
 هاز	concept
@@ -1551,10 +1540,9 @@ hitler	PERSON
 هتت هدى	personne
 هدية	concept
 هذا	PRONOUN
-هل	personne
-هل كاين	desire
+هل	CONJUNCTION
 هم	PRONOUN
-هنا	lieu
+هنا	ADVERB
 ههههه	LOL
 هوما	PRONOUN
 هي	PRONOUN
@@ -1565,9 +1553,8 @@ hitler	PERSON
 واد أمليل	LOCATION
 واد زم	LOCATION
 واد لاو	LOCATION
-واش	concept
-واش بقى	desire
-واعر	concept
+واعر	POSITIVE
+واعرة	POSITIVE
 واقع	concept
 والديك	personne
 والدينا	personne
@@ -1603,10 +1590,11 @@ hitler	PERSON
 يجاوبني	concept
 يحفظك	desire
 يحفظك	desir
-يخليكم	concept
 يدخل	concept
 يربح	concept
 يرد	desire
+الكلف	CONCEPT
+كلف	CONCEPT
 يرزقك	desir
 يستحق	concept
 يسلم	concept
@@ -1620,6 +1608,8 @@ hitler	PERSON
 يمكن لكم	concept
 يمكن لينا	concept
 يهتم	concept
+La Roche-Posay	BRAND
+La Roche Posay	BRAND
 يوتوب	BRAND
 يوتيب	BRAND
 يوسف	personne
@@ -2101,10 +2091,14 @@ khobziste	CONCEPT
 تافهة	NEGATIVE
 مشرملة	NEGATIVE
 زبل	NEGATIVE
-allez vous faire foutre	INTERJECTION
+allez vous faire foutre	NEGATIVE	INTERJECTION
 ندمت	NEGATIVE
 تعبئة	TECHNOLOGY
 الهاتف	TECHNOLOGY
 OTHMANI	PERSON
 التعليم	CONCEPT
 الدولة	ORGANIZATION
+سيري تقودي	NEGATIVE	INTERJECTION
+الجريدة	CONCEPT
+الكتاب	CONCEPT
+كتاب	CONCEPT
