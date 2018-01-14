@@ -1335,9 +1335,8 @@ effaclar	BRAND
 لمطار	lieu
 لمطر	concept
 لموعد	concept
-لنا	personne
-لهم	personne
-لهه	lieu
+لنا	PREPOSITION
+لهم	PREPOSITION
 لوطاية	LOCATION
 لولاد	LOCATION
 ليبيا	lieu
@@ -1367,10 +1366,11 @@ effaclar	BRAND
 مجانا	concept
 مجهدة	concept
 محترمين	consept
-محسن	personne
+محسن	PERSON
 محمد	PERSON
 محمد الخميس	PERSON
 محمد السادس	PERSON
+محسن فكري	PERSON
 محمد بوسلهام	personne
 محمد6	PERSON
 مدير	TITLE
