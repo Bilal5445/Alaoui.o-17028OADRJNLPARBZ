@@ -780,7 +780,6 @@ ZARA	BRAND
 تقاعد	concept
 تقولوها	concept
 تلبس	concept
-تلزمها	desire
 تلصق	concept
 تلقاه	concept
 تلقى	concept
@@ -879,7 +878,6 @@ saadlamjarred	PERSON
 حنا	personne
 حوايج	concept
 حول	concept
-حيت	concept
 خاتر	concept
 خاد	concept
 خاص	desire
@@ -1395,7 +1393,6 @@ effaclar	BRAND
 مستر كارد	BRAND
 مستوى	concept
 مسجلين	concept
-مسكن	lieu
 مسلم	concept
 مسلم	personne
 مسير	persone
