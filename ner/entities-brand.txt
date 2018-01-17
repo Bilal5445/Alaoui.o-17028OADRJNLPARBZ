@@ -205,7 +205,7 @@ renault	BRAND
 RICHBOND	BRAND
 RMA WATANYA	BRAND
 ROCA	BRAND
-roi	personne
+roi	TITLE
 SAMAR	BRAND
 SAMSUNG	BRAND
 samsung	BRAND
@@ -374,21 +374,20 @@ ZARA	BRAND
 الحشيش	produit
 الحصاد	personne
 الحضرة	concept
-الحق	concept
-الحكرة	concept
+الحق	CONCEPT
+الحكرة	CONCEPT
 الحكومة	ORGANIZATION
-الحكومة	personne
-الحكومة	lieu
-الحل	concept
-الحلال	concept
+الحل	CONCEPT
+الحلال	CONCEPT
 الحمد لله	concept
 الحمدالله	desir
 الحمدلله	desire
+20 فبراير	CONCEPT
 الحنشان	LOCATION
 الحيوان	concept
 الخبر	concept
 الخدمات	produit
-الخدمة	concept
+الخدمة	CONCEPT
 الخط	objet
 الخطة	concept
 الخطوط الجوية الفرنسية	BRAND
@@ -419,24 +418,26 @@ ZARA	BRAND
 السودان	lieu
 السويس	pays
 السويسري	lieu
-السيد	personne
+السيد	TITLE
+السيدة	TITLE
 الشاب	personne
 الشباب	CONCEPT
 شباب	CONCEPT
+شجاعة	CONCEPT
+المعاشات	CONCEPT
+الريع	CONCEPT
 المستقبل	CONCEPT
 رائعة	POSITIVE
 رائع	POSITIVE
 الفنان	CONCEPT
 الشبكة	concept
 الشرع	concept
-الشعب	personne
 الشماعية	LOCATION
 الشمالي	personne
 الصخيرات	LOCATION
 الصويرة	LOCATION
 العائلة	personne
 العاصمة	lieu
-العالم	pays
 العالمين	personne
 العثماني	PERSON
 العذاب	concept
@@ -467,7 +468,7 @@ ZARA	BRAND
 الفيديو	CONCEPT
 الفيس بوك	BRAND
 القادر اسهار	personne
-القانون	concept
+القانون	CONCEPT
 القحاب	NEGATIVE
 القحبة	NEGATIVE
 القدافي	personne
@@ -522,7 +523,7 @@ ZARA	BRAND
 المحمدية	LOCATION
 المحمول	produit
 المدرسة	lieu
-المدن الكبرى	lieu
+المدن الكبرى	CONCEPT
 المدينة	lieu
 المذاق	produit
 المرا	personne
@@ -534,24 +535,23 @@ ZARA	BRAND
 المشكل	concept
 المصلحة	concept
 المضيق	LOCATION
-المعاقين	personne
+المعاقين	CONCEPT
 المعلم	personne
-المغاربة	personne
+المغاربة	NATIONALITY
 المغاربية	personne
 المغر	concept
 المغرب	LOCATION
 المغرب تلكم	BRAND
 المغرب تلكوم	BRAND
 المغرب تيليكوم	BRAND
-المغربي	personne
+المغربي	NATIONALITY
 المغربيات	personne
 المغربية	personne
 المقرب	personne
 المكالمات	produit
 المكلا	concept
-الملك	personne
-الملكي	personne
-المليك	personne
+الملك	PERSON
+النظام الملكي	CONCEPT
 المملكة	concept
 المناطق الغربية	lieu
 المنتجة	produit
@@ -565,7 +565,6 @@ ZARA	BRAND
 المواطن	CONCEPT
 المواطن	personne
 الموت	concept
-الموقع	objet
 المومن	personne
 الميزان	objet
 الناس	CONCEPT
@@ -771,7 +770,6 @@ ZARA	BRAND
 تفراوت	lieu
 تفرج	concept
 تفرح	concept
-تفضل	concept
 تفضلوا	concept
 تفكر	concept
 تفكرت	concept
@@ -782,7 +780,6 @@ ZARA	BRAND
 تلبس	concept
 تلصق	concept
 تلقاه	concept
-تلقى	concept
 تمارة	LOCATION
 تمشي	desire
 تملالت	LOCATION
@@ -877,19 +874,19 @@ saadlamjarred	PERSON
 حمدو الله	concept
 حنا	personne
 حوايج	concept
-حول	concept
 خاتر	concept
 خاد	concept
 خاص	desire
 خاصاك	concept
 خاصكم	concept
+بلا بلا	NEGATIVE
 خاي	personne
 خت	personne
 ختب	concept
 ختك	personne
 ختكوم	personne
 ختى	personne
-خدمة	concept
+خدمة	CONCEPT
 خدمتكم	concept
 خديت	concept
 خديتيهم	concept
@@ -959,7 +956,6 @@ hitler	PERSON
 راواى	personne
 راوى	personne
 ربحت	concept
-ربي	desir
 رجاء	BRAND
 رجاوي	personne
 رجعت	concept
@@ -995,6 +991,8 @@ hitler	PERSON
 زغنغان	LOCATION
 زفافي	PERSON
 زفزافي	PERSON
+الزفزافي	PERSON
+الشنق	CONCEPT
 زكريا	PERSON
 زهير بانك	personne
 زوين	POSITIVE
@@ -1053,7 +1051,6 @@ hitler	PERSON
 سير تقود	NEGATIVE
 سيري تقود	NEGATIVE
 سيفط	concept
-شاحنة	objet
 شارجيت	concept
 شحال جمعت	desire
 شحال خاصني	desire
@@ -1062,6 +1059,7 @@ hitler	PERSON
 شرح	concept
 شركة	concept
 شعب	CONCEPT
+الشعب	CONCEPT
 شفار	NEGATIVE
 شفتك	concept
 شفشاون	LOCATION
@@ -1101,7 +1099,6 @@ effaclar	BRAND
 ضحكتنى	concept
 ضرها	desire
 ضنكم الله	desir
-طاحت	concept
 طاطا	LOCATION
 طان طان	LOCATION
 طبخ	objet
@@ -1368,9 +1365,13 @@ effaclar	BRAND
 محترمين	consept
 محسن	PERSON
 محمد	PERSON
+الخائن	NEGATIVE
+خائن	NEGATIVE
 محمد الخميس	PERSON
 محمد السادس	PERSON
+Mohamed 6	PERSON
 محسن فكري	PERSON
+محسين فكري	PERSON
 محمد بوسلهام	personne
 محمد6	PERSON
 مدير	TITLE
@@ -1408,10 +1409,10 @@ effaclar	BRAND
 مصلحته	concept
 مصيبة	concept
 مصيبة كحلة	NEGATIVE
-معاك	personne
-معاه	personne
-معاها	personne
-معاهم ‏	personne
+معك	CONJUNCTION
+معه	CONJUNCTION
+معها	CONJUNCTION
+معهم ‏	CONJUNCTION
 معجبوش	désire
 معرفة	concept
 معرفت	concept
@@ -1432,7 +1433,7 @@ effaclar	BRAND
 مكافأة	concept
 مكاينش	concept
 مكينش	concept
-ملك	personne
+ملك	TITLE
 ملكنا	personne
 ملي	concept
 مليار	objet
@@ -1512,12 +1513,10 @@ effaclar	BRAND
 نعمات	concept
 نعمة	LOCATION
 نعناع	produit
-نعيمة	personne
-نعيمة سميح	personne
+نعيمة	PERSON
+نعيمة سميح	PERSON
 نفرق	desire
-نفسه	personne
 نفق	concept
-نقدر	concept
 نقراو	concept
 نقود	objet
 نمرا	concept
@@ -1529,8 +1528,6 @@ effaclar	BRAND
 هؤلاء	PRONOUN
 هاد	personne
 هادر	concept
-هادوك	personne
-هادي	personne
 هاز	concept
 هببت	personne
 هة	concept
@@ -1566,7 +1563,6 @@ effaclar	BRAND
 ورزازات	LOCATION
 ورقات	objet
 وزان	LOCATION
-وش	concept
 وصلني	concept
 وفاسلف	personne
 وفقكم	desire
@@ -1593,15 +1589,11 @@ effaclar	BRAND
 الكلف	CONCEPT
 كلف	CONCEPT
 يرزقك	desir
-يستحق	concept
 يسلم	concept
 يسميكم	concept
 يطلب	concept
 يطوللنا	desire
 يعقوب	PERSON
-يغسل	concept
-يقول	concept
-يمشي	concept
 يمكن لكم	concept
 يمكن لينا	concept
 يهتم	concept
@@ -2092,10 +2084,41 @@ allez vous faire foutre	NEGATIVE	INTERJECTION
 ندمت	NEGATIVE
 تعبئة	TECHNOLOGY
 الهاتف	TECHNOLOGY
-OTHMANI	PERSON
+OTHMANI	PERSON	POLITICS
 التعليم	CONCEPT
 الدولة	ORGANIZATION
 سيري تقودي	NEGATIVE	INTERJECTION
 الجريدة	CONCEPT
 الكتاب	CONCEPT
 كتاب	CONCEPT
+نبيلة منيب	PERSON
+Mounib	PERSON	POLITICS
+gauche	CONCEPT	POLITICS
+journalistes	CONCEPT
+mort	NEGATIVE
+tragique	NEGATIVE
+gouvernement	ORGANIZATION
+grands chantiers	CONCEPT
+martyr	CONCEPT
+pendaison	NEGATIVE
+traître	NEGATIVE
+responsable	CONCEPT
+Zefzafi	PERSON
+déçoit	NEGATIVE
+elle a raison	SUPPORT
+il a raison	SUPPORT
+Grand roi	POSITIVE
+élections	CONCEPT
+طاحت الصومعة	NEGATIVE	EXPRESSION
+علقو الحجام	NEGATIVE	EXPRESSION
+لا يحمد عقباه	NEGATIVE	EXPRESSION
+السياسة	CONCEPT
+أعداؤنا	NEGATIVE
+الداء	NEGATIVE
+Hirak	CONCEPT
+Nabila Mounib	PERSON
+parlementaire	CONCEPT	POLITICS
+excellente	POSITIVE
+excellent	POSITIVE
+chef de gouvernement	TITLE
+électeurs	CONCEPT
