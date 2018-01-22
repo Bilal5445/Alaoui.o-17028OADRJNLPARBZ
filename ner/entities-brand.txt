@@ -462,7 +462,7 @@ ZARA	BRAND
 الفادة	concept
 الفتنة	NEGATIVE
 الفتيات	personne
-الفن	concept
+الفن	CONCEPT
 الفنيدق	LOCATION
 الفوز	concept
 الفيديو	CONCEPT
@@ -590,7 +590,7 @@ ZARA	BRAND
 امل	concept
 امي	personne
 ان شاء الله	desire
-انا	personne
+انا	PRONOUN
 انا بغيت	desire
 انبك	produit
 انترنت	produit
@@ -649,7 +649,12 @@ ZARA	BRAND
 بغا	desir
 بغا	desire
 بغا دير	desir
-بغات	desire
+بغات	DESIRE
+foutaises	NEGATIVE
+الأيديولوجية	CONCEPT
+كرنا	NEGATIVE
+méfier	NEGATIVE
+marginale	NEGATIVE
 بغاو	desire
 بغت	desir
 بغيتك	DESIRE
@@ -937,7 +942,7 @@ saadlamjarred	PERSON
 دولة	ORGANIZATION
 الشرطة	ORGANIZATION
 وزارة	ORGANIZATION
-ديالكم	personne
+ديالكم	PRONOUN
 ديالكم	PRONOUN
 ديالنا	PRONOUN
 دير لينا	desire
@@ -946,7 +951,6 @@ saadlamjarred	PERSON
 ديموغرافية	concept
 لفرشي	CONCEPT
 الفرشي	CONCEPT
-دين	concept
 رئيس	TITLE
 الفقيه	TITLE
 hitler	PERSON
@@ -998,7 +1002,7 @@ hitler	PERSON
 زوين	POSITIVE
 زيارتها	CONCEPT
 زيد	desire
-زين	concept
+زين	CONCEPT
 ساحر	personne
 ساره	personne
 ساطبق	concept
@@ -1212,7 +1216,7 @@ effaclar	BRAND
 فلوريدا	lieu
 فلوس	objet
 فم زغيد	LOCATION
-فن	concept
+فن	CONCEPT
 فنادق	lieu
 فنان	personne
 فهمت	concept
@@ -1279,7 +1283,7 @@ effaclar	BRAND
 كلامك	concept
 كلميم	LOCATION
 كلميمة	LOCATION
-كلهم	personne
+كلهم	PRONOUN
 كمية	concept
 كنتك	concept
 كنتمنى	DESIRE
@@ -1339,7 +1343,7 @@ effaclar	BRAND
 ليبيا	lieu
 ليبيريا	BRAND
 ليلى	PERSON
-لينا	personne
+لينا	PRONOUN
 مؤسسة	personne
 ما صالح شي	NEGATIVE
 ماتخليوها	desire
@@ -1407,7 +1411,8 @@ Mohamed 6	PERSON
 مصطفى	personne
 مصطفى بلعياش	personne
 مصلحته	concept
-مصيبة	concept
+مصيبة	NEGATIVE
+déteste	NEGATIVE
 مصيبة كحلة	NEGATIVE
 معك	CONJUNCTION
 معه	CONJUNCTION
@@ -1438,7 +1443,7 @@ Mohamed 6	PERSON
 ملي	concept
 مليار	objet
 مليكة	personne
-مليون	objet
+مليون	NUMBER
 ممكن	desire
 منار	personne
 منبقاش	concept
@@ -1450,7 +1455,6 @@ Mohamed 6	PERSON
 منكم	personne
 منى	personne
 منير	personne
-مها	personne
 موازنة	concept
 مواضيعكم	concept
 موضع	concept
@@ -1601,8 +1605,8 @@ La Roche-Posay	BRAND
 La Roche Posay	BRAND
 يوتوب	BRAND
 يوتيب	BRAND
-يوسف	personne
-يوسف مرشد	personne
+يوسف	PERSON
+يوسف مرشد	PERSON
 أبارث	BRAND
 ميلان	BRAND
 أكورا	BRAND
@@ -2100,6 +2104,7 @@ tragique	NEGATIVE
 gouvernement	ORGANIZATION
 grands chantiers	CONCEPT
 martyr	CONCEPT
+martyrs	CONCEPT
 pendaison	NEGATIVE
 traître	NEGATIVE
 responsable	CONCEPT
@@ -2112,6 +2117,7 @@ Grand roi	POSITIVE
 طاحت الصومعة	NEGATIVE	EXPRESSION
 علقو الحجام	NEGATIVE	EXPRESSION
 لا يحمد عقباه	NEGATIVE	EXPRESSION
+monarchie	CONCEPT
 السياسة	CONCEPT
 أعداؤنا	NEGATIVE
 الداء	NEGATIVE
