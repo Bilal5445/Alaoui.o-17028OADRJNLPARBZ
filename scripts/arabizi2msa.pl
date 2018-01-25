@@ -198,9 +198,14 @@ sub arabizi_msa_candidates {
         my $output_prefix = join('', @{ $state_output{$state_id} });
 
         #
+        my $prev_match_string;
         for (my $right = $current_position; $right < $length && $right - $current_position < $match_length; $right++) {
 
             my $match_string = join(' ', @arabizi_tokens[$current_position..$right]);
+            my $prev_match_char;
+            if ($current_position>0) {
+                $prev_match_char = join(' ', @arabizi_tokens[$current_position-1]);
+            }
             if (exists($$arabizi_map{$match_string})) {
                 foreach my $msa_string (sort (keys %{ $$arabizi_map{$match_string} })) {
                     my $string = $output_prefix . $msa_string;
@@ -218,7 +223,7 @@ sub arabizi_msa_candidates {
                     my $currArabicChar = $msa_string;
                     my @tmpArray = @{ $state_output{$state_id} };
                     my $prevArabicChar = $tmpArray[-1];
-                    if (&IsCompatibleWithPrevious($right, $length, $match_string, $currArabicChar, $prevArabicChar)) {
+                    if (&IsCompatibleWithPrevious($right, $length, $match_string, $prev_match_char, $currArabicChar, $prevArabicChar)) {
                         
                         @{ $state_output{$last_state_id} } = @{ $state_output{$state_id} };
                         push(@{ $state_output{$last_state_id} }, $msa_string);
@@ -235,6 +240,8 @@ sub arabizi_msa_candidates {
                     }                       
                 }
             }
+            # MC250118 so we can use previous arabizi letter for our comparisons
+            $prev_match_string = $match_string;
         }
     }
 
@@ -263,13 +270,19 @@ sub arabizi_msa_candidates {
 }
 
 sub IsCompatibleWithPrevious {
-    my($right, $length, $match_string, $currArabicChar, $prevArabicChar) = @_;
+    my($right, $length, $match_string, $prev_match_char, $currArabicChar, $prevArabicChar) = @_;
 
     # MC280917 'i' cannot be 'waw' if in the middle
     # MC280917 'i' cannot be 'waw' if in the end
     # MC280917 'i' can be 'waw' if in the beginning : ex 'ikabri lablado' => 'wa kabri lablado'
     # MC280917 'i' can be 'waw' if isolated : ex : 'la hokoma i sarha'
     if ($match_string eq 'i' and $currArabicChar eq 'و' and $right > 0) {
+        return 0;
+    }
+
+    # MC250118 'ou' cannot be 'yaa' : means cannot have 'o' dropped and 'u' mapped to 'yaa'
+    # eg : '3endou' cannot becomes 'عندي'
+    if ($match_string eq 'u' and $prev_match_char eq 'o' and $currArabicChar eq 'ي') {
         return 0;
     }
 
