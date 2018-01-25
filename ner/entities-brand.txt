@@ -1444,7 +1444,6 @@ déteste	NEGATIVE
 مليار	objet
 مليكة	personne
 مليون	NUMBER
-ممكن	desire
 منار	personne
 منبقاش	concept
 منتخب	concept
