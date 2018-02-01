@@ -1,2129 +1,2697 @@
-2m	BRAND
-3g	TECHNOLOGY
-4g	TECHNOLOGY
-5g	TECHNOLOGY
-الويفي	TECHNOLOGY
-ويفي	TECHNOLOGY
-50 ميغا	produit
-ABSOLUT	BRAND
-ACE	BRAND
-ACIMA	BRAND
-adsl	TECHNOLOGY
-AFRIQUIA	BRAND
-AIGUEBELLE	BRAND
-AIN SAISS	BRAND
-AIR France	BRAND
-ALFA ROMEO	BRAND
-AMORA	BRAND
-Anapec	BRAND
-ARIEL	BRAND
-ARTHUR MARTIN	BRAND
-ASTRAL	BRAND
-ATLAS BLUE	BRAND
-ATTIJARIWAFA	BRAND
-AUDI	BRAND
-AXA	BRAND
-AZUELOS	BRAND
-BANQUE POPULAIRE	BRAND
-BARILLA	BRAND
-BAYGON	BRAND
-BIMO	BRAND
-BLEDINA	BRAND
-BMCE	BRAND
-bmce	BRAND
-BMCI	BRAND
-BMW	BRAND
-BRANDT	BRAND
-BRAUN	BRAND
-BUDWEISER	BRAND
-BULGARI	BRAND
-CALOR	BRAND
-canon	BRAND
-CAOBEL	BRAND
-CARTE NOIRE	BRAND
-CARTIER	BRAND
-casa	LOCATION
-CELIO	BRAND
-CETELEM	BRAND
-CGI	BRAND
-CHAABI LIL ISKANE	BRAND
-CHERGUI	BRAND
-CHEVIGNON	BRAND
-CHIVAS REGAL	BRAND
-CHOPARD	BRAND
-CITROEN	BRAND
-COCA	BRAND
-COCA COLA	BRAND
-COCA-COLA	BRAND
-COCACOLA	BRAND
-COCK	BRAND
-CŒUR DE LAIT	BRAND
-COLORADO	BRAND
-compus	produit
-connexion	produit
-CREDIT DU MAROC	BRAND
-CRISTAL	BRAND
-CTM	BRAND
-Dacia	BRAND
-Dacia	CAR BRAND
-dacia	BRAND
-DANONE	BRAND
-DARI	BRAND
-DHL	BRAND
-diesel	CAR FUEL
-DOLIDOL	BRAND
-DUBOIS	BRAND
-Duster	BRAND
-ECONOMIE ET ENTREPRISE	BRAND
-electroplanet	BRAND
-EMIRATES	BRAND
-entrainment	objet
-EQDOM	BRAND
-ERAC	BRAND
-FAGOR	BRAND
-FANTA	BRAND
-FEDEX	BRAND
-FEMMES DU MAROC	BRAND
-FIAT	BRAND
-FORD	BRAND
-FROMAGE LES ENFANTS	BRAND
-GAOUAR	BRAND
-GAULOISE	BRAND
-GERVAIS	BRAND
-GOOD YEAR	BRAND
-hafiid	personne
-hamza	personne
-HAVANA	BRAND
-HD	TECHNOLOGY
-HEINEKEN	BRAND
-HENRY'S	BRAND
-HIT RADIO	BRAND
-hit radio	BRAND
-HONDA	BRAND
-honda	BRAND
-hopitaux	lieu
-HUILOR	BRAND
-HYATT REGENCY	BRAND
-IAM	BRAND
-IDEAL	BRAND
-IKEA	BRAND
-ikea	BRAND
-INGELEC	BRAND
-J'BEN DE KIRI	BRAND
-JACOB DELAFON	BRAND
-JAGUAR	BRAND
-JAWDA	BRAND
-JEBLI	BRAND
-jerry	PERSON
-jerry	personne
-JOHNNY WALKER	BRAND
-KELLOG'S	BRAND
-KENWOOD	BRAND
-khenifra	LOCATION
-KIA	BRAND
-KIRI	BRAND
-KITEA	BRAND
-KNORR	BRAND
-L'ECONOMISTE	BRAND
-LA PRAIRIE	BRAND
-LA SENZA	BRAND
-LA VACHE QUI RIT	BRAND
-LAFARGE	BRAND
-LAURENT PERRIER	BRAND
-LAVAZZA	BRAND
-LAYALITS	BRAND
-LE JOURNAL	BRAND
-LE MERIDIEN ROYAL MANSOUR	BRAND
-LEGRAND	BRAND
-LESIEUR	BRAND
-LEXUS	BRAND
-LG	BRAND
-LIPTON	BRAND
-logan	CAR MODEL
-LOL	LOL
-لول	LOL
-MAGGI	BRAND
-MANGO	BRAND
-MARJANE	BRAND
-marjane	BRAND
-MARLBORO	BRAND
-maroc telecom	BRAND
-MASTERCARD	BRAND
-mawazine	BRAND
-MAXI'S	BRAND
-MAZDA	BRAND
-McDONALD'S	BRAND
-MEDITEL	BRAND
-MENARA	BRAND
-MERCEDES	BRAND
-METRO	BRAND
-Mini cooper	BRAND
-MITSUBISHI	BRAND
-MOBILIA	BRAND
-momo	personne
-moslima ana	personne
-mouhamed 6	personne
-MOULINEX	BRAND
-Mr.PROPRE	BRAND
-mt	BRAND
-naïma	personne
-‏nàjlae	personne
-naymar	personne
-‏naymar	personne
-NESCAFE	BRAND
-NESQUIK	BRAND
-NIDO	BRAND
-NISSAN	BRAND
-norwigien	personne
-ntouma	personne
-OMO	BRAND
-orange	BRAND
-Orangina	BRAND
-OULMES	BRAND
-oustada	personne
-PANZZANI	BRAND
-PEPSI	BRAND
-PEUGEOT	BRAND
-PHILIPS	BRAND
-PINGOUIN	BRAND
-PIZZA HUT	BRAND
-PORSCHE	BRAND
-PRESIDENT	BRAND
-president	personne
-pull and bear	BRAND
-rahimi	personne
-RAIBI JAMILA	BRAND
-RAID	BRAND
-RAM	BRAND
-ram	BRAND
-rashīd imzīne	personne
-RAYBAN	BRAND
-Red Bull	BRAND
-RENAULT	BRAND
-Renault	CAR BRAND
-renault	BRAND
-RICHBOND	BRAND
-RMA WATANYA	BRAND
-ROCA	BRAND
-roi	TITLE
-SAMAR	BRAND
-SAMSUNG	BRAND
-samsung	BRAND
-SAN MIGUEL	BRAND
-SEAT	BRAND
-SGMB	BRAND
-SHELL	BRAND
-SHERATON	BRAND
-SIDI ALI	BRAND
-SIDI HARAZEM	BRAND
-SIERA	BRAND
-SIMMONS	BRAND
-SOFITEL	BRAND
-soltan	BRAND
-soltn	BRAND
-SWATCH	BRAND
-taykkhateb	concept
-TEFAL	BRAND
-TIDE	BRAND
-TIKIDA	BRAND
-TISSOT	BRAND
-tom	PERSON
-tom	personne
-TOSHIBA	BRAND
-TOTAL	BRAND
-TOYOTA	BRAND
-toyota	BRAND
-ultra	ORGANIZATION	FOOTBALL
-Eau micellaire Ultra	PRODUCT	COSMETICS
-الماكياج	CONCEPT	COSMETICS
-بشرتي	CONCEPT	COSMETICS
-inwi	BRAND
-UPS	BRAND
-VISA	BRAND
-VOLKSWAGEN	BRAND
-WANADOO	BRAND
-WESTERN UNION	BRAND
-WHIRLPOOL	BRAND
-WINSTON	BRAND
-wlbajda	personne
-youtoub	produit
-ZARA	BRAND
-آسفي	LOCATION
-آيت أورير	LOCATION
-آيت باه	LOCATION
-آيت داود	LOCATION
-آيت ملول	LOCATION
-‏أبحث	concept
-أبوظبي	lieu
-أتاي سلطان	produit
-أجدير	LOCATION
-أحفير	LOCATION
-أرفود	LOCATION
-أزرو	LOCATION
-أزمور	LOCATION
-أزيلال	LOCATION
-أسا	LOCATION
-أصيلة	LOCATION
-أكادير	LOCATION
-أكدز	LOCATION
-أكليم	LOCATION
-أكنول	LOCATION
-أكوراي	LOCATION
-أمزميز	LOCATION
-أنا	PRONOUN
-أنت	PRONOUN
-أوتات الحاج	LOCATION
-أولاد التيمة	LOCATION
-أولاد برحيل	LOCATION
-أولاد عبو	LOCATION
-أولاد عياد	LOCATION
-أولاد فريج	LOCATION
-أولاد مراح	LOCATION
-أولوز	LOCATION
-إسلام	concept
-إسم	concept
-إغلاق الحدود	concept
-إفران	LOCATION
-إفريقيا	LOCATION
-إمزورن	LOCATION
-إموزر مارموفا	LOCATION
-إنزكان	LOCATION
-إيت لازا	LOCATION
-إيمنتانوت	LOCATION
-إيموزر كاندار	LOCATION
-ابراهيم	personne
-ابص	produit
-ابن كيران	personne
-ابوضبي	Lieu
-ابوضبي	pays
-ابيك	personne
-اتاي	produit
-اتصالات	BRAND
-اتصالات المغرب	BRAND
-اتصالات المغرب	marques
-اتمنى	desire
-اجي	concept
-احببت	concept
-احراز	desire
-احمق	NEGATIVE
-الحمق	NEGATIVE
-الحماق	NEGATIVE
-اخي	personne
-ادق	concept
-اذن	CONJUNCTION
-اروع	concept
-اسبانيا	lieu
-استقلال	concept
-اصاحبي	personne
-اعجبكش	concept
-اغرم	LOCATION
-افتخر	concept
-افعل	concept
-اقلم	personne
-اكادير	lieu
-اكد	concept
-الإخوان	personne
-الاحد	personne
-الاستفادة	concept
-الاستهلاك	concept
-الاشخاص	personne
-الاشكال	concept
-الاعب	personne
-الامن	concept
-الانسان	personne
-البحر	CONCEPT
-البرامج	produit
-البركة	concept
-البرلمان	concept
-البروباغاندا	Lieu
-البروج	LOCATION
-البس	concept
-البطولات	concept
-البغاة	desire
-البلاد	CONCEPT
-البلاستيك	objet
-البلاصة	lieu
-البنات	personne
-البنت	personne
-البنك	lieu
-البهاليل	LOCATION
-البوليسي	personne
-التحكم	concept
-الجارة	LOCATION
-الجديدة	LOCATION
-الجديدة	lieu
-الجرائم	CONCEPT
-الاجرام	CONCEPT
-جريمة	CONCEPT
-الجردان	LOCATION
-الجرف	LOCATION
-الجزائر	lieu
-الجزائريين	personne
-الجيش	personne
-الحاجب	LOCATION
-الحانة	lieu
-الحبس	lieu
-الحبيب	personne
-الحجاب	concept
-الحجب	objet
-الحراويين	LOCATION
-الحزب	ORGANIZATION
-المخزن	ORGANIZATION
-الحسن	PERSON
-الحسيمة	LOCATION
-الحشيش	produit
-الحصاد	personne
-الحضرة	concept
-الحق	CONCEPT
-الحكرة	CONCEPT
-الحكومة	ORGANIZATION
-الحل	CONCEPT
-الحلال	CONCEPT
-الحمد لله	concept
-الحمدالله	desir
-الحمدلله	desire
-20 فبراير	CONCEPT
-الحنشان	LOCATION
-الحيوان	concept
-الخبر	concept
-الخدمات	produit
-الخدمة	CONCEPT
-الخط	objet
-الخطة	concept
-الخطوط الجوية الفرنسية	BRAND
-الخطوط الملكي	BRAND
-الخليج	lieu
-الخميسات	LOCATION
-الخونة	NEGATIVE
-الداتية	concept
-الداخلة	LOCATION
-الدار البيضاء	LOCATION
-الدار البيضاء	lieu
-الدارالبيضاء	lieu
-الدريوش	LOCATION
-الرجاء	SOCCER CLUB
-الوداد	SOCCER CLUB
-الرجال	CONCEPT
-الرشيدية	LOCATION
-الرماني	LOCATION
-الريش	LOCATION
-الزاك	LOCATION
-الزمامرة	LOCATION
-السطوح	lieu
-السعودية	lieu
-السعيدية	LOCATION
-السكان	personne
-السمارة	LOCATION
-السودان	pays
-السودان	lieu
-السويس	pays
-السويسري	lieu
-السيد	TITLE
-السيدة	TITLE
-الشاب	personne
-الشباب	CONCEPT
-شباب	CONCEPT
-شجاعة	CONCEPT
-المعاشات	CONCEPT
-الريع	CONCEPT
-المستقبل	CONCEPT
-رائعة	POSITIVE
-رائع	POSITIVE
-الفنان	CONCEPT
-الشبكة	concept
-الشرع	concept
-الشماعية	LOCATION
-الشمالي	personne
-الصخيرات	LOCATION
-الصويرة	LOCATION
-العائلة	personne
-العاصمة	lieu
-العالمين	personne
-العثماني	PERSON
-العذاب	concept
-العر دبية	personne
-العرائش	LOCATION
-العربية	personne
-العرس	concept
-العروي	LOCATION
-العز	concept
-العشران	personne
-العطاوية	LOCATION
-العطل	concept
-العمل	CONCEPT
-العملاء	personne
-العميل	personne
-العومى	concept
-العيون	LOCATION
-العيون سيدي ملوك	LOCATION
-الغرب	lieu
-الغرب	personne
-الغنية	concept
-الفادة	concept
-الفتنة	NEGATIVE
-الفتيات	personne
-الفن	CONCEPT
-الفنيدق	LOCATION
-الفوز	concept
-الفيديو	CONCEPT
-الفيس بوك	BRAND
-القادر اسهار	personne
-القانون	CONCEPT
-القحاب	NEGATIVE
-القحبة	NEGATIVE
-القدافي	personne
-القدم	objet
-القذافي	PERSON
-القرعة	objet
-القصيبة	LOCATION
-القنيطرة	LOCATION
-الكاميرا	objet
-الكتروني	concept
-الكتكوت	personne
-الكذب	concept
-الكرة	objet
-الكلخ	NEGATIVE
-الكمبيوتر	produit
-الكمبيوتر المحمول	produit
-الكونتر	concept
-اللاب	personne
-اللاعب	personne
-الله جعل	INTERJECTION
-الله حسن عوان	INTERJECTION
-الله حفضك	INTERJECTION
-الله حفضهم	INTERJECTION
-الله خلالك	INTERJECTION
-الله خلانا	INTERJECTION
-الله دنا فضو	INTERJECTION
-الله وحدين	INTERJECTION
-الله ياخد	INTERJECTION
-الله ياخد فيهم الحق	NEGATIVE
-الله يتهم	INTERJECTION
-الله يجازيك	INTERJECTION
-الله يحفض	INTERJECTION
-الله يحفضك	INTERJECTION
-الله يحفظ	INTERJECTION
-الله يخليك	INTERJECTION
-الله يخود	INTERJECTION
-الله يرحم	INTERJECTION
-الله يسهل	INTERJECTION
-الله يعطه	INTERJECTION
-الله يعطيك كسيدة	NEGATIVE	INTERJECTION
-ندفلو على مك	NEGATIVE	INTERJECTION
-الله ينصرك	POSITIVE
-الله ينعل	NEGATIVE	INTERJECTION
-الماكلة	concept
-المالك	personne
-المباشرين	personne
-المبشرين	personne
-المجتمع	personne
-المجرد حبيبتي	personne
-المجرمين	NEGATIVE
-المجلة	produit
-المحمدية	LOCATION
-المحمول	produit
-المدرسة	lieu
-المدن الكبرى	CONCEPT
-المدينة	lieu
-المذاق	produit
-المرا	personne
-المراكشي	personne
-المرجو	concept
-المرسى	LOCATION
-المسابقة	CONCEPT
-المسجات	produit
-المشكل	concept
-المصلحة	concept
-المضيق	LOCATION
-المعاقين	CONCEPT
-المعلم	personne
-المغاربة	NATIONALITY
-المغاربية	personne
-المغر	concept
-المغرب	LOCATION
-المغرب تلكم	BRAND
-المغرب تلكوم	BRAND
-المغرب تيليكوم	BRAND
-المغربي	NATIONALITY
-المغربيات	personne
-المغربية	personne
-المقرب	personne
-المكالمات	produit
-المكلا	concept
-الملك	PERSON
-النظام الملكي	CONCEPT
-المملكة	concept
-المناطق الغربية	lieu
-المنتجة	produit
-المنخرطين	personne
-المنزل	LOCATION
-المنصورية	LOCATION
-المنطقة	lieu
-المنعم	concept
-المنيوم	objet
-المهدية	LOCATION
-المواطن	CONCEPT
-المواطن	personne
-الموت	concept
-المومن	personne
-الميزان	objet
-الناس	CONCEPT
-الناظور	LOCATION
-النرويجية	BRAND
-النشط	concept
-النواصر	LOCATION
-الهدية	objet
-الهذرة	concept
-الهضرة	concept
-الوالدبن	personne
-الوالدين	personne
-الوزرة	personne
-الوزير	personne
-الوطن	CONCEPT
-الوقفات	concept
-الولد	personne
-اليوسفية	LOCATION
-امام	personne
-امراة	personne
-امسكرود	lieu
-امكم	personne
-امل	concept
-امي	personne
-ان شاء الله	desire
-انا	PRONOUN
-انا بغيت	desire
-انبك	produit
-انترنت	produit
-انترنيت	produit
-انتم	PRONOUN
-انسان	personne
-انستا	BRAND
-انشاء الله	desire
-انشاء الله	desir
-انشاءالله	concept
-انشاءالله	desire
-انشاءالله	desir
-اه سهل	desire
-اه يزيدك	desire
-اوروبا	pays
-اولاد	personne
-ايطاليا	lieu
-بأبل	produit
-بابل	BRAND
-بابيل	BRAND
-باسر	concept
-باش عطيوني	desire
-باش نبعث	desire
-باش نتاكدو	desire
-باش نجاوبكم	desire
-باش نشوفو	desire
-باغة	desire
-باغة تعمل	concept
-باغي	desire
-باغي	desir
-باغي نرجع	desire
-باغين	desire
-بافين	concept
-باك	personne
-بالجعد	LOCATION
-بالدي	pays
-بالسيف	IMPOSE
-بالصحة	POSITIVE
-بتولة	concept
-بحالاش	concept
-بدر	personne
-براهيم	personne
-برشيد	LOCATION
-بركان	LOCATION
-برلمان	concept
-برنامج	produit
-برهمان	personne
-بريت ندير	desir
-بش نشارك	desire
-بشرى	PERSON
-بصحتك	concept
-بصحتكم	POSITIVE
-بصماة الححياة	personne
-بعثنا	desire
-بعد	PREPOSITION
-بغا	desir
-بغا	desire
-بغا دير	desir
-بغات	DESIRE
-foutaises	NEGATIVE
-الأيديولوجية	CONCEPT
-كرنا	NEGATIVE
-méfier	NEGATIVE
-marginale	NEGATIVE
-بغاو	desire
-بغت	desir
-بغيتك	DESIRE
-بغيتوا	DESIRE
-بغينا	DESIRE
-بغينا نعرف	desire
-بل انت بيغ	BRAND
-بلات	concept
-بلاتي	lieu
-بلاد	lieu
-بلادك	lieu
-بلادنا	pays
-بلادهم	lieu
-بلادي	LOCATION
-بلاصة	lieu
-‏بلجيكا	LOCATION
-بلد	LOCATION
-بلدي	LOCATION
-بلدين	lieu
-بلوتوت	BRAND
-بن آدم	personne
-بن أحمد	LOCATION
-بن جرير	LOCATION
-بن سليمان	LOCATION
-بن طيب	LOCATION
-بنات	CONCEPT
-بنادم	personne
-بنت	CONCEPT
-بنت	personne
-بنتنا	personne
-بنط	personne
-بنطلون	objet
-بنقرا	personne
-بنكيران	PERSON
-بني أنصار	LOCATION
-بني بوياش	LOCATION
-بني درار	LOCATION
-بني ملال	LOCATION
-بنيتنا	concept
-بهار	lieu
-بوتفليقة	personne
-بوجدور	LOCATION
-بوجنيبة	LOCATION
-بوذنيب	LOCATION
-بوزنيقة	LOCATION
-بوسكورة	LOCATION
-بوعرفة	LOCATION
-بولمان	LOCATION
-بولمان دادس	LOCATION
-بويزكارن	LOCATION
-بيتك	lieu
-بيدل	concept
-بيك	personne
-بيناتهم	personne
-بيهم	personne
-بيوكرة	LOCATION
-تا سلطان	produit
-تاجر	personne
-تاجير	personne
-تارجيست	LOCATION
-تارودانت	LOCATION
-تازة	LOCATION
-تازة	lieu
-تازناخت	LOCATION
-تافراوت	LOCATION
-تافراوت	lieu
-تالمست	LOCATION
-تاليوين	LOCATION
-تاوريرت	LOCATION
-تاونات	LOCATION
-تبارك الله	POSITIVE
-الخير هذا	POSITIVE
-ما شاء الله	POSITIVE
-تبغي تمشي	desir
-تتستحمرو	NEGATIVE
-تتفتح	concept
-تتوجهوه	concept
-تجار	personne
-تجبرهم	concept
-تجربة	concept
-تجعلك	desire
-تحاصر	concept
-تحت	lieu
-تحفض	desire
-تحل	concept
-تحلى	desire
-تحناوت	LOCATION
-تحياتي	concept
-تحية	concept
-تختار	concept
-تخدم	concept
-تخرج	concept
-تخلص	concept
-تدهب	concept
-تدوي	concept
-تدير	concept
-تران	lieu
-تربية	CONCEPT
-ترتاح	desire
-ترسل	concept
-تركية	lieu
-تزنيت	LOCATION
-تسافري	concept
-تستقبل	concept
-تسجيل	concept
-تشفر	NEGATIVE
-شفرة	NEGATIVE
-تشكركم	concept
-تشهيت	DESIRE
-تصور	objet
-تضكركم	concept
-تطلبه	concept
-تطوان	LOCATION
-تطوان	lieu
-تعبئ	concept
-تغير	concept
-تفاحة	produit
-تفراوت	lieu
-تفرج	concept
-تفرح	concept
-تفضلوا	concept
-تفكر	concept
-تفكرت	concept
-تفهم	desire
-تقارب	concept
-تقاعد	concept
-تقولوها	concept
-تلبس	concept
-تلصق	concept
-تلقاه	concept
-تمارة	LOCATION
-تمشي	desire
-تملالت	LOCATION
-تمنار	LOCATION
-تمنت	desire
-تمنيت	desir
-تنا	personne
-تنبغي	desir
-‏تنظم	concept
-تنغير	LOCATION
-تنقص	desire
-تنقي	concept
-تهذر	concept
-توحشناك	concept
-توحشناك	desire
-توحشناك	desir
-توحشناك	d
-تولال	LOCATION
-تونس	pays
-تويسيت	LOCATION
-تيتيز	personne
-تيجري	concept
-تيزنيت	lieu
-تيسا	LOCATION
-تيط مليل	LOCATION
-تيفلت	LOCATION
-تيليفون	produit
-تيليفون	objet
-تينجداد	LOCATION
-ثت	
-ثن	personne
-ثهار  السوق	LOCATION
-جاب	desire
-جابها	concept
-جات	concept
-جاتكم	concept
-جاتني	concept
-جاوب	desire
-جرادة	LOCATION
-جراي	personne
-جرب	concept
-جرف الملحة	LOCATION
-جريدة	objet
-جزائري	personne
-جزيري	personne
-جفار	personne
-جلالات الملك	personne
-جماعة شايم	LOCATION
-جمس كرتون	personne
-جمهور	personne
-saadlamjarred	PERSON
-جنس	personne
-الحبان	CONCEPT
-جولف	BRAND
-جونس	personne
-جويا	personne
-جيوش	personne
-حاج	personne
-حاضي	concept
-حب	concept
-حباب	personne
-حبب	personne
-حببتي	personne
-حبيب	personne
-حبيبا	personne
-حبيبة	personne
-حبيبتي	personne
-حبيبنا	personne
-حبيبى	personne
-حبيبي	personne
-حتى واحد	personne
-حجاب	CONCEPT
-حدراف	personne
-حراس	personne
-حرام	concept
-حرين	concept
-حزب العدالة و التنمية	BRAND
-حساب	produit
-حسن	PERSON
-حسن 2	personne
-حشام	personne
-حضك	concept
-حطان	LOCATION
-حطك	concept
-حظر	concept
-حظوظه	concept
-حق	concept
-حقيبتي	concept
-حقير	NEGATIVE
-حليت	concept
-حمار	NEGATIVE
-حمدو الله	concept
-حنا	personne
-حوايج	concept
-خاتر	concept
-خاد	concept
-خاص	desire
-خاصاك	concept
-خاصكم	concept
-بلا بلا	NEGATIVE
-خاي	personne
-خت	personne
-ختب	concept
-ختك	personne
-ختكوم	personne
-ختى	personne
-خدمة	CONCEPT
-خدمتكم	concept
-خديت	concept
-خديتيهم	concept
-خرجت	concept
-خرجنا	concept
-خريبكة	LOCATION
-خصك	concept
-خضته	concept
-خط	personne
-خطك	concept
-خطوط	concept
-خلا لك	concept
-خلاه	concept
-خلنا	desire
-خليف	personne
-خنفر	lieu
-خنيفرة	LOCATION
-خويا بذله	personne
-خوية	personne
-خيرية	lieu
-دار	lieu
-دار غداري	LOCATION
-دارت	concept
-دارها	concept
-دارها	BRAND
-دارها	lieu
-دافعين	concept
-دانمارك	pays
-دبدو	LOCATION
-دبلجة	concept
-دخلت	concept
-دراسة	CONCEPT
-دراهم	MONEY
-دربي	concept
-درت	concept
-درتي	concept
-درهم	MONEY
-دشيرة الجهادية	LOCATION
-دعي	desire
-دفع	concept
-دلتا	BRAND
-دلكم	personne
-دلمغرب	lieu
-دمنات	LOCATION
-دنمارك	pays
-دنيا	personne
-دول	lieu
-دولة	ORGANIZATION
-الشرطة	ORGANIZATION
-وزارة	ORGANIZATION
-ديالكم	PRONOUN
-ديالكم	PRONOUN
-ديالنا	PRONOUN
-دير لينا	desire
-ديرو	desire
-ديماغوجية	CONCEPT
-ديموغرافية	concept
-لفرشي	CONCEPT
-الفرشي	CONCEPT
-رئيس	TITLE
-الفقيه	TITLE
-hitler	PERSON
-راغب	personne
-رام	BRAND
-راه بزاف	NEGATIVE
-راواى	personne
-راوى	personne
-ربحت	concept
-رجاء	BRAND
-رجاوي	personne
-رجعت	concept
-رجعتونا	concept
-رجعتي	concept
-رجعو	desire
-رجل	CONCEPT
-رجال	CONCEPT
-نصاب	CONCEPT
-نصابة	CONCEPT
-رخصة	concept
-رد لينا	desire
-رسول	personne
-رشيد	personne
-رشيد رفيق عندكم	personne
-رقم	objet
-ركبت	concept
-روعة	PERSON
-روعة	concept
-ريئس الحكومة	personne
-ريبات الخير	LOCATION
-ريتر	produit
-ريف	lieu
-ريفي	personne
-زادو	concept
-زاكورة	LOCATION
-زامل	NEGATIVE
-زاوية الشيخ	LOCATION
-زايو	LOCATION
-زب	NEGATIVE
-زبانة	personne
-زعيم	personne
-زغنغان	LOCATION
-زفافي	PERSON
-زفزافي	PERSON
-الزفزافي	PERSON
-الشنق	CONCEPT
-زكريا	PERSON
-زهير بانك	personne
-زوين	POSITIVE
-زيارتها	CONCEPT
-زيد	desire
-زين	CONCEPT
-ساحر	personne
-ساره	personne
-ساطبق	concept
-سافر	concept
-سانا	personne
-سانتا	personne
-ساهرة	personne
-سبأ عيون	LOCATION
-سبان	lieu
-سبت غزولة	LOCATION
-سبحان الله	concept
-سبورا	objet
-ستفد	concept
-سحر	lieu
-سحرت	concept
-سرق	concept
-سطات	LOCATION
-سعداتك	desire
-سعيد	personne
-سكه الصورة	produit
-سلا	LOCATION
-سلطان	BRAND
-سلطان	personne
-سلطان‎‎	personne
-سلطان العنبر	BRAND
-سلع	produit
-سلوان	LOCATION
-سناء	personne
-سنة _rahimi	personne
-سنتر	lieu
-سوق الاربعاء	LOCATION
-سوق سبت أولاد نمة	LOCATION
-سول	concept
-سولت	concept
-سياسا	objet
-سيبا	concept
-سيبيت	lieu
-سيتغير	desire
-سيدنا	peronne
-سيدي افني	LOCATION
-سيدي بنور	LOCATION
-سيدي بو عثمان	LOCATION
-سيدي رحال	LOCATION
-سيدي سليمان	LOCATION
-سيدي سليمان إشاراع	LOCATION
-سيدي سيدي بوكناديل	LOCATION
-سيدي علال البحراوي	LOCATION
-سيدي قاسم	LOCATION
-سيدي يحيى الغرب	LOCATION
-سير تقود	NEGATIVE
-سيري تقود	NEGATIVE
-سيفط	concept
-شارجيت	concept
-شحال جمعت	desire
-شحال خاصني	desire
-شحال نخلص	desire
-شخص	personne
-شرح	concept
-شركة	concept
-شعب	CONCEPT
-الشعب	CONCEPT
-شفار	NEGATIVE
-شفتك	concept
-شفشاون	LOCATION
-شفشاون	lieu
-شقة	objet
-شمال	lieu
-أسامة	PERSON
-effaclar	BRAND
-شمالية	personne
-شمسه	personne
-شمسها	personne
-شميت	concept
-شهر	TEMPORAL:TIME
-شوهتنا	NEGATIVE
-شي سلطان‎‎	personne
-شيخ	personne
-شيخة	personne
-شيشستر	LOCATION
-شيفور	personne
-شيك	objet
-شيواحد	personne
-صاحب	personne
-صادق	personne
-صارت	concept
-صحابي	personne
-صحافتكم	concept
-صحافنكم	concept
-صحة	CONCEPT
-صحة	concept
-صحراوي	personne
-صفرو	LOCATION
-صهيون	personne
-صهيوني	personne
-صوت	concept
-ضحايا	personne
-ضحك	concept
-ضحكتنى	concept
-ضرها	desire
-ضنكم الله	desir
-طاطا	LOCATION
-طان طان	LOCATION
-طبخ	objet
-طبيب	personne
-طحلة	LOCATION
-طرفاية	LOCATION
-طريقة	concept
-طريقتك	lieu
-طفل	personne
-طلب	concept
-طن	produit
-طنجة	LOCATION
-طنجة	lieu
-طوال	desire
-طولنا	concept
-طونوبيل	objet
-طيارة	concept
-طيارة	produit
-عارض	produit
-عاش	concept
-عاش	desire
-عاشا	concept
-عاهرة	NEGATIVE
-عايشين	concept
-عايك	concept
-عبادالله	personne
-عبد الله	PERSON
-عتمان	personne
-عجبهم	désire
-عجبهمش	concept
-عربي	personne
-عرض	CONCEPT
-عرض متعاف	produit
-عرفاك	concept
-عرفك	concept
-عسكري	personne
-عشران	personne
-عطاها	concept
-عطوك	concept
-عطيني	concept
-عقبال	concept
-عقبة	concept
-عقبت	concept
-عكا	LOCATION
-عكاشة	lieu
-علم	concept
-علم دلمغرب	concept
-عليك	PREPOSITION
-عليكم	PREPOSITION
-علينا	PREPOSITION
-عليهم	PREPOSITION
-عمر	PERSON
-عنبر	BRAND
-عندك	PREPOSITION
-عندك صح	SUPPORT
-عندكم	PREPOSITION
-عندنا	PREPOSITION
-عندهم	PREPOSITION
-عندي	PREPOSITION
-عنوان	lieu
-عواشر مبروك	desire
-عوقبت	concept
-عيت	concept
-عين إريكادا	LOCATION
-عين العودة	LOCATION
-عين بني ماثحار	LOCATION
-عين توجات	LOCATION
-عين حرودة	LOCATION
-غادرو	concept
-غادي تكلف	desire
-غادي لقاو	desire
-غادي ناكلو	concept
-غاديين	concept
-غاذي	concept
-غانجي	concept
-غبرتي	concept
-غتجي	concept
-غرسون	personne
-غرسيف	LOCATION
-غزال	personne
-غزالة	personne
-غزالى	personne
-غزل	personne
-غسو	concept
-غفساي	LOCATION
-غلاء الأسعار	CONCEPT
-غنشوف	concept
-غنطلب منكم	desire
-غنقولو	concept
-غنيت	concept
-غوتي	personne
-فؤاد	personne
-فارق	concept
-فاس	lieu
-فاسي	personne
-فالمغرب	lieu
-فاليز	objet
-فام الحصن	LOCATION
-فتيات	personne
-فحوانت	lieu
-فخورين	concept
-فدورنا	lieu
-فرح	concept
-فرحانة	concept
-فرعون	personne
-فرنسا	pays
-فرنسا	lieu
-فس	lieu
-فقه بن صالح	LOCATION
-فكيك	LOCATION
-فلوريدا	lieu
-فلوس	objet
-فم زغيد	LOCATION
-فن	CONCEPT
-فنادق	lieu
-فنان	personne
-فهمت	concept
-فيديو	CONCEPT
-فيس بوك	BRAND
-فيسبق	concept
-فيش	produit
-فيه	PREPOSITION
-قانون	concept
-قتلن	concept
-قتلوه	concept
-قحبة	NEGATIVE
-قذافي	PERSON
-قذافي	personne
-قرعت	objet
-قرية	LOCATION
-قرية أريكمان	LOCATION
-قرية با محمد	LOCATION
-قصبة تادلة	LOCATION
-قصر الكبير	LOCATION
-قطر	lieu
-قلت	concept
-قلتلو	concept
-قلعة  مغونة	LOCATION
-قلعة السراغنة	LOCATION
-قلي	concept
-قمة	concept
-قنن	objet
-قهوة	produit
-قود	NEGATIVE
-قول لينا	concept
-قولتلها	concept
-قوللي	concept
-قيمة	concept
-كاتب	concept
-كاتجاوبني	concept
-‏كاتسونى	desir
-كاتقلب	concept
-كاثمان	personne
-كازا	Lieu
-كاسا	lieu
-كاسكيطا	objet
-كان كورت	LOCATION
-كايحشمنا	desir
-كاين	concept
-كتبت	concept
-كتبر	concept
-كتخدي	concept
-كتستحقو	concept
-كتشدوا	concept
-كتصور	concept
-كتعجبني	concept
-كتعطو	concept
-كتلقى	concept
-كتنفد	personne
-كتهددنا	concept
-كتوصلو	personne
-كحت	concept
-كرة	objet
-كرستيان	personne
-كزنية	LOCATION
-كضريح	concept
-كل واحد	personne
-كلامك	concept
-كلميم	LOCATION
-كلميمة	LOCATION
-كلهم	PRONOUN
-كمية	concept
-كنتك	concept
-كنتمنى	DESIRE
-كنحماق	concept
-كنحماق عليك	desir
-كنخدم	concept
-كندخل	concept
-كندوز	concept
-كندير	concept
-كندير	BRAND
-كنعتذرو	desire
-كنقلب	concept
-كنقول	concept
-كنقولولكم	concept
-كوبل	personne
-كولنا	personne
-كوميرسيال	personne
-كوميرسيال	désire
-كون غير بقا	desire
-كوني	personne
-كيتحاسب	concept
-كيدير	concept
-كيغنيو	concept
-كيقولولي	concept
-كيلو	produit
-لابسين	concept
-لاسن	produit
-لاعب	personne
-لاه ينصر	desire
-لبت	lieu
-لبر جديد	LOCATION
-لبرمجة	concept
-لبكت	concept
-لبنت	personne
-لجميع	personne
-لحاس الكابة	NEGATIVE
-لحجاب	concept
-لحقوق	concept
-لحمد	personne
-لخصاص	LOCATION
-لفرص	produit
-لفلوس	objet
-لفوضى	concept
-لقليعة	LOCATION
-لقمان	personne
-لقيت	concept
-لكم	PREPOSITION
-لكوم	personne
-لكويرة	LOCATION
-لمطار	lieu
-لمطر	concept
-لموعد	concept
-لنا	PREPOSITION
-لهم	PREPOSITION
-لوطاية	LOCATION
-لولاد	LOCATION
-ليبيا	lieu
-ليبيريا	BRAND
-ليلى	PERSON
-لينا	PRONOUN
-مؤسسة	personne
-ما صالح شي	NEGATIVE
-ماتخليوها	desire
-ماجا	BRAND
-مادين	lieu
-مارسيت	concept
-مارك تلكم	BRAND
-ماسا	LOCATION
-ماعرفتش	concept
-ماعرفتشي	concept
-مافاهمينش	concept
-مافيا	personne
-مالك	personne
-مالهم	personne
-ماماك	personne
-مبروك	POSITIVE
-مبروك	desire
-مبقيت	concept
-متبعين	concept
-متواضع	concept
-مجانا	concept
-مجهدة	concept
-محترمين	consept
-محسن	PERSON
-محمد	PERSON
-الخائن	NEGATIVE
-خائن	NEGATIVE
-محمد الخميس	PERSON
-محمد السادس	PERSON
-Mohamed 6	PERSON
-محسن فكري	PERSON
-محسين فكري	PERSON
-محمد بوسلهام	personne
-محمد6	PERSON
-مدير	TITLE
-مديع	personne
-مدينة	lieu
-مديونة	LOCATION
-مرا	personne
-مربين	concept
-مرتك	personne
-مرتيل	LOCATION
-مرجا	lieu
-مركز الاتصال	lieu
-مروان	PERSON
-مروان	personne
-مروة	BRAND
-مريرت	LOCATION
-مريضة	concept
-مساج privé	objet
-مساعدة	concept
-مستر كارد	BRAND
-مستوى	concept
-مسجلين	concept
-مسلم	concept
-مسلم	personne
-مسير	persone
-مشا	concept
-مشرا بلقصيري	LOCATION
-مشرمل	personne
-مشكل	NEGATIVE
-مشكل	concept
-مشيت	concept
-مصطفة	personne
-مصطفى	personne
-مصطفى بلعياش	personne
-مصلحته	concept
-مصيبة	NEGATIVE
-déteste	NEGATIVE
-مصيبة كحلة	NEGATIVE
-معك	CONJUNCTION
-معه	CONJUNCTION
-معها	CONJUNCTION
-معهم ‏	CONJUNCTION
-معجبوش	désire
-معرفة	concept
-معرفت	concept
-معطا	concept
-معلومات	concept
-مغاربة	personne
-مغرب	lieu
-مغربي	personne
-مغربيات	personne
-مغنطيس	objet
-مفاهم	concept
-مفتش	personne
-مفيد	concept
-مقتل	concept
-الحبوب	CONCEPT
-مقود	NEGATIVE
-مقوم	concept
-مكافأة	concept
-مكاينش	concept
-مكينش	concept
-ملك	TITLE
-ملكنا	personne
-ملي	concept
-مليار	objet
-مليكة	personne
-مليون	NUMBER
-منار	personne
-منبقاش	concept
-منتخب	concept
-منشستر	lieu
-منصور	personne
-منضمة	lieu
-منظمة	concept
-منكم	personne
-منى	personne
-منير	personne
-موازنة	concept
-مواضيعكم	concept
-موضع	concept
-موظف	personne
-موك	personne
-مولاي	personne
-مولاي دريس زيرهون	LOCATION
-مولاي عبد الله	PERSON
-مولاي علي شريف	LOCATION
-مولى ادريس زرهون	lieu
-مومو	personne
-ميدار	LOCATION
-ميدلت	LOCATION
-ميساج	objet
-ميسك	objet
-ميسور	LOCATION
-مينة	lieu
-نائب	personne
-ناس	CONCEPT
-ناصر	PERSON
-ناكلو	concept
-نبدا	desire
-نبص	produit
-نبنيو	concept
-نبيل	personne
-نبيل موهوب	personne
-نتمنا	desir
-نتواصل	concept
-نتوما	personne
-انت	PRONOUN
-نجاة عتاب	personne
-نجيك	concept
-نحبكم	concept
-نحن	PRONOUN
-نخلص	concept
-ندخل	concept
-ندخل نشوف	desire
-ندير	personne
-ندير	concept
-نذقه	concept
-نرجع	concept
-نرويج	lieu
-نريد	concept
-نزار بركة	personne
-نس	personne
-نستفاد	concept
-نسحة الله	
-نسمة	concept
-نسيت	concept
-نشارك	desire
-نشارك	concept
-نشرك	concept
-نصت	concept
-نصيحة	concept
-نضام	concept
-نضحك	concept
-نعاس	concept
-نعطيكم	concept
-نعلة الله	concept
-نعمات	concept
-نعمة	LOCATION
-نعناع	produit
-نعيمة	PERSON
-نعيمة سميح	PERSON
-نفرق	desire
-نفق	concept
-نقراو	concept
-نقود	objet
-نمرا	concept
-نمشي	concept
-نوارة	personne
-نور	personne
-نوع الهاتف	concept
-نيكون	BRAND
-هؤلاء	PRONOUN
-هاد	personne
-هادر	concept
-هاز	concept
-هببت	personne
-هة	concept
-هتت هدى	personne
-هدية	concept
-هذا	PRONOUN
-هل	CONJUNCTION
-هم	PRONOUN
-هنا	ADVERB
-ههههه	LOL
-هوما	PRONOUN
-هي	PRONOUN
-و صاحب	personne
-واتساب	BRAND
-واجب	concept
-واختار	desire
-واد أمليل	LOCATION
-واد زم	LOCATION
-واد لاو	LOCATION
-واعر	POSITIVE
-واعرة	POSITIVE
-واقع	concept
-والديك	personne
-والدينا	personne
-والنوعية	concept
-وانتم	personne
-وتصاب	concept
-وجبولنا	desire
-وجدة	LOCATION
-وجدة	lieu
-وحد	personne
-وراقك	concept
-ورزازات	LOCATION
-ورقات	objet
-وزان	LOCATION
-وصلني	concept
-وفاسلف	personne
-وفقكم	desire
-وكالة	lieu
-ولاد القحاب	NEGATIVE
-بنت القحبة	NEGATIVE
-ولد القحبة	NEGATIVE
-ونت	personne
-ووزعونا	concept
-وية	concept
-ويسلان	LOCATION
-يا رب نسالك	desire
-يا ست	personne
-يارب	desire
-ياسين ‏zouitine	personne
-يامعلم	personne
-يبادلوها	concept
-يجاوبني	concept
-يحفظك	desire
-يحفظك	desir
-يدخل	concept
-يربح	concept
-يرد	desire
-الكلف	CONCEPT
-كلف	CONCEPT
-يرزقك	desir
-يسلم	concept
-يسميكم	concept
-يطلب	concept
-يطوللنا	desire
-يعقوب	PERSON
-يمكن لكم	concept
-يمكن لينا	concept
-يهتم	concept
-La Roche-Posay	BRAND
-La Roche Posay	BRAND
-يوتوب	BRAND
-يوتيب	BRAND
-يوسف	PERSON
-يوسف مرشد	PERSON
-أبارث	BRAND
-ميلان	BRAND
-أكورا	BRAND
-الكاتيل	BRAND
-ألفا روميو	BRAND
-ألبينا	BRAND
-البيني	BRAND
-البين إلكترونيات	BRAND
-اي ام سي	BRAND
-ابل	BRAND
-أستون مارتن	BRAND
-أودي	BRAND
-أوستن	BRAND
-بنتلي	BRAND
-بي ام دبليو	BRAND
-بوس	BRAND
-بوجاتي	BRAND
-بويك	BRAND
-كاديلاك	BRAND
-كانون	BRAND
-شيفروليه	BRAND
-كرايسلر	BRAND
-سيتروين	BRAND
-كلاريون	BRAND
-داسيا	BRAND
-دايو	BRAND
-دايهاتسو	BRAND
-داتسون	BRAND
-دينون	BRAND
-مراوغة	BRAND
-دولبي	BRAND
-دي اس	BRAND
-فيراري	BRAND
-فياط	BRAND
-فيتبيت	BRAND
-مخاضة	BRAND
-فورد موستانج	BRAND
-فوجيتسو	BRAND
-فوزو	BRAND
-غارمين	BRAND
-جي ام اس	BRAND
-ڭولد فيزيون	BRAND
-هاير	BRAND
-هارمون كاردون	BRAND
-هوندا	BRAND
-هامر	BRAND
-هيونداي	BRAND
-إنفينيتي	BRAND
-ايبود	BRAND
-ايسوزو	BRAND
-ايفيكو	BRAND
-نمر	BRAND
-جي ال بي	BRAND
-جي بي ال	BRAND
-جيب	BRAND
-جي في سي	BRAND
-كيا	BRAND
-ادا	BRAND
-لامبورغيني	BRAND
-لانسيا	BRAND
-لاند روفر	BRAND
-لكزس	BRAND
-ال جي	BRAND
-لينكولن	BRAND
-لوتس	BRAND
-مارانتز	BRAND
-مازيراتي	BRAND
-مايباخ	BRAND
-مازدا	BRAND
-ماكلارين	BRAND
-مرسيدس بنز	BRAND
-ام جي	BRAND
-مصغرة	BRAND
-ميتسوبيشي	BRAND
-موتورولا	BRAND
-نيسان	BRAND
-نوريلكو	BRAND
-أولدزموبيل	BRAND
-أوبل	BRAND
-بيجو	BRAND
-فيليبس	BRAND
-بليموث	BRAND
-بونتياك	BRAND
-بورش	BRAND
-راديو شاك	BRAND
-رينو	BRAND
-رولز رويس	BRAND
-سامسونج	BRAND
-سانديسك	BRAND
-سانسوى	BRAND
-سانيو	BRAND
-مقعد	BRAND
-سيمكا	BRAND
-سكودا	BRAND
-سوني	BRAND
-سانج يونج	BRAND
-سوبارو	BRAND
-سوزوكي	BRAND
-تالبوت	BRAND
-تيكنيكس	BRAND
-تسلا موتورز	BRAND
-طومسون	BRAND
-تي ايتش اكس	BRAND
-تي ال سي	BRAND
-طوم طوم	BRAND
-تويوتا	BRAND
-فولكس واجن	BRAND
-فولفو	BRAND
-والكمان	BRAND
-ابصولو	BRAND
-ايس	BRAND
-اسير	BRAND
-اسيما	BRAND
-الضحى	BRAND
-اديداس	BRAND
-افريقيا	BRAND
-ايڭبيل	BRAND
-عين اطلس	BRAND
-عين افران	BRAND
-عين سايس	BRAND
-عين السلطان	BRAND
-ايرلوكس	BRAND
-الايام	BRAND
-مساء	BRAND
-العمران	BRAND
-الكاطيل	BRAND
-الشيميز	BRAND
-الدو	BRAND
-الفا روميو	BRAND
-اليونس دارنا	BRAND
-اولويز	BRAND
-اميريكان ايڭل	BRAND
-امورا	BRAND
-ارادو كوسميتيك	BRAND
-اريال	BRAND
-ارماني	BRAND
-ارثر مارتن	BRAND
-السعادة	BRAND
-الصباح	BRAND
-استرال	BRAND
-اطلس بلو	BRAND
-التجاري وفابنك	BRAND
-اودي	BRAND
-او اونفون دابوغ	BRAND
-افون	BRAND
-اكزا	BRAND
-ازويلوس	BRAND
-بةبيدو	BRAND
-باهيا	BRAND
-البنك الشعبي	BRAND
-بارييا	BRAND
-بايڭون	BRAND
-بيل مغرب	BRAND
-بيرشكا	BRAND
-زبد البدوية	BRAND
-بيير كازابلنكا	BRAND
-بيڭديل	BRAND
-بيمو	BRAND
-بيوڭناش	BRAND
-بلاكبيري	BRAND
-بلازاطيكس	BRAND
-بلادينا	BRAND
-البنك المغربي للتجارة الخارجية	BRAND
-البنك المغربي للتجارة و الصناعة	BRAND
-بو ديزاين	BRAND
-بوش مغرب	BRAND
-بونتي	BRAND
-براندت	BRAND
-برون	BRAND
-بودويزر	BRAND
-بولڭاري	BRAND
-كادوم	BRAND
-كالور	BRAND
-كاوبيل	BRAND
-كارط نوار	BRAND
-كارتيي	BRAND
-سيليو	BRAND
-سنطرال للالبان	BRAND
-سيتيليم	BRAND
-سي جي اي	BRAND
-الشعبي للاسكان	BRAND
-شانا	BRAND
-شانيل	BRAND
-شركي	BRAND
-شرڭي	BRAND
-شيفينيون	BRAND
-شيفاس ريڭال	BRAND
-شوبارد	BRAND
-سينتي	BRAND
-سيطروين	BRAND
-كلينيك	BRAND
-كوكا كولا	BRAND
-قلب الحليب	BRAND
-كولورادو	BRAND
-كوول	BRAND
-كوباك	BRAND
-كوط ضور	BRAND
-قرض المغرب	BRAND
-كريسطال	BRAND
-سيتيام	BRAND
-ضاسيا	BRAND
-دانون	BRAND
-داري	BRAND
-دي دييتريش	BRAND
-ديل	BRAND
-ديسكامبس	BRAND
-دي ايش ال	BRAND
-ديامنتين	BRAND
-ديور	BRAND
-دولي دول	BRAND
-دوجا بروموصيون	BRAND
-دوف	BRAND
-دوبوا	BRAND
-دوستر	BRAND
-ديار السلام	BRAND
-اقتصاد و شركة	BRAND
-ايدام	BRAND
-ايليكتروهاوس	BRAND
-ايليكترولوكس	BRAND
-ايليزابيط فرانشي	BRAND
-ايلسيف	BRAND
-الامارات	BRAND
-ايكدوم	BRAND
-ايراك	BRAND
-ايريكسون	BRAND
-ايطام	BRAND
-اكسيليا	BRAND
-فاڭور	BRAND
-فانطا	BRAND
-فور	BRAND
-فيديكس	BRAND
-فام دو ماروك	BRAND
-فينيادي	BRAND
-فيريرو	BRAND
-فورد	BRAND
-فروماج الاطفال	BRAND
-فروماج لوبريزيدون	BRAND
-ڭاوار	BRAND
-ڭاب	BRAND
-ڭارنيي	BRAND
-ڭولواز	BRAND
-كيرفيز	BRAND
-جيليت	BRAND
-ڭود يير	BRAND
-ڭوتشي	BRAND
-اش اند ام	BRAND
-هافانا	BRAND
-هاواي	BRAND
-هينكين	BRAND
-هينريز	BRAND
-هوم اند صوفا	BRAND
-هوم وير	BRAND
-اش بي	BRAND
-اش تي سي	BRAND
-هواوي	BRAND
-ويلور	BRAND
-حياة ريجينسي	BRAND
-اي بي ام	BRAND
-ايديال	BRAND
-ايكيا	BRAND
-ايمي انفيست	BRAND
-اينجيليك	BRAND
-اينتيل	BRAND
-انوي	BRAND
-ايفون	BRAND
-هستقبال	BRAND
-جبن د كيري	BRAND
-جاكوب ديلافون	BRAND
-جاكوار	BRAND
-جودة	BRAND
-جاسبرومو	BRAND
-جبلي	BRAND
-جينيفير	BRAND
-جبال	BRAND
-جوني والكر	BRAND
-جونسون	BRAND
-جولز	BRAND
-جميرة	BRAND
-كارين ميلين	BRAND
-كيطو	BRAND
-كيلوڭز	BRAND
-كينوود	BRAND
-كيندر	BRAND
-كيري	BRAND
-كيت كات	BRAND
-كيتيا	BRAND
-كنور	BRAND
-كيلي كوسميتيكس	BRAND
-ليكينوميسط	BRAND
-لا هولونديز	BRAND
-لابريري	BRAND
-لا سينزا	BRAND
-البقرة الضاحكة	BRAND
-لاكوسط	BRAND
-لافارج	BRAND
-لانكوم	BRAND
-لورونت بيريي	BRAND
-لافازا	BRAND
-لاياايتس	BRAND
-ال سي وايكيكي	BRAND
-لو كونطوار ايليكطرومينيجي	BRAND
-لو ميغيديان غوايال منصور	BRAND
-لوڭران	BRAND
-لونوفو	BRAND
-الاطفال	BRAND
-لوسيور	BRAND
-ليكسوس	BRAND
-لييبهير	BRAND
-ليندت	BRAND
-ليون	BRAND
-ليبطون	BRAND
-لويس فيطون	BRAND
-ام اند امز	BRAND
-ماك	BRAND
-ماڭي	BRAND
-منضرنا	BRAND
-مانڭو	BRAND
-مرجان	BRAND
-مارلبورو	BRAND
-مارس	BRAND
-ماستركارد	BRAND
-ماكس مارا	BRAND
-ماكسيس	BRAND
-مايبيلين	BRAND
-ماكدونالددز	BRAND
-ميديتيل	BRAND
-مينارا	BRAND
-ميرسيديس بانز	BRAND
-ميطرو	BRAND
-ميشوك	BRAND
-ميكروسوفت	BRAND
-ميلكا	BRAND
-ميني كوبر	BRAND
-موبيليا	BRAND
-موروكان توتش	BRAND
-موطورولا	BRAND
-مولينيكس	BRAND
-موسيو بروبر	BRAND
-النخيل	BRAND
-نيسكافي	BRAND
-نيسكويك	BRAND
-نيسلي	BRAND
-نوهوش	BRAND
-نوتروجينا	BRAND
-نيكسط	BRAND
-نيدو	BRAND
-نيفيا	BRAND
-نوكيا	BRAND
-نوتيلا	BRAND
-اومو	BRAND
-اوبيل	BRAND
-اوبو	BRAND
-اورونجينا	BRAND
-اوركيسطرا	BRAND
-اوريو	BRAND
-اوريفلام	BRAND
-ولماس	BRAND
-بان دو سوكر	BRAND
-باموليف	BRAND
-بامبيرس	BRAND
-بانطين	BRAND
-بانزاتي	BRAND
-بيبسي	BRAND
-بوجو	BRAND
-بيمكي	BRAND
-بانجوان	BRAND
-بيتزا هوت	BRAND
-بومس	BRAND
-بريط بلوس	BRAND
-بريم اينفيست	BRAND
-بريوس	BRAND
-بروموبيل	BRAND
-بول اند بير	BRAND
-كواليتي ستريت	BRAND
-رافاييلو	BRAND
-رايبي جميلة	BRAND
-رايد	BRAND
-الخطوط الجوية المغربية	BRAND
-رانج روفر	BRAND
-رايبان	BRAND
-ريد بول	BRAND
-رونو	BRAND
-ريشبوند	BRAND
-ريميل	BRAND
-ار ام ا وطنية	BRAND
-روك	BRAND
-روكا	BRAND
-سهوبيرت	BRAND
-ايس 8	BRAND
-صاجيم	BRAND
-صمر	BRAND
-صامصونڭ	BRAND
-صان ميڭيل	BRAND
-صانڭ يونڭ	BRAND
-صوتر	BRAND
-صابون طاوس	BRAND
-شويبس	BRAND
-سيت	BRAND
-سيفورا	BRAND
-شيل	BRAND
-شيراطون	BRAND
-سيدي علي	BRAND
-سيدي حرازم	BRAND
-سيامانس	BRAND
-سييرا	BRAND
-سينيال	BRAND
-سيمونس	BRAND
-سي ام اي جي	BRAND
-الشركة العامة	BRAND
-صوفيطيل	BRAND
-صوني	BRAND
-صوني ايريكسون	BRAND
-صطراديفاريوس	BRAND
-سواتش	BRAND
-تي موبيل	BRAND
-طيكنو	BRAND
-طيفال	BRAND
-طيكا ماروك	BRAND
-تيد	BRAND
-تيكيدا	BRAND
-تيمبرلاند	BRAND
-تيسو	BRAND
-طوبس	BRAND
-طوشيبا	BRAND
-طوطال	BRAND
-طويوطا	BRAND
-طري بريط	BRAND
-تويكس	BRAND
-اان دو طروا	BRAND
-يو بي اس	BRAND
-اوربان جانكل	BRAND
-فيشي	BRAND
-فيزا	BRAND
-فولكس واڭن	BRAND
-وانادو	BRAND
-ويلا	BRAND
-ويسترن يونيون	BRAND
-وايرلبول	BRAND
-ويكو	BRAND
-وينستون	BRAND
-ايف سان لورون	BRAND
-زارا	BRAND
-يا لطيف	INTERJECTION
-يالطيف	INTERJECTION
-والله	INTERJECTION
-عاين باين	EXPRESSION
-ديال بصح	EXPRESSION
-ديال زبي	EXPRESSION
-طريق الله	EXPRESSION
-حضي جنابك	EXPRESSION
-إوا من بعد	EXPRESSION
-بحال بحال	EXPRESSION
-زادو فيه	EXPRESSION
-يا زبي	INTERJECTION
-الله يهديكم	INTERJECTION
-FUCK	INTERJECTION
-السماوي	CONCEPT
-ولد الحاج	CONCEPT
-زروطة	CONCEPT
-بيران	CONCEPT
-البيران	CONCEPT
-الحانات	CONCEPT
-حانات	CONCEPT
-الملاهي	CONCEPT
-دراوش	CONCEPT
-سيوفة	CONCEPT
-قحبة	CONCEPT
-سكران	CONCEPT
-شمايت	NEGATIVE
-khobziste	CONCEPT
-سردي	POSITIVE
-الموسيقة	CONCEPT
-باجدوب	PERSON
-تفوو	INTERJECTION
-تافهة	NEGATIVE
-مشرملة	NEGATIVE
-زبل	NEGATIVE
+20 فبراير	CONCEPT	
+2m	BRAND	
+3g	TECHNOLOGY	
+4g	TECHNOLOGY	
+50 ميغا	produit	
+5g	TECHNOLOGY	
+ABSOLUT	BRAND	
+ACE	BRAND	
+ACIMA	BRAND	
+adsl	TECHNOLOGY	
+AFRIQUIA	BRAND	
+AIGUEBELLE	BRAND	
+AIN SAISS	BRAND	
+AIR France	BRAND	
+ALFA ROMEO	BRAND	
 allez vous faire foutre	NEGATIVE	INTERJECTION
-ندمت	NEGATIVE
-تعبئة	TECHNOLOGY
-الهاتف	TECHNOLOGY
-OTHMANI	PERSON	POLITICS
-التعليم	CONCEPT
-الدولة	ORGANIZATION
-سيري تقودي	NEGATIVE	INTERJECTION
-الجريدة	CONCEPT
-الكتاب	CONCEPT
-كتاب	CONCEPT
-نبيلة منيب	PERSON
-Mounib	PERSON	POLITICS
+AMORA	BRAND	
+Anapec	BRAND	
+ARIEL	BRAND	
+ARTHUR MARTIN	BRAND	
+ASTRAL	BRAND	
+ATLAS BLUE	BRAND	
+ATTIJARIWAFA	BRAND	
+AUDI	BRAND	
+AXA	BRAND	
+AZUELOS	BRAND	
+BANQUE POPULAIRE	BRAND	
+BARILLA	BRAND	
+BAYGON	BRAND	
+BIMO	BRAND	
+BLEDINA	BRAND	
+BMCE	BRAND	
+bmce	BRAND	
+BMCI	BRAND	
+BMW	BRAND	
+BRANDT	BRAND	
+BRAUN	BRAND	
+BUDWEISER	BRAND	
+BULGARI	BRAND	
+CALOR	BRAND	
+canon	BRAND	
+CAOBEL	BRAND	
+CARTE NOIRE	BRAND	
+CARTIER	BRAND	
+casa	LOCATION	
+CELIO	BRAND	
+CETELEM	BRAND	
+CGI	BRAND	
+CHAABI LIL ISKANE	BRAND	
+chef de gouvernement	TITLE	
+CHERGUI	BRAND	
+CHEVIGNON	BRAND	
+CHIVAS REGAL	BRAND	
+CHOPARD	BRAND	
+CITROEN	BRAND	
+COCA	BRAND	
+COCA COLA	BRAND	
+COCA-COLA	BRAND	
+COCACOLA	BRAND	
+COCK	BRAND	
+CŒUR DE LAIT	BRAND	
+COLORADO	BRAND	
+compus	produit	
+connexion	produit	
+CREDIT DU MAROC	BRAND	
+CRISTAL	BRAND	
+CTM	BRAND	
+Dacia	BRAND	
+Dacia	CAR BRAND	
+dacia	BRAND	
+DANONE	BRAND	
+DARI	BRAND	
+déçoit	NEGATIVE	
+déteste	NEGATIVE	
+DHL	BRAND	
+diesel	CAR FUEL	
+DOLIDOL	BRAND	
+DUBOIS	BRAND	
+Duster	BRAND	
+Eau micellaire Ultra	PRODUCT	COSMETICS
+ECONOMIE ET ENTREPRISE	BRAND	
+effaclar	BRAND	
+électeurs	CONCEPT	
+élections	CONCEPT	
+electroplanet	BRAND	
+elle a raison	SUPPORT	
+EMIRATES	BRAND	
+entrainment	objet	
+EQDOM	BRAND	
+ERAC	BRAND	
+excellent	POSITIVE	
+excellente	POSITIVE	
+FAGOR	BRAND	
+FANTA	BRAND	
+FEDEX	BRAND	
+FEMMES DU MAROC	BRAND	
+FIAT	BRAND	
+FORD	BRAND	
+foutaises	NEGATIVE	
+FROMAGE LES ENFANTS	BRAND	
+FUCK	INTERJECTION	
+GAOUAR	BRAND	
 gauche	CONCEPT	POLITICS
-journalistes	CONCEPT
-mort	NEGATIVE
-tragique	NEGATIVE
-gouvernement	ORGANIZATION
-grands chantiers	CONCEPT
-martyr	CONCEPT
-martyrs	CONCEPT
-pendaison	NEGATIVE
-traître	NEGATIVE
-responsable	CONCEPT
-Zefzafi	PERSON
-déçoit	NEGATIVE
-elle a raison	SUPPORT
-il a raison	SUPPORT
-Grand roi	POSITIVE
-élections	CONCEPT
-طاحت الصومعة	NEGATIVE	EXPRESSION
-علقو الحجام	NEGATIVE	EXPRESSION
-لا يحمد عقباه	NEGATIVE	EXPRESSION
-monarchie	CONCEPT
-السياسة	CONCEPT
-أعداؤنا	NEGATIVE
-الداء	NEGATIVE
-Hirak	CONCEPT
-Nabila Mounib	PERSON
+GAULOISE	BRAND	
+GERVAIS	BRAND	
+GOOD YEAR	BRAND	
+gouvernement	ORGANIZATION	
+Grand roi	POSITIVE	
+grands chantiers	CONCEPT	
+hafiid	personne	
+hamza	personne	
+HAVANA	BRAND	
+HD	TECHNOLOGY	
+HEINEKEN	BRAND	
+HENRY'S	BRAND	
+Hirak	CONCEPT	
+HIT RADIO	BRAND	
+hit radio	BRAND	
+hitler	PERSON	
+HONDA	BRAND	
+honda	BRAND	
+hopitaux	lieu	
+HUILOR	BRAND	
+HYATT REGENCY	BRAND	
+IAM	BRAND	
+IDEAL	BRAND	
+IKEA	BRAND	
+ikea	BRAND	
+il a raison	SUPPORT	
+INGELEC	BRAND	
+inwi	BRAND	
+J'BEN DE KIRI	BRAND	
+JACOB DELAFON	BRAND	
+JAGUAR	BRAND	
+JAWDA	BRAND	
+JEBLI	BRAND	
+jerry	PERSON	
+JOHNNY WALKER	BRAND	
+KELLOG'S	BRAND	
+KENWOOD	BRAND	
+khenifra	LOCATION	
+khobziste	CONCEPT	
+KIA	BRAND	
+KIRI	BRAND	
+KITEA	BRAND	
+KNORR	BRAND	
+L'ECONOMISTE	BRAND	
+LA PRAIRIE	BRAND	
+La Roche Posay	BRAND	
+La Roche-Posay	BRAND	
+LA SENZA	BRAND	
+LA VACHE QUI RIT	BRAND	
+LAFARGE	BRAND	
+LAURENT PERRIER	BRAND	
+LAVAZZA	BRAND	
+LAYALITS	BRAND	
+LE JOURNAL	BRAND	
+LE MERIDIEN ROYAL MANSOUR	BRAND	
+LEGRAND	BRAND	
+LESIEUR	BRAND	
+LEXUS	BRAND	
+LG	BRAND	
+LIPTON	BRAND	
+logan	CAR MODEL	
+LOL	LOL	
+MAGGI	BRAND	
+MANGO	BRAND	
+marginale	NEGATIVE	
+MARJANE	BRAND	
+marjane	BRAND	
+MARLBORO	BRAND	
+maroc telecom	BRAND	
+martyr	CONCEPT	
+martyrs	CONCEPT	
+MASTERCARD	BRAND	
+mawazine	BRAND	
+MAXI'S	BRAND	
+MAZDA	BRAND	
+McDONALD'S	BRAND	
+MEDITEL	BRAND	
+méfier	NEGATIVE	
+MENARA	BRAND	
+MERCEDES	BRAND	
+merde	EXPLETIVE	
+METRO	BRAND	
+Mini cooper	BRAND	
+MITSUBISHI	BRAND	
+MOBILIA	BRAND	
+Mohamed 6	PERSON	
+momo	personne	
+monarchie	CONCEPT	
+mort	NEGATIVE	
+moslima ana	personne	
+mouhamed 6	personne	
+MOULINEX	BRAND	
+Mounib	PERSON	POLITICS
+Mr.PROPRE	BRAND	
+mt	BRAND	
+Nabila Mounib	PERSON	
+naïma	personne	
+‏nàjlae	personne	
+naymar	personne	
+‏naymar	personne	
+NESCAFE	BRAND	
+NESQUIK	BRAND	
+NIDO	BRAND	
+NISSAN	BRAND	
+norwigien	personne	
+ntouma	personne	
+OMO	BRAND	
+orange	BRAND	
+Orangina	BRAND	
+OTHMANI	PERSON	POLITICS
+OULMES	BRAND	
+oustada	personne	
+PANZZANI	BRAND	
 parlementaire	CONCEPT	POLITICS
-excellente	POSITIVE
-excellent	POSITIVE
-chef de gouvernement	TITLE
-électeurs	CONCEPT
+pendaison	NEGATIVE	
+PEPSI	BRAND	
+PEUGEOT	BRAND	
+PHILIPS	BRAND	
+PINGOUIN	BRAND	
+PIZZA HUT	BRAND	
+PORSCHE	BRAND	
+PRESIDENT	BRAND	
+president	personne	
+pull and bear	BRAND	
+rahimi	personne	
+RAIBI JAMILA	BRAND	
+RAID	BRAND	
+RAM	BRAND	
+ram	BRAND	
+rashīd imzīne	personne	
+RAYBAN	BRAND	
+Red Bull	BRAND	
+RENAULT	BRAND	
+Renault	CAR BRAND	
+renault	BRAND	
+responsable	CONCEPT	
+RICHBOND	BRAND	
+RMA WATANYA	BRAND	
+ROCA	BRAND	
+roi	TITLE	
+saadlamjarred	PERSON	
+SAMAR	BRAND	
+SAMSUNG	BRAND	
+samsung	BRAND	
+SAN MIGUEL	BRAND	
+SEAT	BRAND	
+SGMB	BRAND	
+SHELL	BRAND	
+SHERATON	BRAND	
+SIDI ALI	BRAND	
+SIDI HARAZEM	BRAND	
+SIERA	BRAND	
+SIMMONS	BRAND	
+SOFITEL	BRAND	
+soltan	BRAND	
+soltn	BRAND	
+SWATCH	BRAND	
+taykkhateb	concept	
+TEFAL	BRAND	
+TIDE	BRAND	
+TIKIDA	BRAND	
+TISSOT	BRAND	
+tom	PERSON	
+tom	personne	
+TOSHIBA	BRAND	
+TOTAL	BRAND	
+TOYOTA	BRAND	
+toyota	BRAND	
+tragique	NEGATIVE	
+traître	NEGATIVE	
+ultra	ORGANIZATION	FOOTBALL
+UPS	BRAND	
+VISA	BRAND	
+VOLKSWAGEN	BRAND	
+WANADOO	BRAND	
+WESTERN UNION	BRAND	
+WHIRLPOOL	BRAND	
+WINSTON	BRAND	
+wlbajda	personne	
+youtoub	produit	
+ZARA	BRAND	
+Zefzafi	PERSON	
+آسفي	LOCATION	
+آيت أورير	LOCATION	
+آيت باه	LOCATION	
+آيت داود	LOCATION	
+آيت ملول	LOCATION	
+أبارث	BRAND	
+‏أبحث	concept	
+أبوظبي	lieu	
+أتاي سلطان	produit	
+أجدير	LOCATION	
+أحفير	LOCATION	
+أرفود	LOCATION	
+أزرو	LOCATION	
+أزمور	LOCATION	
+أزيلال	LOCATION	
+أسا	LOCATION	
+أسامة	PERSON	
+أستون مارتن	BRAND	
+أصيلة	LOCATION	
+أعداؤنا	NEGATIVE	
+أكادير	LOCATION	
+أكدز	LOCATION	
+أكليم	LOCATION	
+أكنول	LOCATION	
+أكورا	BRAND	
+أكوراي	LOCATION	
+ألاه ينعل	EXPLETIVE	
+ألبينا	BRAND	
+ألفا روميو	BRAND	
+ألكلبا	EXPLETIVE	
+أمزميز	LOCATION	
+أنا	PRONOUN	
+أنت	PRONOUN	
+أوبل	BRAND	
+أوتات الحاج	LOCATION	
+أودي	BRAND	
+أوستن	BRAND	
+أوكلبا	EXPLETIVE	
+أولاد التيمة	LOCATION	
+أولاد برحيل	LOCATION	
+أولاد عبو	LOCATION	
+أولاد عياد	LOCATION	
+أولاد فريج	LOCATION	
+أولاد مراح	LOCATION	
+أولدزموبيل	BRAND	
+أولوز	LOCATION	
+إسلام	concept	
+إسم	concept	
+إغلاق الحدود	concept	
+إفران	LOCATION	
+إفريقيا	LOCATION	
+إلقالها ليك	EXPLETIVE	
+إمزورن	LOCATION	
+إموزر مارموفا	LOCATION	
+إنزكان	LOCATION	
+إنفينيتي	BRAND	
+إوا من بعد	EXPRESSION	
+إيت لازا	LOCATION	
+إيلكيها 	EXPLETIVE	
+إيمنتانوت	LOCATION	
+إيموزر كاندار	LOCATION	
+ا انعل	EXPLETIVE	
+ا خاراي	EXPLETIVE	
+ا دين ماك	EXPLETIVE	
+ا دين ماك	EXPLETIVE	
+ا زوامل	EXPLETIVE	
+ا شماتة	NEGATIVE	
+ا لكلاب	EXPLETIVE	
+ا يحويك	EXPLETIVE	
+اان دو طروا	BRAND	
+ابراهيم	personne	
+ابص	produit	
+ابصولو	BRAND	
+ابل	BRAND	
+ابن كيران	personne	
+ابوضبي	Lieu	
+ابوضبي	pays	
+ابيك	personne	
+اتاي	produit	
+اتصالات	BRAND	
+اتصالات المغرب	BRAND	
+اتصالات المغرب	marques	
+اتقودي	EXPLETIVE	
+اتمنى	desire	
+اجي	concept	
+احببت	concept	
+احراز	desire	
+احزقة	EXPLETIVE	
+احقر	EXPLETIVE	
+احمق	NEGATIVE	
+احوا	EXPLETIVE	
+اخشيوه	NEGATIVE	
+اخي	personne	
+ادا	BRAND	
+ادق	concept	
+اديداس	BRAND	
+اذن	CONJUNCTION	
+ار ام ا وطنية	BRAND	
+ارادو كوسميتيك	BRAND	
+ارثر مارتن	BRAND	
+ارماني	BRAND	
+ارهابي	EXPLETIVE	
+اروع	concept	
+اريال	BRAND	
+ازامل	EXPLETIVE	
+ازبي	EXPLETIVE	
+ازوامل	EXPLETIVE	
+ازويلوس	BRAND	
+اسبانيا	lieu	
+استرال	BRAND	
+استقلال	concept	
+اسير	BRAND	
+اسيما	BRAND	
+اش اند ام	BRAND	
+اش بي	BRAND	
+اش تي سي	BRAND	
+اش هاد لخرا فالمغرب سيبا	SENSITIVE	
+اشماتة	NEGATIVE	
+اصاحبي	personne	
+اطلس بلو	BRAND	
+اعبوهت	EXPLETIVE	
+اعجبكش	concept	
+اعلتو 	EXPLETIVE	
+اغرم	LOCATION	
+افتخر	concept	
+افريقيا	BRAND	
+افعل	concept	
+افون	BRAND	
+اقتصاد و شركة	BRAND	
+اقلم	personne	
+اقود	EXPLETIVE	
+اكادير	lieu	
+اكتخربق	NEGATIVE	
+اكد	concept	
+اكزا	BRAND	
+اكسيليا	BRAND	
+ال جي	BRAND	
+ال سي وايكيكي	BRAND	
+الأيديولوجية	CONCEPT	
+الإخوان	personne	
+الاجرام	CONCEPT	
+الاحد	personne	
+الاستفادة	concept	
+الاستهلاك	concept	
+الاشخاص	personne	
+الاشكال	concept	
+الاطفال	BRAND	
+الاعب	personne	
+الاقحب	EXPLETIVE	
+الامارات	BRAND	
+الامن	concept	
+الانسان	personne	
+الايام	BRAND	
+البحر	CONCEPT	
+البرامج	produit	
+البركة	concept	
+البرلمان	concept	
+البروباغاندا	Lieu	
+البروج	LOCATION	
+البس	concept	
+البطولات	concept	
+البغاة	desire	
+البقرة الضاحكة	BRAND	
+البلاد	CONCEPT	
+البلاستيك	objet	
+البلاصة	lieu	
+البنات	personne	
+البنت	personne	
+البنك	lieu	
+البنك الشعبي	BRAND	
+البنك المغربي للتجارة الخارجية	BRAND	
+البنك المغربي للتجارة و الصناعة	BRAND	
+البهاليل	LOCATION	
+البوليسي	personne	
+البيران	CONCEPT	
+البين إلكترونيات	BRAND	
+البيني	BRAND	
+التجاري وفابنك	BRAND	
+التحكم	concept	
+التعليم	CONCEPT	
+الجارة	LOCATION	
+الجديدة	LOCATION	
+الجديدة	lieu	
+الجرائم	CONCEPT	
+الجردان	LOCATION	
+الجرف	LOCATION	
+الجريدة	CONCEPT	
+الجزائر	lieu	
+الجزائريين	personne	
+الجفاف	NEGATIVE	
+الجهيل	EXPLETIVE	
+الجيش	personne	
+الجيشيان	EXPLETIVE	
+الحاجب	LOCATION	
+الحانات	CONCEPT	
+الحانة	lieu	
+الحبان	CONCEPT	
+الحبس	lieu	
+الحبس	EXPLETIVE	
+الحبوب	CONCEPT	
+الحبيب	personne	
+الحجاب	concept	
+الحجب	objet	
+الحراويين	LOCATION	
+الحزب	ORGANIZATION	
+الحسن	PERSON	
+الحسيمة	LOCATION	
+الحشيش	produit	
+الحصاد	personne	
+الحضرة	concept	
+الحق	CONCEPT	
+الحكارة	NEGATIVE	
+الحكرة	CONCEPT	
+الحكومة	ORGANIZATION	
+الحل	CONCEPT	
+الحلال	CONCEPT	
+الحمار	EXPLETIVE	
+الحماق	NEGATIVE	
+الحمد لله	concept	
+الحمدالله	desir	
+الحمدلله	desire	
+الحمر	EXPLETIVE	
+الحمرا	EXPLETIVE	
+الحمق	NEGATIVE	
+الحمير	EXPLETIVE	
+الحنشان	LOCATION	
+الحيوان	concept	
+الخائن	NEGATIVE	
+الخانز	EXPLETIVE	
+الخانزااء	EXPLETIVE	
+الخانزة	EXPLETIVE	
+الخبر	concept	
+الخدمات	produit	
+الخدمة	CONCEPT	
+الخرا	EXPLETIVE	
+الخراء	EXPLETIVE	
+الخرى	EXPLETIVE	
+الخط	objet	
+الخطة	concept	
+الخطوط الجوية الفرنسية	BRAND	
+الخطوط الجوية المغربية	BRAND	
+الخطوط الملكي	BRAND	
+الخليج	lieu	
+الخميسات	LOCATION	
+الخونة	NEGATIVE	
+الخير هذا	POSITIVE	
+الداء	NEGATIVE	
+الداتية	concept	
+الداخلة	LOCATION	
+الدار البيضاء	LOCATION	
+الدار البيضاء	lieu	
+الدارالبيضاء	lieu	
+الدريوش	LOCATION	
+الدعارة	EXPLETIVE	
+الدل	NEGATIVE	
+الدو	BRAND	
+الدولة	ORGANIZATION	
+الرجاء	SOCCER CLUB	
+الرجال	CONCEPT	
+الرشيدية	LOCATION	
+الرماني	LOCATION	
+الريش	LOCATION	
+الريع	CONCEPT	
+الزاك	LOCATION	
+الزاملين	EXPLETIVE	
+الزاميلون	EXPLETIVE	
+الزب	EXPLETIVE	
+الزفزافي	PERSON	
+الزمامرة	LOCATION	
+الزملة	EXPLETIVE	
+الزوامل القحاب تفو على دولة	SENSITIVE	
+السطوح	lieu	
+السعادة	BRAND	
+السعودية	lieu	
+السعيدية	LOCATION	
+السكان	personne	
+السمارة	LOCATION	
+السماوي	CONCEPT	
+السودان	pays	
+السودان	lieu	
+السويس	pays	
+السويسري	lieu	
+السياسة	CONCEPT	
+السيد	TITLE	
+السيدة	TITLE	
+الشاب	personne	
+الشباب	CONCEPT	
+الشبكة	concept	
+الشرطة	ORGANIZATION	
+الشرع	concept	
+الشركة العامة	BRAND	
+الشعب	CONCEPT	
+الشعب الحمار	SENSITIVE	
+الشعبي للاسكان	BRAND	
+الشفارة	EXPLETIVE	
+الشماعية	LOCATION	
+الشمالي	personne	
+الشنق	CONCEPT	
+الشيميز	BRAND	
+الصباح	BRAND	
+الصخيرات	LOCATION	
+الصويرة	LOCATION	
+الضحى	BRAND	
+الطبون	EXPLETIVE	
+العائلة	personne	
+العاصمة	lieu	
+العالمين	personne	
+العبيد	EXPLETIVE	
+العثماني	PERSON	
+العذاب	concept	
+العر دبية	personne	
+العرائش	LOCATION	
+العربية	personne	
+العرس	concept	
+العروي	LOCATION	
+العز	concept	
+العشران	personne	
+العطاوية	LOCATION	
+العطل	concept	
+العمران	BRAND	
+العمل	CONCEPT	
+العملاء	personne	
+العميل	personne	
+العنصري	SENSITIVE	
+العور	EXPLETIVE	
+العومى	concept	
+العيون	LOCATION	
+العيون سيدي ملوك	LOCATION	
+الغرب	lieu	
+الغرب	personne	
+الغنية	concept	
+الفا روميو	BRAND	
+الفادة	concept	
+الفتنة	NEGATIVE	
+الفتيات	personne	
+الفرشي	CONCEPT	
+الفساد	EXPLETIVE	
+الفقيه	TITLE	
+الفن	CONCEPT	
+الفنان	CONCEPT	
+الفنيدق	LOCATION	
+الفوز	concept	
+الفيديو	CONCEPT	
+الفيس بوك	BRAND	
+القادر اسهار	personne	
+القانون	CONCEPT	
+القحاب	NEGATIVE	
+القحاب	EXPLETIVE	
+القحبة	NEGATIVE	
+القحبة	EXPLETIVE	
+القدافي	personne	
+القدم	objet	
+القذافي	PERSON	
+القرعة	objet	
+القصيبة	LOCATION	
+القنيطرة	LOCATION	
+الكاتيل	BRAND	
+الكاطيل	BRAND	
+الكاميرا	objet	
+الكتاب	CONCEPT	
+الكتروني	concept	
+الكتكوت	personne	
+الكداب	NEGATIVE	
+الكذب	concept	
+الكرة	objet	
+الكلب	EXPLETIVE	
+الكلب	EXPLETIVE	
+الكلبات	EXPLETIVE	
+الكلبة	EXPLETIVE	
+الكلخ	NEGATIVE	
+الكلف	CONCEPT	
+الكمبيوتر	produit	
+الكمبيوتر المحمول	produit	
+الكونتر	concept	
+اللاب	personne	
+اللاعب	personne	
+الله جعل	INTERJECTION	
+الله حسن عوان	INTERJECTION	
+الله حفضك	INTERJECTION	
+الله حفضهم	INTERJECTION	
+الله خلالك	INTERJECTION	
+الله خلانا	INTERJECTION	
+الله دنا فضو	INTERJECTION	
+الله وحدين	INTERJECTION	
+الله ياخد	INTERJECTION	
+الله ياخد فيهم الحق	NEGATIVE	
+الله يتهم	INTERJECTION	
+الله يجازيك	INTERJECTION	
+الله يحفض	INTERJECTION	
+الله يحفضك	INTERJECTION	
+الله يحفظ	INTERJECTION	
+الله يخليك	INTERJECTION	
+الله يخود	INTERJECTION	
+الله يرحم	INTERJECTION	
+الله يسهل	INTERJECTION	
+الله يعطه	INTERJECTION	
+الله يعطيك كسيدة	NEGATIVE	INTERJECTION
+الله ينصرك	POSITIVE	
+الله ينعل	NEGATIVE	INTERJECTION
+الله يهديكم	INTERJECTION	
+الماكلة	concept	
+الماكياج	CONCEPT	COSMETICS
+المالك	personne	
+المباشرين	personne	
+المبشرين	personne	
+المجتمع	personne	
+المجرد حبيبتي	personne	
+المجرم	EXPLETIVE	
+المجرمين	NEGATIVE	
+المجلة	produit	
+المحمدية	LOCATION	
+المحمول	produit	
+المخزن	ORGANIZATION	
+المدرسة	lieu	
+المدن الكبرى	CONCEPT	
+المدينة	lieu	
+المذاق	produit	
+المرا	personne	
+المراكشي	personne	
+المرجو	concept	
+المرسى	LOCATION	
+المسابقة	CONCEPT	
+المستقبل	CONCEPT	
+المسجات	produit	
+المسخة	EXPLETIVE	
+المشريكون	EXPLETIVE	
+المشكل	concept	
+المصلحة	concept	
+المضيق	LOCATION	
+المعاشات	CONCEPT	
+المعاقين	CONCEPT	
+المعلم	personne	
+المغاربة	NATIONALITY	
+المغاربية	personne	
+المغر	concept	
+المغرب	LOCATION	
+المغرب تلكم	BRAND	
+المغرب تلكوم	BRAND	
+المغرب تيليكوم	BRAND	
+المغربي	NATIONALITY	
+المغربيات	personne	
+المغربية	personne	
+المقرب	personne	
+المكالمات	produit	
+المكلا	concept	
+المكلخين	NEGATIVE	
+الملاهي	CONCEPT	
+الملك	PERSON	
+المملكة	concept	
+المناطق الغربية	lieu	
+المنتجة	produit	
+المنخرطين	personne	
+المنزل	LOCATION	
+المنصورية	LOCATION	
+المنطقة	lieu	
+المنعم	concept	
+المنيوم	objet	
+المهدية	LOCATION	
+المواطن	CONCEPT	
+المواطن	personne	
+الموت	concept	
+الموسيقة	CONCEPT	
+المومن	personne	
+الميزان	objet	
+الناس	CONCEPT	
+الناظور	LOCATION	
+النخيل	BRAND	
+النرويجية	BRAND	
+النشط	concept	
+النصابة	EXPLETIVE	
+النظام الملكي	CONCEPT	
+النواصر	LOCATION	
+الهاتف	TECHNOLOGY	
+الهبيل	NEGATIVE	
+الهدية	objet	
+الهذرة	concept	
+الهسير	EXPLETIVE	
+الهضرة	concept	
+الهمج	EXPLETIVE	
+الوالدبن	personne	
+الوالدين	personne	
+الوداد	SOCCER CLUB	
+الوزرة	personne	
+الوزير	personne	
+الوطن	CONCEPT	
+الوقفات	concept	
+الولد	personne	
+الويفي	TECHNOLOGY	
+اليهود	SENSITIVE	
+اليهودي	EXPLETIVE	
+اليوسفية	LOCATION	
+اليونس دارنا	BRAND	
+ام اند امز	BRAND	
+ام جي	BRAND	
+امام	personne	
+امراة	personne	
+امسكرود	lieu	
+امكلخ	NEGATIVE	
+امكم	personne	
+امل	concept	
+امورا	BRAND	
+امي	personne	
+امير باين زامل	SENSITIVE	
+اميريكان ايڭل	BRAND	
+ان شاء الله	desire	
+انا	PRONOUN	
+انا بغيت	desire	
+انبك	produit	
+انت	PRONOUN	
+انترنت	produit	
+انترنيت	produit	
+انتم	PRONOUN	
+انسان	personne	
+انستا	BRAND	
+انشاء الله	desire	
+انشاء الله	desir	
+انشاءالله	concept	
+انشاءالله	desire	
+انشاءالله	desir	
+انعل	EXPLETIVE	
+انعل بوكم	EXPLETIVE	
+انوي	BRAND	
+اه سهل	desire	
+اه يزيدك	desire	
+اهاداك	NEGATIVE	
+او اونفون دابوغ	BRAND	
+اوبو	BRAND	
+اوبيل	BRAND	
+اودي	BRAND	
+اوربان جانكل	BRAND	
+اوركيسطرا	BRAND	
+اوروبا	pays	
+اورونجينا	BRAND	
+اوريفلام	BRAND	
+اوريو	BRAND	
+اولاد	personne	
+اولويز	BRAND	
+اومو	BRAND	
+اي ام سي	BRAND	
+اي بي ام	BRAND	
+ايبود	BRAND	
+ايدام	BRAND	
+ايديال	BRAND	
+ايراك	BRAND	
+ايرلوكس	BRAND	
+ايريكسون	BRAND	
+ايس	BRAND	
+ايس 8	BRAND	
+ايسوزو	BRAND	
+ايطاليا	lieu	
+ايطام	BRAND	
+ايف سان لورون	BRAND	
+ايفون	BRAND	
+ايفيكو	BRAND	
+ايقودو	EXPLETIVE	
+ايكدوم	BRAND	
+ايكيا	BRAND	
+ايڭبيل	BRAND	
+ايلسيف	BRAND	
+ايليزابيط فرانشي	BRAND	
+ايليكترولوكس	BRAND	
+ايليكتروهاوس	BRAND	
+ايمي انفيست	BRAND	
+اينتيل	BRAND	
+اينجيليك	BRAND	
+بأبل	produit	
+بابل	BRAND	
+بابيل	BRAND	
+باجدوب	PERSON	
+بارييا	BRAND	
+باسر	concept	
+باش عطيوني	desire	
+باش نبعث	desire	
+باش نتاكدو	desire	
+باش نجاوبكم	desire	
+باش نشوفو	desire	
+باغة	desire	
+باغة تعمل	concept	
+باغي	desire	
+باغي	desir	
+باغي نرجع	desire	
+باغين	desire	
+بافين	concept	
+باك	personne	
+بالجعد	LOCATION	
+بالدي	pays	
+بالسيف	IMPOSE	
+بالصحة	POSITIVE	
+باليد	EXPLETIVE	
+بامبيرس	BRAND	
+باموليف	BRAND	
+بان دو سوكر	BRAND	
+بانجوان	BRAND	
+باندية	EXPLETIVE	
+بانزاتي	BRAND	
+بانطين	BRAND	
+باهيا	BRAND	
+بايڭون	BRAND	
+بةبيدو	BRAND	
+بتولة	concept	
+بحال بحال	EXPRESSION	
+بحالاش	concept	
+بدر	personne	
+برا	SENSITIVE	
+براندت	BRAND	
+براهيم	personne	
+برشيد	LOCATION	
+بركان	LOCATION	
+برلمان	concept	
+برنامج	produit	
+برهمان	personne	
+بروموبيل	BRAND	
+برون	BRAND	
+بريت ندير	desir	
+بريط بلوس	BRAND	
+بريم اينفيست	BRAND	
+بريوس	BRAND	
+بزازل	EXPLETIVE	
+بسلتي	NEGATIVE	
+بش نشارك	desire	
+بشرتي	CONCEPT	COSMETICS
+بشرى	PERSON	
+بصحتك	concept	
+بصحتكم	POSITIVE	
+بصماة الححياة	personne	
+بعثنا	desire	
+بعد	PREPOSITION	
+بغا	desir	
+بغا	desire	
+بغا دير	desir	
+بغات	DESIRE	
+بغاو	desire	
+بغت	desir	
+بغيتك	DESIRE	
+بغيتوا	DESIRE	
+بغينا	DESIRE	
+بغينا نعرف	desire	
+بكرهم	NEGATIVE	
+بل انت بيغ	BRAND	
+بلا بلا	NEGATIVE	
+بلات	concept	
+بلاتي	lieu	
+بلاد	lieu	
+بلاد جوع	SENSITIVE	
+بلاد ديال ولاد	SENSITIVE	
+بلاد ديال ولاد لقحاب	SENSITIVE	
+بلادك	lieu	
+بلادنا	pays	
+بلادهم	lieu	
+بلادي	LOCATION	
+بلادينا	BRAND	
+بلازاطيكس	BRAND	
+بلاصة	lieu	
+بلاكبيري	BRAND	
+‏بلجيكا	LOCATION	
+بلد	LOCATION	
+بلدي	LOCATION	
+بلدين	lieu	
+بلوتوت	BRAND	
+بليموث	BRAND	
+بن آدم	personne	
+بن أحمد	LOCATION	
+بن جرير	LOCATION	
+بن سليمان	LOCATION	
+بن طيب	LOCATION	
+بنات	CONCEPT	
+بنادم	personne	
+بنت	CONCEPT	
+بنت	personne	
+بنت القحبة	NEGATIVE	
+بنتلي	BRAND	
+بنتنا	personne	
+بنط	personne	
+بنطلون	objet	
+بنقرا	personne	
+بنكيران	PERSON	
+بني أنصار	LOCATION	
+بني بوياش	LOCATION	
+بني درار	LOCATION	
+بني ملال	LOCATION	
+بنيتنا	concept	
+بهار	lieu	
+بو ديزاين	BRAND	
+بوتفليقة	personne	
+بوجاتي	BRAND	
+بوجدور	LOCATION	
+بوجنيبة	LOCATION	
+بوجو	BRAND	
+بودويزر	BRAND	
+بوذنيب	LOCATION	
+بورش	BRAND	
+بوزبال	EXPLETIVE	
+بوزبال	EXPLETIVE	
+بوزنيقة	LOCATION	
+بوس	BRAND	
+بوسكورة	LOCATION	
+بوش مغرب	BRAND	
+بوطرمة	EXPLETIVE	
+بوعرفة	LOCATION	
+بول اند بير	BRAND	
+بولڭاري	BRAND	
+بولمان	LOCATION	
+بولمان دادس	LOCATION	
+بوليزبال	SENSITIVE	
+بوليس ديال زبي نتوما	SENSITIVE	
+بومس	BRAND	
+بونتي	BRAND	
+بونتياك	BRAND	
+بويزكارن	LOCATION	
+بويك	BRAND	
+بي ام دبليو	BRAND	
+بيبسي	BRAND	
+بيتزا هوت	BRAND	
+بيتك	lieu	
+بيجو	BRAND	
+بيد	EXPLETIVE	
+بيدل	concept	
+بيران	CONCEPT	
+بيرشكا	BRAND	
+بيك	personne	
+بيڭديل	BRAND	
+بيل مغرب	BRAND	
+بيمكي	BRAND	
+بيمو	BRAND	
+بيناتهم	personne	
+بيهم	personne	
+بيوكرة	LOCATION	
+بيوڭناش	BRAND	
+بيير كازابلنكا	BRAND	
+تا زيبي	EXPLETIVE	
+تا سلطان	produit	
+تا هادك ماليك	SENSITIVE	
+تاجر	personne	
+تاجير	personne	
+تاحيماريت	EXPLETIVE	
+تارجيست	LOCATION	
+تارودانت	LOCATION	
+تازة	LOCATION	
+تازة	lieu	
+تازناخت	LOCATION	
+تافراوت	LOCATION	
+تافراوت	lieu	
+تافهة	NEGATIVE	
+تالبوت	BRAND	
+تالمست	LOCATION	
+تاليوين	LOCATION	
+تاوريرت	LOCATION	
+تاونات	LOCATION	
+تبارك الله	POSITIVE	
+تبحلس	EXPLETIVE	
+تبرهيش	EXPLETIVE	
+تبرهيش	NEGATIVE	
+تبغي تمشي	desir	
+تبهديلا	EXPLETIVE	
+تبهديلا	NEGATIVE	
+تتستحمرو	NEGATIVE	
+تتفتح	concept	
+تتوجهوه	concept	
+تجار	personne	
+تجبرهم	concept	
+تجربة	concept	
+تجعلك	desire	
+تحاصر	concept	
+تحت	lieu	
+تحرش	EXPLETIVE	
+تحفض	desire	
+تحل	concept	
+تحلى	desire	
+تحناوت	LOCATION	
+تحوا	EXPLETIVE	
+تحوا 	EXPLETIVE	
+تحواو	EXPLETIVE	
+تحوى	EXPLETIVE	
+تحياتي	concept	
+تحية	concept	
+تحيمير	EXPLETIVE	
+تختار	concept	
+تخدم	concept	
+تخرا	EXPLETIVE	
+تخراو	EXPLETIVE	
+تخرج	concept	
+تخلص	concept	
+تخوار	EXPLETIVE	
+تدهب	concept	
+تدوي	concept	
+تدير	concept	
+تران	lieu	
+تربية	CONCEPT	
+ترتاح	desire	
+ترسل	concept	
+تركية	lieu	
+ترما	EXPLETIVE	
+ترمتك	EXPLETIVE	
+ترمي	EXPLETIVE	
+تزامر	EXPLETIVE	
+تزنيت	LOCATION	
+تزوميل	EXPLETIVE	
+تسافري	concept	
+تستقبل	concept	
+تسجيل	concept	
+تسلا موتورز	BRAND	
+تشفارا تيدحكو علا شعب	SENSITIVE	
+تشفر	NEGATIVE	
+تشفرو	EXPLETIVE	
+تشكركم	concept	
+تشهيت	DESIRE	
+تصور	objet	
+تضكركم	concept	
+تطلبه	concept	
+تطوان	LOCATION	
+تطوان	lieu	
+تعاير	EXPLETIVE	
+تعبئ	concept	
+تعبئة	TECHNOLOGY	
+تغير	concept	
+تفاحة	produit	
+تفراوت	lieu	
+تفرج	concept	
+تفرح	concept	
+تفرش	NEGATIVE	
+تفضلوا	concept	
+تفكر	concept	
+تفكرت	concept	
+تفهم	desire	
+تفو	EXPLETIVE	
+تفو	NEGATIVE	
+تفو 	NEGATIVE	
+تفو ألا شعب	SENSITIVE	
+تفو على دولة	SENSITIVE	
+تفو على شعب	SENSITIVE	
+تفوو	INTERJECTION	
+تقارب	concept	
+تقاعد	concept	
+تقحبين	EXPLETIVE	
+تقود	EXPLETIVE	
+تقود 	EXPLETIVE	
+تقودو	EXPLETIVE	
+تقودي	EXPLETIVE	
+تقولوها	concept	
+تكامش	NEGATIVE	
+تكامش 	NEGATIVE	
+تكودي	EXPLETIVE	
+تلبس	concept	
+تلصق	concept	
+تلقاه	concept	
+تمارة	LOCATION	
+تمحقز	NEGATIVE	
+تمشي	desire	
+تمشي هاد لماليكيا	SENSITIVE	
+تملالت	LOCATION	
+تمنار	LOCATION	
+تمنت	desire	
+تمنيت	desir	
+تنا	personne	
+تنبغي	desir	
+تنتاحر	NEGATIVE	
+‏تنظم	concept	
+تنغير	LOCATION	
+تنقص	desire	
+تنقي	concept	
+تنيكو	EXPLETIVE	
+تهذر	concept	
+توحشناك	concept	
+توحشناك	desire	
+توحشناك	desir	
+توحشناك	d	
+توزة	EXPLETIVE	
+تولال	LOCATION	
+تونس	pays	
+تويسيت	LOCATION	
+تويكس	BRAND	
+تويوتا	BRAND	
+تي ال سي	BRAND	
+تي ايتش اكس	BRAND	
+تي موبيل	BRAND	
+تيتيز	personne	
+تيجري	concept	
+تيد	BRAND	
+تيزنيت	lieu	
+تيسا	LOCATION	
+تيسو	BRAND	
+تيط مليل	LOCATION	
+تيفلت	LOCATION	
+تيكنيكس	BRAND	
+تيكيدا	BRAND	
+تيليفون	produit	
+تيليفون	objet	
+تيمبرلاند	BRAND	
+تينجداد	LOCATION	
+ثت		
+ثحوا	EXPLETIVE	
+ثن	personne	
+ثهار  السوق	LOCATION	
+جاب	desire	
+جابها	concept	
+جات	concept	
+جاتكم	concept	
+جاتني	concept	
+جاسبرومو	BRAND	
+جاكوار	BRAND	
+جاكوب ديلافون	BRAND	
+جالاخ	EXPLETIVE	
+جاهل	EXPLETIVE	
+جاهلة	EXPLETIVE	
+جاوب	desire	
+جبال	BRAND	
+جبلي	BRAND	
+جبن د كيري	BRAND	
+جرادة	LOCATION	
+جراي	personne	
+جرب	concept	
+جرف الملحة	LOCATION	
+جريدة	objet	
+جريمة	CONCEPT	
+جزائري	personne	
+جزيري	personne	
+جفار	personne	
+جلالات الملك	personne	
+جماعة شايم	LOCATION	
+جماعة ليهود	SENSITIVE	
+جمس كرتون	personne	
+جمهور	personne	
+جميرة	BRAND	
+جنس	personne	
+جنسي	EXPLETIVE	
+جهنم	EXPLETIVE	
+جودة	BRAND	
+جولز	BRAND	
+جولف	BRAND	
+جونس	personne	
+جونسون	BRAND	
+جوني والكر	BRAND	
+جويا	personne	
+جي ال بي	BRAND	
+جي ام اس	BRAND	
+جي بي ال	BRAND	
+جي في سي	BRAND	
+جيب	BRAND	
+جيليت	BRAND	
+جينيفير	BRAND	
+جيوش	personne	
+حاج	personne	
+حاضي	concept	
+حانات	CONCEPT	
+حاويك	EXPLETIVE	
+حب	concept	
+حباب	personne	
+حبب	personne	
+حببتي	personne	
+حبيب	personne	
+حبيبا	personne	
+حبيبة	personne	
+حبيبتي	personne	
+حبيبنا	personne	
+حبيبى	personne	
+حبيبي	personne	
+حتى واحد	personne	
+حجاب	CONCEPT	
+حدراف	personne	
+حراس	personne	
+حرام	concept	
+حرين	concept	
+حزب العدالة و التنمية	BRAND	
+حساب	produit	
+حسن	PERSON	
+حسن 2	personne	
+حشام	personne	
+حضك	concept	
+حضي جنابك	EXPRESSION	
+حطان	LOCATION	
+حطك	concept	
+حظر	concept	
+حظوظه	concept	
+حق	concept	
+حقارة	EXPLETIVE	
+حقرة	EXPLETIVE	
+حقيبتي	concept	
+حقير	NEGATIVE	
+حقيرة	EXPLETIVE	
+حليت	concept	
+حمار	NEGATIVE	
+حمار	EXPLETIVE	
+حمار	EXPLETIVE	
+حمارة	EXPLETIVE	
+حمارة 	EXPLETIVE	
+حمدو الله	concept	
+حمقة	EXPLETIVE	
+حمقة	EXPLETIVE	
+حمير	EXPLETIVE	
+حمير 	EXPLETIVE	
+حنا	personne	
+حواها	EXPLETIVE	
+حوايا	EXPLETIVE	
+حواية	EXPLETIVE	
+حوايج	concept	
+حوي	EXPLETIVE	
+حوينا	EXPLETIVE	
+حياة ريجينسي	BRAND	
+حيوااااااااان	EXPLETIVE	
+حيوان	EXPLETIVE	
+حيوان	EXPLETIVE	
+حيوانات	EXPLETIVE	
+خائن	NEGATIVE	
+خائن	EXPLETIVE	
+خاتر	concept	
+خاد	concept	
+خارج على البنات	SENSITIVE	
+خاص	desire	
+خاصاك	concept	
+خاصكم	concept	
+خانزا	EXPLETIVE	
+خانزا	EXPLETIVE	
+خانزات	EXPLETIVE	
+خانزة	EXPLETIVE	
+خاي	personne	
+خاين	EXPLETIVE	
+خت	personne	
+ختب	concept	
+ختك	personne	
+ختكوم	personne	
+ختى	personne	
+خدمة	CONCEPT	
+خدمتكم	concept	
+خديت	concept	
+خديتيهم	concept	
+خرا	EXPLETIVE	
+خراي	EXPLETIVE	
+خرايريا	EXPLETIVE	
+خرج علينا	SENSITIVE	
+خرجت	concept	
+خرجنا	concept	
+خرجو على المغرب	SENSITIVE	
+خريبكة	LOCATION	
+خريتو	EXPLETIVE	
+خصك	concept	
+خضته	concept	
+خط	personne	
+خطك	concept	
+خطوط	concept	
+خلا لك	concept	
+خلاه	concept	
+خلنا	desire	
+خليف	personne	
+خنز	EXPLETIVE	
+خنزا	EXPLETIVE	
+خنفر	lieu	
+خنيفرة	LOCATION	
+خوانا يا 	EXPLETIVE	
+خويا بذله	personne	
+خوية	personne	
+خيرية	lieu	
+خينا 	EXPLETIVE	
+داتسون	BRAND	
+دار	lieu	
+دار غداري	LOCATION	
+دارت	concept	
+دارها	concept	
+دارها	BRAND	
+دارها	lieu	
+داري	BRAND	
+داسيا	BRAND	
+دافعين	concept	
+دانمارك	pays	
+دانون	BRAND	
+دايهاتسو	BRAND	
+دايو	BRAND	
+دبدو	LOCATION	
+دبلجة	concept	
+دخلت	concept	
+دراسة	CONCEPT	
+دراهم	MONEY	
+دراوش	CONCEPT	
+دربي	concept	
+درت	concept	
+درتي	concept	
+درهم	MONEY	
+دزايري	SENSITIVE	
+دزب	EXPLETIVE	
+دزبل	NEGATIVE	
+دشيرة الجهادية	LOCATION	
+دصارة	EXPLETIVE	
+دعارة	EXPLETIVE	
+دعي	desire	
+دفع	concept	
+دكتاتور	SENSITIVE	
+دكتاتورية	SENSITIVE	
+دل	NEGATIVE	
+دلتا	BRAND	
+دلكم	personne	
+دلمغرب	lieu	
+دمنات	LOCATION	
+دنمارك	pays	
+دنيا	personne	
+دوبوا	BRAND	
+دوجا بروموصيون	BRAND	
+دوستر	BRAND	
+دوف	BRAND	
+دول	lieu	
+دولا زبل	SENSITIVE	
+دولا نتاع زبل	SENSITIVE	
+دولبي	BRAND	
+دولة	ORGANIZATION	
+دولة ديال زبي	SENSITIVE	
+دولي دول	BRAND	
+دي اس	BRAND	
+دي ايش ال	BRAND	
+دي دييتريش	BRAND	
+ديار السلام	BRAND	
+ديال بصح	EXPRESSION	
+ديال زبي	EXPRESSION	
+ديال لحكرة	SENSITIVE	
+ديالكم	PRONOUN	
+ديالكوم	SENSITIVE	
+ديالنا	PRONOUN	
+ديامكوم	EXPLETIVE	
+ديامنتين	BRAND	
+دير لينا	desire	
+ديرو	desire	
+ديسكامبس	BRAND	
+ديل	BRAND	
+ديماغوجية	CONCEPT	
+ديموغرافية	concept	
+دين ربكم	EXPLETIVE	
+دين ربو	EXPLETIVE	
+دين لكلاب	EXPLETIVE	
+دين ماك	EXPLETIVE	
+دين مك	EXPLETIVE	
+دين مكوم	EXPLETIVE	
+دين موك	EXPLETIVE	
+دينمهم	EXPLETIVE	
+دينمهم	EXPLETIVE	
+دينمو	EXPLETIVE	
+دينون	BRAND	
+ديور	BRAND	
+رئيس	TITLE	
+رائع	POSITIVE	
+رائعة	POSITIVE	
+راح شعب قريب ينفجار	SENSITIVE	
+راديو شاك	BRAND	
+راغب	personne	
+رافاييلو	BRAND	
+رام	BRAND	
+رانج روفر	BRAND	
+راه بزاف	NEGATIVE	
+راواى	personne	
+راوى	personne	
+رايبان	BRAND	
+رايبي جميلة	BRAND	
+رايد	BRAND	
+ربحت	concept	
+ربك	EXPLETIVE	
+رجاء	BRAND	
+رجال	CONCEPT	
+رجاوي	personne	
+رجعت	concept	
+رجعتونا	concept	
+رجعتي	concept	
+رجعو	desire	
+رجل	CONCEPT	
+رخصة	concept	
+رد لينا	desire	
+رسول	personne	
+رشيد	personne	
+رشيد رفيق عندكم	personne	
+رقم	objet	
+ركبت	concept	
+روعة	PERSON	
+روعة	concept	
+روك	BRAND	
+روكا	BRAND	
+رولز رويس	BRAND	
+رونو	BRAND	
+ريئس الحكومة	personne	
+ريبات الخير	LOCATION	
+ريتر	produit	
+ريد بول	BRAND	
+ريشبوند	BRAND	
+ريف	lieu	
+ريفي	personne	
+ريميل	BRAND	
+رينو	BRAND	
+زاب	EXPLETIVE	
+زابي	EXPLETIVE	
+زادو	concept	
+زادو فيه	EXPRESSION	
+زارا	BRAND	
+زاكورة	LOCATION	
+زاكوك	EXPLETIVE	
+زامل	NEGATIVE	
+زامل	EXPLETIVE	
+زاملا	EXPLETIVE	
+زاني	EXPLETIVE	
+زانية	EXPLETIVE	
+زاوية الشيخ	LOCATION	
+زايو	LOCATION	
+زب	NEGATIVE	
+زب	EXPLETIVE	
+زبانة	personne	
+زبد البدوية	BRAND	
+زبل	NEGATIVE	
+زبل	EXPLETIVE	
+زبل	EXPLETIVE	
+زبلة	EXPLETIVE	
+زبو	EXPLETIVE	
+زبوبة	EXPLETIVE	
+زبي	EXPLETIVE	
+زبيل	EXPLETIVE	
+زحمة	EXPLETIVE	
+زروطة	CONCEPT	
+زعطوط	EXPLETIVE	
+زعيم	personne	
+زغبو	NEGATIVE	
+زغنغان	LOCATION	
+زفافي	PERSON	
+زفت	EXPLETIVE	
+زفتة	NEGATIVE	
+زفزافي	PERSON	
+زكريا	PERSON	
+زكوكا	EXPLETIVE	
+زكوكة	EXPLETIVE	
+زمار	EXPLETIVE	
+زمار تفوو	EXPLETIVE	
+زمالو	EXPLETIVE	
+زمر	NEGATIVE	
+زملتي	EXPLETIVE	
+زنا	EXPLETIVE	
+زهير بانك	personne	
+زوامل	EXPLETIVE	
+زوب	EXPLETIVE	
+زوك	EXPLETIVE	
+زوكا	EXPLETIVE	
+زوكك	EXPLETIVE	
+زوكها 	EXPLETIVE	
+زوكو	EXPLETIVE	
+زوين	POSITIVE	
+زيارتها	CONCEPT	
+زيب	EXPLETIVE	
+زيد	desire	
+زين	CONCEPT	
+ساحر	personne	
+سارقينو	EXPLETIVE	
+ساركينو	EXPLETIVE	
+ساره	personne	
+ساطبق	concept	
+سافر	concept	
+سامسونج	BRAND	
+سانا	personne	
+سانتا	personne	
+سانج يونج	BRAND	
+سانديسك	BRAND	
+سانسوى	BRAND	
+سانيو	BRAND	
+ساهرة	personne	
+سبأ عيون	LOCATION	
+سبان	lieu	
+سبت غزولة	LOCATION	
+سبحان الله	concept	
+سبورا	objet	
+ستفد	concept	
+سحر	lieu	
+سحرا ماشي ماروكان	SENSITIVE	
+سحرت	concept	
+سراقين	EXPLETIVE	
+سردي	POSITIVE	
+سرق	concept	
+سطات	LOCATION	
+سعداتك	desire	
+سعيد	personne	
+سكران	CONCEPT	
+سكران	NEGATIVE	
+سكه الصورة	produit	
+سكودا	BRAND	
+سلا	LOCATION	
+سلطان	BRAND	
+سلطان	personne	
+سلطان‎‎	personne	
+سلطان العنبر	BRAND	
+سلع	produit	
+سلوان	LOCATION	
+سناء	personne	
+سنة _rahimi	personne	
+سنتر	lieu	
+سنطرال للالبان	BRAND	
+سهوبيرت	BRAND	
+سواتش	BRAND	
+سوبارو	BRAND	
+سوزوكي	BRAND	
+سوق الاربعاء	LOCATION	
+سوق سبت أولاد نمة	LOCATION	
+سول	concept	
+سولت	concept	
+سوني	BRAND	
+سي ام اي جي	BRAND	
+سي جي اي	BRAND	
+سياسا	objet	
+سيامانس	BRAND	
+سيبا	concept	
+سيبيت	lieu	
+سيت	BRAND	
+سيتروين	BRAND	
+سيتغير	desire	
+سيتيام	BRAND	
+سيتيليم	BRAND	
+سيخ	NEGATIVE	
+سيدنا	peronne	
+سيدي افني	LOCATION	
+سيدي بنور	LOCATION	
+سيدي بو عثمان	LOCATION	
+سيدي حرازم	BRAND	
+سيدي رحال	LOCATION	
+سيدي سليمان	LOCATION	
+سيدي سليمان إشاراع	LOCATION	
+سيدي سيدي بوكناديل	LOCATION	
+سيدي علال البحراوي	LOCATION	
+سيدي علي	BRAND	
+سيدي قاسم	LOCATION	
+سيدي يحيى الغرب	LOCATION	
+سير تقود	NEGATIVE	
+سير قود	EXPLETIVE	
+سيرتحوا	EXPLETIVE	
+سيري تقود	NEGATIVE	
+سيري تقودي	NEGATIVE	INTERJECTION
+سيطروين	BRAND	
+سيفط	concept	
+سيفورا	BRAND	
+سيليو	BRAND	
+سيمكا	BRAND	
+سيمونس	BRAND	
+سينتي	BRAND	
+سينيال	BRAND	
+سيوفة	CONCEPT	
+سييرا	BRAND	
+شارجيت	concept	
+شانا	BRAND	
+شانيل	BRAND	
+شباب	CONCEPT	
+شجاعة	CONCEPT	
+شحال جمعت	desire	
+شحال خاصني	desire	
+شحال نخلص	desire	
+شخص	personne	
+شرح	concept	
+شركة	concept	
+شركي	BRAND	
+شرڭي	BRAND	
+شرموطة	EXPLETIVE	
+شعب	CONCEPT	
+شعب	SENSITIVE	
+شعب اوفقرتوه	SENSITIVE	
+شعب واصلا بيه للعضم	SENSITIVE	
+شفار	NEGATIVE	
+شفار	EXPLETIVE	
+شفارا	EXPLETIVE	
+شفارا تيضحكو على شعب	SENSITIVE	
+شفارة	EXPLETIVE	
+شفارة	NEGATIVE	
+شفارة 	EXPLETIVE	
+شفتك	concept	
+شفرة	NEGATIVE	
+شفرتي	EXPLETIVE	
+شفشاون	LOCATION	
+شفشاون	lieu	
+شقة	objet	
+شماة	EXPLETIVE	
+شماتا	NEGATIVE	
+شمال	lieu	
+شمالية	personne	
+شمايت	NEGATIVE	
+شمايت	EXPLETIVE	
+شمسه	personne	
+شمسها	personne	
+شمكار	EXPLETIVE	
+شمكارة	EXPLETIVE	
+شميت	concept	
+شنق	EXPLETIVE	
+شنق	NEGATIVE	
+شهر	TEMPORAL:TIME	
+شوبارد	BRAND	
+شوهة	NEGATIVE	
+شوهتنا	NEGATIVE	
+شوهتي	NEGATIVE	
+شويبس	BRAND	
+شي سلطان‎‎	personne	
+شيخ	personne	
+شيخة	personne	
+شيراطون	BRAND	
+شيشستر	LOCATION	
+شيفاس ريڭال	BRAND	
+شيفروليه	BRAND	
+شيفور	personne	
+شيفينيون	BRAND	
+شيك	objet	
+شيل	BRAND	
+شيواحد	personne	
+صابون طاوس	BRAND	
+صاجيم	BRAND	
+صاحب	personne	
+صادق	personne	
+صارت	concept	
+صامصونڭ	BRAND	
+صان ميڭيل	BRAND	
+صانڭ يونڭ	BRAND	
+صحابي	personne	
+صحافتكم	concept	
+صحافنكم	concept	
+صحة	CONCEPT	
+صحة	concept	
+صحراء ال ليبغ انديبوندونت	SENSITIVE	
+صحراء ماشي مغربية	SENSITIVE	
+صحراوي	personne	
+صطراديفاريوس	BRAND	
+صفرو	LOCATION	
+صلجوطة	EXPLETIVE	
+صمر	BRAND	
+صهيون	personne	
+صهيوني	personne	
+صهيوني	SENSITIVE	
+صهيونية	SENSITIVE	
+صوت	concept	
+صوتر	BRAND	
+صوفيطيل	BRAND	
+صوني	BRAND	
+صوني ايريكسون	BRAND	
+ضاسيا	BRAND	
+ضحايا	personne	
+ضحك	concept	
+ضحكتنى	concept	
+ضرها	desire	
+ضنكم الله	desir	
+طاحت الصومعة	NEGATIVE	EXPRESSION
+طاسيلا	EXPLETIVE	
+طاسيلا دليهود	SENSITIVE	
+طاسيلت	EXPLETIVE	
+طاطا	LOCATION	
+طاليهاليك	EXPLETIVE	
+طان طان	LOCATION	
+طبابن	EXPLETIVE	
+طبخ	objet	
+طبون	EXPLETIVE	
+طبيب	personne	
+طحلة	LOCATION	
+طرفاية	LOCATION	
+طرمة	EXPLETIVE	
+طري بريط	BRAND	
+طريق الله	EXPRESSION	
+طريقة	concept	
+طريقتك	lieu	
+طفل	personne	
+طلب	concept	
+طماعة	EXPLETIVE	
+طماعة	NEGATIVE	
+طمع	EXPLETIVE	
+طن	produit	
+طنجة	LOCATION	
+طنجة	lieu	
+طوال	desire	
+طوبا	EXPLETIVE	
+طوبس	BRAND	
+طوشيبا	BRAND	
+طوطال	BRAND	
+طولنا	concept	
+طوم طوم	BRAND	
+طومسون	BRAND	
+طونوبيل	objet	
+طويوطا	BRAND	
+طيارة	concept	
+طيارة	produit	
+طيفال	BRAND	
+طيكا ماروك	BRAND	
+طيكنو	BRAND	
+عارض	produit	
+عاش	concept	
+عاش	desire	
+عاشا	concept	
+عاهرة	NEGATIVE	
+عاهرة	EXPLETIVE	
+عايشين	concept	
+عايك	concept	
+عاين باين	EXPRESSION	
+عبادالله	personne	
+عبد الله	PERSON	
+عتمان	personne	
+عجبهم	désire	
+عجبهمش	concept	
+عربي	personne	
+عرض	CONCEPT	
+عرض متعاف	produit	
+عرفاك	concept	
+عرفك	concept	
+عروبي	EXPLETIVE	
+عريبان	EXPLETIVE	
+عزاوة	EXPLETIVE	
+عزي	EXPLETIVE	
+عزي	SENSITIVE	
+عزية	EXPLETIVE	
+عسكري	personne	
+عشران	personne	
+عطاها	concept	
+عطوك	concept	
+عطيني	concept	
+عقبال	concept	
+عقبة	concept	
+عقبت	concept	
+عكا	LOCATION	
+عكاشة	lieu	
+علقو الحجام	NEGATIVE	EXPRESSION
+علم	concept	
+علم دلمغرب	concept	
+عليك	PREPOSITION	
+عليكم	PREPOSITION	
+علينا	PREPOSITION	
+عليهم	PREPOSITION	
+عمر	PERSON	
+عنبر	BRAND	
+عندك	PREPOSITION	
+عندك صح	SUPPORT	
+عندكم	PREPOSITION	
+عندنا	PREPOSITION	
+عندهم	PREPOSITION	
+عندي	PREPOSITION	
+عنوان	lieu	
+عواشر مبروك	desire	
+عوقبت	concept	
+عيت	concept	
+عيقتي	NEGATIVE	
+عين إريكادا	LOCATION	
+عين اطلس	BRAND	
+عين افران	BRAND	
+عين السلطان	BRAND	
+عين العودة	LOCATION	
+عين بني ماثحار	LOCATION	
+عين توجات	LOCATION	
+عين حرودة	LOCATION	
+عين سايس	BRAND	
+غادرو	concept	
+غادي تكلف	desire	
+غادي لقاو	desire	
+غادي ناكلو	concept	
+غاديين	concept	
+غاذي	concept	
+غارمين	BRAND	
+غاس دو جويف	SENSITIVE	
+غانجي	concept	
+غبايب	EXPLETIVE	
+غبرتي	concept	
+غتجي	concept	
+غرسون	personne	
+غرسيف	LOCATION	
+غزال	personne	
+غزالة	personne	
+غزالى	personne	
+غزل	personne	
+غسو	concept	
+غفساي	LOCATION	
+غلاء الأسعار	CONCEPT	
+غنشوف	concept	
+غنطلب منكم	desire	
+غنقولو	concept	
+غنيت	concept	
+غوا اومو	SENSITIVE	
+غوا سيدكم زمل	SENSITIVE	
+غوتي	personne	
+غيشمكار	EXPLETIVE	
+فؤاد	personne	
+فاتنا	SENSITIVE	
+فارق	concept	
+فاس	lieu	
+فاسي	personne	
+فاك	EXPLETIVE	
+فاڭور	BRAND	
+فالمغرب	lieu	
+فاليز	objet	
+فام الحصن	LOCATION	
+فام دو ماروك	BRAND	
+فانطا	BRAND	
+فبلاد شمايت	SENSITIVE	
+فتنة	SENSITIVE	
+فتنة ديال	SENSITIVE	
+فتيات	personne	
+فحوانت	lieu	
+فخورين	concept	
+فدورنا	lieu	
+فرح	concept	
+فرحانة	concept	
+فرعون	personne	
+فرنسا	pays	
+فرنسا	lieu	
+فروماج الاطفال	BRAND	
+فروماج لوبريزيدون	BRAND	
+فس	lieu	
+فقه بن صالح	LOCATION	
+فكارك 	EXPLETIVE	
+فكرك	EXPLETIVE	
+فكركم	EXPLETIVE	
+فكيك	LOCATION	
+فلوريدا	lieu	
+فلوس	objet	
+فلوس ولادكم	SENSITIVE	
+فليسقط	SENSITIVE	
+فم زغيد	LOCATION	
+فمركم	EXPLETIVE	
+فن	CONCEPT	
+فنادق	lieu	
+فنان	personne	
+فهمت	concept	
+فوجيتسو	BRAND	
+فور	BRAND	
+فورد	BRAND	
+فورد موستانج	BRAND	
+فوزو	BRAND	
+فولفو	BRAND	
+فولكس واجن	BRAND	
+فولكس واڭن	BRAND	
+فياط	BRAND	
+فيتبيت	BRAND	
+فيديكس	BRAND	
+فيديو	CONCEPT	
+فيراري	BRAND	
+فيريرو	BRAND	
+فيزا	BRAND	
+فيس بوك	BRAND	
+فيسبق	concept	
+فيش	produit	
+فيشي	BRAND	
+فيفا الصحراء اكسيدنتال	SENSITIVE	
+فيفا بوليساريو	SENSITIVE	
+فيفا راسد	SENSITIVE	
+فيليبس	BRAND	
+فينيادي	BRAND	
+فيه	PREPOSITION	
+قالوا	EXPLETIVE	
+قانون	concept	
+قبلوي	EXPLETIVE	
+قةادة	EXPLETIVE	
+قتلن	concept	
+قتلوه	concept	
+قحا ب	EXPLETIVE	
+قحاب	EXPLETIVE	
+قحاب	EXPLETIVE	
+قحبة	NEGATIVE	
+قحبة	CONCEPT	
+قحبة	EXPLETIVE	
+قحبة 	EXPLETIVE	
+قذافي	PERSON	
+قذافي	personne	
+قرض المغرب	BRAND	
+قرعت	objet	
+قرقوبي	NEGATIVE	
+قريب تمشي هاد	SENSITIVE	
+قرية	LOCATION	
+قرية أريكمان	LOCATION	
+قرية با محمد	LOCATION	
+قصبة تادلة	LOCATION	
+قصر الكبير	LOCATION	
+قطر	lieu	
+قلاوي	EXPLETIVE	
+قلب الحليب	BRAND	
+قلت	concept	
+قلتلو	concept	
+قلعة  مغونة	LOCATION	
+قلعة السراغنة	LOCATION	
+قلي	concept	
+قمة	concept	
+قنن	objet	
+قهوة	produit	
+قوا	EXPLETIVE	
+قوا ا	EXPLETIVE	
+قواد 	EXPLETIVE	
+قوادة	EXPLETIVE	
+قوادين	EXPLETIVE	
+قود	NEGATIVE	
+قودو	EXPLETIVE	
+قودوها	EXPLETIVE	
+قودي	EXPLETIVE	
+قول لينا	concept	
+قولتلها	concept	
+قوللي	concept	
+قوم لوط	SENSITIVE	
+قيمة	concept	
+كاتب	concept	
+كاتجاوبني	concept	
+‏كاتسونى	desir	
+كاتقلب	concept	
+كاثمان	personne	
+كادبين	EXPLETIVE	
+كادوم	BRAND	
+كاديلاك	BRAND	
+كاراك	EXPLETIVE	
+كارتيي	BRAND	
+كارط نوار	BRAND	
+كارين ميلين	BRAND	
+كازا	Lieu	
+كاسا	lieu	
+كاسكيطا	objet	
+كالور	BRAND	
+كان كورت	LOCATION	
+كانون	BRAND	
+كاوبيل	BRAND	
+كايحشمنا	desir	
+كاين	concept	
+كتاب	CONCEPT	
+كتبت	concept	
+كتبر	concept	
+كتحوا	EXPLETIVE	
+كتخدي	concept	
+كتخراو	EXPLETIVE	
+كتستحقو	concept	
+كتشدوا	concept	
+كتصور	concept	
+كتعجبني	concept	
+كتعطو	concept	
+كتقرقب	EXPLETIVE	
+كتلقى	concept	
+كتنفد	personne	
+كتهددنا	concept	
+كتوصلو	personne	
+كحت	concept	
+كداب	EXPLETIVE	
+كدابين	EXPLETIVE	
+كدوب	NEGATIVE	
+كرايسلر	BRAND	
+كرة	objet	
+كرستيان	personne	
+كرك	EXPLETIVE	
+كركوم	EXPLETIVE	
+كرنا	NEGATIVE	
+كرو	EXPLETIVE	
+كرودة	EXPLETIVE	
+كري	EXPLETIVE	
+كريسطال	BRAND	
+كزنية	LOCATION	
+كضريح	concept	
+كفتو	EXPLETIVE	
+كل واحد	personne	
+كلاب	EXPLETIVE	
+كلاب 	EXPLETIVE	
+كلاخ	EXPLETIVE	
+كلاريون	BRAND	
+كلامك	concept	
+كلب	EXPLETIVE	
+كلب	EXPLETIVE	
+كلبا	EXPLETIVE	
+كلبة	EXPLETIVE	
+كلف	CONCEPT	
+كلميم	LOCATION	
+كلميمة	LOCATION	
+كلهم	PRONOUN	
+كلهم من يساند الملك	SENSITIVE	
+كلينيك	BRAND	
+كمارات	EXPLETIVE	
+كمارت	NEGATIVE	
+كمية	concept	
+كنتك	concept	
+كنتمنى	DESIRE	
+كنحقد 	EXPLETIVE	
+كنحماق	concept	
+كنحماق عليك	desir	
+كنخدم	concept	
+كندخل	concept	
+كندوز	concept	
+كندير	concept	
+كندير	BRAND	
+كنعتذرو	desire	
+كنقلب	concept	
+كنقول	concept	
+كنقولولكم	concept	
+كنور	BRAND	
+كواد	EXPLETIVE	
+كواليتي ستريت	BRAND	
+كوباك	BRAND	
+كوبل	personne	
+كوز	EXPLETIVE	
+كوط ضور	BRAND	
+كوكا كولا	BRAND	
+كولنا	personne	
+كولورادو	BRAND	
+كوميرسيال	personne	
+كوميرسيال	désire	
+كون غير بقا	desire	
+كوني	personne	
+كوول	BRAND	
+كيا	BRAND	
+كيالقردة	EXPLETIVE	
+كيت كات	BRAND	
+كيتحاسب	concept	
+كيتيا	BRAND	
+كيدير	concept	
+كيرفيز	BRAND	
+كيري	BRAND	
+كيزني	EXPLETIVE	
+كيضحكو على مغاربة	SENSITIVE	
+كيطو	BRAND	
+كيغنيو	concept	
+كيقولولي	concept	
+كيلو	produit	
+كيلوڭز	BRAND	
+كيلي كوسميتيكس	BRAND	
+كيندر	BRAND	
+كينوود	BRAND	
+ڭاب	BRAND	
+ڭارنيي	BRAND	
+ڭاوار	BRAND	
+ڭوتشي	BRAND	
+ڭود يير	BRAND	
+ڭولد فيزيون	BRAND	
+ڭولواز	BRAND	
+لا حكومة لا نمي	SENSITIVE	
+لا سينزا	BRAND	
+لا هولونديز	BRAND	
+لا يحمد عقباه	NEGATIVE	EXPRESSION
+لابريري	BRAND	
+لابسين	concept	
+لاسن	produit	
+لاعب	personne	
+لافارج	BRAND	
+لافازا	BRAND	
+لاكوسط	BRAND	
+لامبورغيني	BRAND	
+لاند روفر	BRAND	
+لانسيا	BRAND	
+لانكوم	BRAND	
+لاه ينصر	desire	
+لاياايتس	BRAND	
+لبت	lieu	
+لبر جديد	LOCATION	
+لبرغوت	EXPLETIVE	
+لبرمجة	concept	
+لبكت	concept	
+لبليد	NEGATIVE	
+لبنت	personne	
+لبوللبوليزاريو	SENSITIVE	
+لجميع	personne	
+لجوع  	NEGATIVE	
+لحاس الكابة	NEGATIVE	
+لحبس	EXPLETIVE	
+لحجاب	concept	
+لحرام	EXPLETIVE	
+لحرام	EXPLETIVE	
+لحرام	NEGATIVE	
+لحزاق	EXPLETIVE	
+لحقوق	concept	
+لحقيرة	EXPLETIVE	
+لحكرة	EXPLETIVE	
+لحمار	EXPLETIVE	
+لحمار	EXPLETIVE	
+لحمارا	EXPLETIVE	
+لحمد	personne	
+لحمرا	EXPLETIVE	
+لحمقة	EXPLETIVE	
+لحمقة 	EXPLETIVE	
+لحمير	EXPLETIVE	
+لحوا	EXPLETIVE	
+لخانزا	EXPLETIVE	
+لخرا	EXPLETIVE	
+لخصاص	LOCATION	
+لخل	EXPLETIVE	
+لخنزير	EXPLETIVE	
+لخيبوعة	EXPLETIVE	
+لعاهرات	EXPLETIVE	
+لعبد	EXPLETIVE	
+لعروبية	NEGATIVE	
+لعنة	EXPLETIVE	
+لعنة 	EXPLETIVE	
+لعنتو	EXPLETIVE	
+لعنتو لاهي علا كادبين	NEGATIVE	
+لعورة	EXPLETIVE	
+لغبي	EXPLETIVE	
+لغراق	EXPLETIVE	
+لفرشي	CONCEPT	
+لفرص	produit	
+لفلوس	objet	
+لفوضى	concept	
+لقحاب	EXPLETIVE	
+لقحاب 	EXPLETIVE	
+لقحبة	EXPLETIVE	
+لقرودة	EXPLETIVE	
+لقزيبة	EXPLETIVE	
+لقلاوي	EXPLETIVE	
+لقليعة	LOCATION	
+لقمان	personne	
+لقوا	EXPLETIVE	
+لقوا	NEGATIVE	
+لقوادة	EXPLETIVE	
+لقوالب	EXPLETIVE	
+لقيت	concept	
+لكادابا	EXPLETIVE	
+لكالاخ	NEGATIVE	
+لكدوب	NEGATIVE	
+لكزس	BRAND	
+لكلب	EXPLETIVE	
+لكلب	EXPLETIVE	
+لكلب 	EXPLETIVE	
+لكلبة	EXPLETIVE	
+لكم	PREPOSITION	
+لكوم	personne	
+لكويرة	LOCATION	
+لكيدار	EXPLETIVE	
+للح أشارات	EXPLETIVE	
+لمتوحشين	EXPLETIVE	
+لمسخ	NEGATIVE	
+لمسخوطة	EXPLETIVE	
+لمطار	lieu	
+لمطر	concept	
+لمكابيت	EXPLETIVE	
+لمكابيت	NEGATIVE	
+لملوك	SENSITIVE	
+لملوك الزوامل	SENSITIVE	
+لمنافق	EXPLETIVE	
+لموعد	concept	
+لنا	PREPOSITION	
+لهم	PREPOSITION	
+لهيماج	NEGATIVE	
+لو غوا اوموسيكسويال	SENSITIVE	
+لو غوا سيلفي بد	SENSITIVE	
+لو كونطوار ايليكطرومينيجي	BRAND	
+لو ميغيديان غوايال منصور	BRAND	
+لوتس	BRAND	
+لوحش	EXPLETIVE	
+لورونت بيريي	BRAND	
+لوسيور	BRAND	
+لوطاية	LOCATION	
+لوڭران	BRAND	
+لول	LOL	
+لولاد	LOCATION	
+لونوفو	BRAND	
+لويس فيطون	BRAND	
+لي كلب	EXPLETIVE	
+ليبطون	BRAND	
+ليبيا	lieu	
+ليبيريا	BRAND	
+ليخرا	EXPLETIVE	
+ليخرا	EXPLETIVE	
+ليعانل بوك	EXPLETIVE	
+ليكسوس	BRAND	
+ليكينوميسط	BRAND	
+ليلى	PERSON	
+ليمايحشم	NEGATIVE	
+لينا	PRONOUN	
+ليندت	BRAND	
+لينعل	EXPLETIVE	
+لينكولن	BRAND	
+ليهود	EXPLETIVE	
+ليهود	SENSITIVE	
+ليون	BRAND	
+لييبهير	BRAND	
+مؤسسة	personne	
+ما شاء الله	POSITIVE	
+ما صالح شي	NEGATIVE	
+ماتخليوها	desire	
+ماجا	BRAND	
+مادلل	EXPLETIVE	
+مادين	lieu	
+مارانتز	BRAND	
+مارس	BRAND	
+مارسيت	concept	
+مارك تلكم	BRAND	
+مارلبورو	BRAND	
+مازدا	BRAND	
+مازيراتي	BRAND	
+ماسا	LOCATION	
+ماستركارد	BRAND	
+ماعرفتش	concept	
+ماعرفتشي	concept	
+مافاهمينش	concept	
+مافيا	personne	
+مافيا دو مخزن	SENSITIVE	
+ماك	BRAND	
+ماكدونالددز	BRAND	
+ماكس مارا	BRAND	
+ماكسيس	BRAND	
+ماكلارين	BRAND	
+ماڭي	BRAND	
+مالك	personne	
+مالهم	personne	
+ماماك	personne	
+مانڭو	BRAND	
+مايباخ	BRAND	
+مايبيلين	BRAND	
+مبروك	POSITIVE	
+مبروك	desire	
+مبقيت	concept	
+مبوق	EXPLETIVE	
+متبعين	concept	
+متواضع	concept	
+مجانا	concept	
+مجهدة	concept	
+محترمين	consept	
+محسن	PERSON	
+محسن فكري	PERSON	
+محسين فكري	PERSON	
+محمد	PERSON	
+محمد الخميس	PERSON	
+محمد السادس	PERSON	
+محمد بوسلهام	personne	
+محمد6	PERSON	
+مخاضة	BRAND	
+مخزن ولاد لقحاب	SENSITIVE	
+مخوار	EXPLETIVE	
+مخور	EXPLETIVE	
+مخي	EXPLETIVE	
+مدير	TITLE	
+مديع	personne	
+مدينة	lieu	
+مديونة	LOCATION	
+مرا	personne	
+مراوغة	BRAND	
+مربين	concept	
+مرتك	personne	
+مرتيل	LOCATION	
+مرجا	lieu	
+مرجان	BRAND	
+مرسيدس بنز	BRAND	
+مركز الاتصال	lieu	
+مروان	PERSON	
+مروان	personne	
+مروة	BRAND	
+مريرت	LOCATION	
+مريضة	concept	
+مساء	BRAND	
+مساج privé	objet	
+مساعدة	concept	
+مستر كارد	BRAND	
+مستوى	concept	
+مسجلين	concept	
+مسخة	EXPLETIVE	
+مسخك	NEGATIVE	
+مسروق	EXPLETIVE	
+مسلم	concept	
+مسلم	personne	
+مسير	persone	
+مشا	concept	
+مشارملة	EXPLETIVE	
+مشرا بلقصيري	LOCATION	
+مشرمل	personne	
+مشرملة	NEGATIVE	
+مشفر	EXPLETIVE	
+مشكل	NEGATIVE	
+مشكل	concept	
+مشوها	EXPLETIVE	
+مشوهة	EXPLETIVE	
+مشيت	concept	
+مصطفة	personne	
+مصطفى	personne	
+مصطفى بلعياش	personne	
+مصغرة	BRAND	
+مصلحته	concept	
+مصيبة	NEGATIVE	
+مصيبة كحلة	NEGATIVE	
+معجبوش	désire	
+معرفة	concept	
+معرفت	concept	
+معطا	concept	
+معك	CONJUNCTION	
+معلومات	concept	
+معه	CONJUNCTION	
+معها	CONJUNCTION	
+معهم ‏	CONJUNCTION	
+مغاربة	personne	
+مغاربة حازكين	SENSITIVE	
+مغرب	lieu	
+مغرب دزب	SENSITIVE	
+مغربي	personne	
+مغربيات	personne	
+مغنطيس	objet	
+مفاهم	concept	
+مفتش	personne	
+مفسدين	EXPLETIVE	
+مفيد	concept	
+مقتل	concept	
+مقعد	BRAND	
+مقود	NEGATIVE	
+مقود	EXPLETIVE	
+مقودة	EXPLETIVE	
+مقوم	concept	
+مكافأة	concept	
+مكاينش	concept	
+مكاينش لي خارج على هاد البلاد	SENSITIVE	
+مكبوت	EXPLETIVE	
+مكبوتين	EXPLETIVE	
+مكتحشمش	NEGATIVE	
+مكلخ	EXPLETIVE	
+مكلخ	EXPLETIVE	
+مكلخين	EXPLETIVE	
+مكلخينيس	EXPLETIVE	
+مكوم	EXPLETIVE	
+مكينش	concept	
+ملك	TITLE	
+ملك تاع بلاستيك	SENSITIVE	
+ملك ديالك يا ولاد لقحاب	SENSITIVE	
+ملك زامل	SENSITIVE	
+ملكنا	personne	
+ملي	concept	
+مليار	objet	
+مليكة	personne	
+مليون	NUMBER	
+ممافقين	EXPLETIVE	
+ممسوخ	EXPLETIVE	
+منار	personne	
+منافق	EXPLETIVE	
+منافق 	EXPLETIVE	
+منبقاش	concept	
+منتخب	concept	
+منزكك	EXPLETIVE	
+منشستر	lieu	
+منصور	personne	
+منضرنا	BRAND	
+منضمة	lieu	
+منظمة	concept	
+منكر	EXPLETIVE	
+منكم	personne	
+منى	personne	
+منياك	EXPLETIVE	
+منير	personne	
+منيك	EXPLETIVE	
+منيوك	EXPLETIVE	
+مهرج	NEGATIVE	
+موازنة	concept	
+مواضيعكم	concept	
+موبيليا	BRAND	
+موتورولا	BRAND	
+موجريم 	EXPLETIVE	
+موروكان توتش	BRAND	
+موساخ	EXPLETIVE	
+موسخ	EXPLETIVE	
+موسخة	EXPLETIVE	
+موسيبا	NEGATIVE	
+موسيو بروبر	BRAND	
+موصيبة	EXPLETIVE	
+موصيبة	NEGATIVE	
+موضع	concept	
+موطورولا	BRAND	
+موظف	personne	
+موك	personne	
+مولاي	personne	
+مولاي دريس زيرهون	LOCATION	
+مولاي عبد الله	PERSON	
+مولاي علي شريف	LOCATION	
+مولى ادريس زرهون	lieu	
+مولينيكس	BRAND	
+مومو	personne	
+مونفيق	EXPLETIVE	
+ميتسوبيشي	BRAND	
+ميدار	LOCATION	
+ميدلت	LOCATION	
+ميديتيل	BRAND	
+ميرسيديس بانز	BRAND	
+ميساج	objet	
+ميسك	objet	
+ميسور	LOCATION	
+ميشوك	BRAND	
+ميطرو	BRAND	
+ميكروسوفت	BRAND	
+ميلان	BRAND	
+ميلكا	BRAND	
+ميمي 6 زامل	SENSITIVE	
+مينارا	BRAND	
+مينة	lieu	
+ميني كوبر	BRAND	
+نائب	personne	
+ناس	CONCEPT	
+ناصر	PERSON	
+ناكلو	concept	
+نبدا	desire	
+نبص	produit	
+نبنيو	concept	
+نبيل	personne	
+نبيل موهوب	personne	
+نبيلة منيب	PERSON	
+نتمنا	desir	
+نتواصل	concept	
+نتوما	personne	
+نتوما و الملك تاعكم	SENSITIVE	
+نجاة عتاب	personne	
+نجيك	concept	
+نحبكم	concept	
+نحن	PRONOUN	
+نحويك	EXPLETIVE	
+نخلص	concept	
+ندخل	concept	
+ندخل نشوف	desire	
+ندفل	NEGATIVE	
+ندفلو على مك	NEGATIVE	INTERJECTION
+ندمت	NEGATIVE	
+ندير	personne	
+ندير	concept	
+نذقه	concept	
+نرجع	concept	
+نرويج	lieu	
+نريد	concept	
+نزار بركة	personne	
+نس	personne	
+نستفاد	concept	
+نسحة الله		
+نسمة	concept	
+نسيت	concept	
+نشارك	desire	
+نشارك	concept	
+نشرك	concept	
+نصاب	CONCEPT	
+نصابة	CONCEPT	
+نصابة	EXPLETIVE	
+نصت	concept	
+نصيحة	concept	
+نضام	concept	
+نضحك	concept	
+نعاس	concept	
+نعطيكم	concept	
+نعلا	EXPLETIVE	
+نعلة	EXPLETIVE	
+نعلة الله	concept	
+نعمات	concept	
+نعمة	LOCATION	
+نعناع	produit	
+نعيمة	PERSON	
+نعيمة سميح	PERSON	
+نفرق	desire	
+نفركعو	SENSITIVE	
+نفق	concept	
+نقراو	concept	
+نقود	objet	
+نكناكوم	EXPLETIVE	
+نمر	BRAND	
+نمرا	concept	
+نمشي	concept	
+ننكح 	EXPLETIVE	
+نهزك	EXPLETIVE	
+نوارة	personne	
+نوتروجينا	BRAND	
+نوتيلا	BRAND	
+نور	personne	
+نوريلكو	BRAND	
+نوع الهاتف	concept	
+نوكيا	BRAND	
+نوهوش	BRAND	
+نيدو	BRAND	
+نيسان	BRAND	
+نيسكافي	BRAND	
+نيسكويك	BRAND	
+نيسلي	BRAND	
+نيفيا	BRAND	
+نيك	EXPLETIVE	
+نيك قحبة	EXPLETIVE	
+نيكسط	BRAND	
+نيكك 	EXPLETIVE	
+نيكوكام	EXPLETIVE	
+نيكون	BRAND	
+هؤلاء	PRONOUN	
+هاد	personne	
+هاد لحمار	EXPLETIVE	
+هاد لمدلولين	EXPLETIVE	
+هاد لوزارا كلهم	SENSITIVE	
+هادر	concept	
+هادي فتنة	SENSITIVE	
+هادي ما بلاد	SENSITIVE	
+هارمون كاردون	BRAND	
+هاز	concept	
+هازك	EXPLETIVE	
+هافانا	BRAND	
+هامر	BRAND	
+هان لفودا	SENSITIVE	
+هاواي	BRAND	
+هاير	BRAND	
+هببت	personne	
+هبيل	NEGATIVE	
+هة	concept	
+هتت هدى	personne	
+هدا هو الفساد	SENSITIVE	
+هدية	concept	
+هذا	PRONOUN	
+هستقبال	BRAND	
+هل	CONJUNCTION	
+هلايكي 	NEGATIVE	
+هم	PRONOUN	
+هنا	ADVERB	
+ههههه	LOL	
+هواوي	BRAND	
+هوم اند صوفا	BRAND	
+هوم وير	BRAND	
+هوما	PRONOUN	
+هوندا	BRAND	
+هويرة	EXPLETIVE	
+هي	PRONOUN	
+هينريز	BRAND	
+هينكين	BRAND	
+هيونداي	BRAND	
+و العصابة	EXPLETIVE	
+و صاحب	personne	
+و لعبيد	EXPLETIVE	
+وا سير ألعبيد	SENSITIVE	
+واتساب	BRAND	
+واجب	concept	
+واختار	desire	
+واد أمليل	LOCATION	
+واد زم	LOCATION	
+واد لاو	LOCATION	
+واش والا كاي دحاك علا الملك	SENSITIVE	
+واعر	POSITIVE	
+واعرة	POSITIVE	
+واقع	concept	
+والخونة	EXPLETIVE	
+والديك	personne	
+والدينا	personne	
+والزامل	EXPLETIVE	
+والزوامل	EXPLETIVE	
+والكمان	BRAND	
+والله	INTERJECTION	
+والمسخ	EXPLETIVE	
+والنوعية	concept	
+وانادو	BRAND	
+وانتم	personne	
+وايرلبول	BRAND	
+وبسلتي	NEGATIVE	
+وتصاب	concept	
+وجبولنا	desire	
+وجدة	LOCATION	
+وجدة	lieu	
+وحد	personne	
+وحيوه	EXPLETIVE	
+وراقك	concept	
+ورزازات	LOCATION	
+ورقات	objet	
+وزارة	ORGANIZATION	
+وزان	LOCATION	
+وزة	EXPLETIVE	
+وصلني	concept	
+وفاسلف	personne	
+وفقكم	desire	
+وقحة	EXPLETIVE	
+وكالة	lieu	
+وكلبة	EXPLETIVE	
+ولا فلمغريب سيبا	SENSITIVE	
+ولاد القحاب	NEGATIVE	
+ولاد لقحاب	EXPLETIVE	
+ولاد ليهود	SENSITIVE	
+ولاه هتا نقتلها	SENSITIVE	
+ولد الحاج	CONCEPT	
+ولد الشيخة	EXPLETIVE	
+ولد القحبة	NEGATIVE	
+ولماس	BRAND	
+ونت	personne	
+ووزعونا	concept	
+وية	concept	
+ويسترن صاحارا	SENSITIVE	
+ويسترن يونيون	BRAND	
+ويسلان	LOCATION	
+ويفي	TECHNOLOGY	
+ويكو	BRAND	
+ويلا	BRAND	
+ويلور	BRAND	
+وينستون	BRAND	
+يا تشماطة	EXPLETIVE	
+يا رب نسالك	desire	
+يا رباعت الخوانا	SENSITIVE	
+يا زبي	INTERJECTION	
+يا زوامل	EXPLETIVE	
+يا ست	personne	
+يا لطيف	INTERJECTION	
+ياالخانزة	EXPLETIVE	
+ياالخايبوعة	EXPLETIVE	
+ياالعاهيرة	EXPLETIVE	
+ياالقحبة	EXPLETIVE	
+يارب	desire	
+ياسين ‏zouitine	personne	
+ياشافارا ياولاد زنا	EXPLETIVE	
+ياشفارا	EXPLETIVE	
+يالطيف	INTERJECTION	
+يامعلم	personne	
+يبادلوها	concept	
+يتحوا	EXPLETIVE	
+يجاوبني	concept	
+يحفظك	desire	
+يحفظك	desir	
+يحوي	EXPLETIVE	
+يحويك	EXPLETIVE	
+يدخل	concept	
+يربح	concept	
+يرد	desire	
+يرزقك	desir	
+يزوامل	EXPLETIVE	
+يسقط	SENSITIVE	
+يسلم	concept	
+يسميكم	concept	
+يطلب	concept	
+يطوللنا	desire	
+يعقوب	PERSON	
+يغبرك	NEGATIVE	
+يقود	EXPLETIVE	
+يكون ملك ولا	SENSITIVE	
+يلكيها	EXPLETIVE	
+يلمجرمين	EXPLETIVE	
+يليهود	SENSITIVE	
+يمسخك	NEGATIVE	
+يمسخكم	EXPLETIVE	
+يمكن لكم	concept	
+يمكن لينا	concept	
+يناعلك	EXPLETIVE	
+ينال	EXPLETIVE	
+ينزل 	EXPLETIVE	
+ينعل	EXPLETIVE	
+ينعل 	EXPLETIVE	
+ينعل جدك	EXPLETIVE	
+ينعل دينربكوم	EXPLETIVE	
+ينعلبو	EXPLETIVE	
+ينعلك	EXPLETIVE	
+ينيك	EXPLETIVE	
+يهتم	concept	
+يو بي اس	BRAND	
+يوتوب	BRAND	
+يوتيب	BRAND	
+يوسانيد لفساد	SENSITIVE	
+يوسف	PERSON	
+يوسف مرشد	PERSON	
