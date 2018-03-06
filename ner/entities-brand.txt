@@ -949,10 +949,12 @@ Zefzafi	PERSON
 بن سليمان	LOCATION	
 بن طيب	LOCATION	
 بنات	CONCEPT	
-بنادم	personne	
+حاشاكم	NEGATIVE	EXPRESSION
 بنت	CONCEPT	
 بنت	personne	
 بنت القحبة	NEGATIVE	
+ستغلال	NEGATIVE
+استغلال	NEGATIVE
 بنتلي	BRAND	
 بنتنا	personne	
 بنط	personne	
@@ -973,6 +975,7 @@ Zefzafi	PERSON
 بوجو	BRAND	
 بودويزر	BRAND	
 بوذنيب	LOCATION	
+تكلخ	NEGATIVE	 
 بورش	BRAND	
 بوزبال	EXPLETIVE	
 بوزبال	EXPLETIVE	
@@ -1057,8 +1060,10 @@ Zefzafi	PERSON
 تحواو	EXPLETIVE	
 تحوى	EXPLETIVE	
 تحياتي	concept	
-تحية	concept	
 تحيمير	EXPLETIVE	
+ظالم	NEGATIVE	
+ظالمين	NEGATIVE	
+فظالمين	NEGATIVE	
 تختار	concept	
 تخدم	concept	
 تخرا	EXPLETIVE	
@@ -1386,13 +1391,15 @@ Zefzafi	PERSON
 دولبي	BRAND	
 دولة	ORGANIZATION	
 دولة ديال زبي	SENSITIVE	
+دولة ديال زب	SENSITIVE	
+دولة ديال زبل	SENSITIVE	
 دولي دول	BRAND	
 دي اس	BRAND	
 دي ايش ال	BRAND	
 دي دييتريش	BRAND	
 ديار السلام	BRAND	
 ديال بصح	EXPRESSION	
-ديال زبي	EXPRESSION	
+ديال زبي	NEGATIVE	EXPRESSION	
 ديال لحكرة	SENSITIVE	
 ديالكم	PRONOUN	
 ديالكوم	SENSITIVE	
@@ -1872,7 +1879,6 @@ Zefzafi	PERSON
 فرنسا	lieu	
 فروماج الاطفال	BRAND	
 فروماج لوبريزيدون	BRAND	
-فس	lieu	
 فقه بن صالح	LOCATION	
 فكارك 	EXPLETIVE	
 فكرك	EXPLETIVE	
@@ -2695,3 +2701,5 @@ Zefzafi	PERSON
 يوسانيد لفساد	SENSITIVE	
 يوسف	PERSON	
 يوسف مرشد	PERSON	
+البيرمي	CONCEPT	
+بيرمي	CONCEPT	
