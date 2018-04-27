@@ -21,6 +21,7 @@ ARTHUR MARTIN	BRAND
 ASTRAL	BRAND	
 ATLAS BLUE	BRAND	
 ATTIJARIWAFA	BRAND	
+wafa assurance	BRAND	
 AUDI	BRAND	
 AXA	BRAND	
 AZUELOS	BRAND	
@@ -1361,8 +1362,6 @@ Zefzafi	PERSON
 دراهم	MONEY	
 دراوش	CONCEPT	
 دربي	concept	
-درت	concept	
-درتي	concept	
 درهم	MONEY	
 دزايري	SENSITIVE	
 دزب	EXPLETIVE	
@@ -1708,7 +1707,6 @@ Zefzafi	PERSON
 صهيوني	personne	
 صهيوني	SENSITIVE	
 صهيونية	SENSITIVE	
-صوت	concept	
 صوتر	BRAND	
 صوفيطيل	BRAND	
 صوني	BRAND	
@@ -2703,3 +2701,4 @@ Zefzafi	PERSON
 يوسف مرشد	PERSON	
 البيرمي	CONCEPT	
 بيرمي	CONCEPT	
+marrakech	LOCATION	
