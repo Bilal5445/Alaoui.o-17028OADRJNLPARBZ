@@ -1,7 +1,11 @@
 20 فبراير	CONCEPT	
 2m	BRAND	
+دوزيم	BRAND	
 3g	TECHNOLOGY	
 4g	TECHNOLOGY	
+4 g	TECHNOLOGY	
+4جي	TECHNOLOGY	
+4 جي	TECHNOLOGY	
 50 ميغا	produit	
 5g	TECHNOLOGY	
 ABSOLUT	BRAND	
@@ -145,6 +149,8 @@ KIA	BRAND
 KIRI	BRAND	
 KITEA	BRAND	
 KNORR	BRAND	
+فيسبوك	BRAND	
+Facebook	BRAND	
 L'ECONOMISTE	BRAND	
 LA PRAIRIE	BRAND	
 La Roche Posay	BRAND	
@@ -699,7 +705,6 @@ Zefzafi	PERSON
 المخزن	ORGANIZATION	
 المدرسة	lieu	
 المدن الكبرى	CONCEPT	
-المدينة	lieu	
 المذاق	produit	
 المرا	personne	
 المراكشي	personne	
@@ -793,8 +798,8 @@ Zefzafi	PERSON
 انا بغيت	desire	
 انبك	produit	
 انت	PRONOUN	
-انترنت	produit	
-انترنيت	produit	
+انترنت	TECHNOLOGY	
+انترنيت	TECHNOLOGY	
 انتم	PRONOUN	
 انسان	personne	
 انستا	BRAND	
@@ -1986,11 +1991,11 @@ Zefzafi	PERSON
 كانون	BRAND	
 كاوبيل	BRAND	
 كايحشمنا	desir	
-كاين	concept	
 كتاب	CONCEPT	
 كتبت	concept	
 كتبر	concept	
 كتحوا	EXPLETIVE	
+iptv	TECHNOLOGY	
 كتخدي	concept	
 كتخراو	EXPLETIVE	
 كتستحقو	concept	
@@ -2289,7 +2294,6 @@ Zefzafi	PERSON
 مخي	EXPLETIVE	
 مدير	TITLE	
 مديع	personne	
-مدينة	lieu	
 مديونة	LOCATION	
 مرا	personne	
 مراوغة	BRAND	
@@ -2569,6 +2573,14 @@ Zefzafi	PERSON
 هوندا	BRAND	
 هويرة	EXPLETIVE	
 هي	PRONOUN	
+Activia	BRAND	
+Danette	BRAND	
+Danino	BRAND	
+Moufid	BRAND	
+Lait Centrale	BRAND	
+Assiri	BRAND	
+Yawmy	BRAND	
+Assil	BRAND	
 هينريز	BRAND	
 هينكين	BRAND	
 هيونداي	BRAND	
@@ -2702,3 +2714,4 @@ Zefzafi	PERSON
 البيرمي	CONCEPT	
 بيرمي	CONCEPT	
 marrakech	LOCATION	
+وادزم	LOCATION	
